@@ -6,6 +6,15 @@ using SoftverLogistikaBack.Validators;
 
 var builder = WebApplication.CreateBuilder(args);
 
+
+Log.Logger = new LoggerConfiguration()
+    .MinimumLevel.Information()
+    .WriteTo.Console() // Logovanje u konzolu
+    .WriteTo.File("logs/logovi-.txt", rollingInterval: RollingInterval.Day) // Logovanje u dnevni fajl
+    .CreateLogger();
+
+builder.Host.UseSerilog();
+
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowFrontend",
@@ -25,33 +34,34 @@ builder.Services.AddValidatorsFromAssemblyContaining<PosiljkaValidator>();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-// Dodavanje Serilog-a
-Log.Logger = new LoggerConfiguration()
-    .ReadFrom.Configuration(builder.Configuration) 
-    .WriteTo.Console()                            
-    .WriteTo.File("logs/log-.txt", rollingInterval: RollingInterval.Day) 
-    .CreateLogger();
 
-builder.Host.UseSerilog();
 
 var app = builder.Build();
 
 app.Use(async (context, next) =>
 {
+    // Logovanje ulaznog zahteva
+    Log.Information("Primljen {Method} zahtev na {Path}", context.Request.Method, context.Request.Path);
+
     try
     {
-        await next();
+        await next(); // Prosleðivanje zahteva sledeæem middleware-u
+
+        // Logovanje odgovora
+        Log.Information("Odgovor za {Path} vraæen sa status kodom {StatusCode}",
+            context.Request.Path, context.Response.StatusCode);
     }
     catch (Exception ex)
     {
-        Log.Error(ex, "Došlo je do greške!");
-        throw;
+        // Logovanje grešaka
+        Log.Error(ex, "Došlo je do greške pri obradi zahteva za {Path}", context.Request.Path);
+        throw; // Ponovno bacanje izuzetka
     }
 });
 
 app.UseCors("AllowFrontend");
 
-// Configure the HTTP request pipeline.
+
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();

@@ -7,11 +7,19 @@ namespace SoftverLogistikaBack.Services
         
         public PosiljkaService()
         {
-            // Mock lista za pošiljke (In-memory podaci)
+            // Mock lista za pošiljke 
             _posiljke = new List<Posiljka> {
-        new Posiljka { Id = Guid.NewGuid(), Naziv = "Pošiljka 1", Status = StatusPosiljke.NaPutu, DatumKreiranja = DateTime.Now },
-        new Posiljka { Id = Guid.NewGuid(), Naziv = "Pošiljka 2", Status = StatusPosiljke.USkladistu, DatumKreiranja = DateTime.Now },
-   
+          new Posiljka { Id = Guid.NewGuid(), Naziv = "HP Laptop", Status = StatusPosiljke.NaPutu, DatumKreiranja = DateTime.Now.AddDays(-3) },
+    new Posiljka { Id = Guid.NewGuid(), Naziv = "Canon Štampač", Status = StatusPosiljke.USkladistu, DatumKreiranja = DateTime.Now.AddDays(-10) },
+    new Posiljka { Id = Guid.NewGuid(), Naziv = "Samsung Telefon", Status = StatusPosiljke.Isporuceno, DatumKreiranja = DateTime.Now.AddDays(-7), DatumIsporuke = DateTime.Now.AddDays(-1) },
+    new Posiljka { Id = Guid.NewGuid(), Naziv = "Dell Monitor", Status = StatusPosiljke.NaPutu, DatumKreiranja = DateTime.Now.AddDays(-1) },
+    new Posiljka { Id = Guid.NewGuid(), Naziv = "Kingston SSD", Status = StatusPosiljke.Isporuceno, DatumKreiranja = DateTime.Now.AddDays(-5), DatumIsporuke = DateTime.Now.AddDays(-2) },
+    new Posiljka { Id = Guid.NewGuid(), Naziv = "TP-Link Ruter", Status = StatusPosiljke.USkladistu, DatumKreiranja = DateTime.Now.AddDays(-15) },
+    new Posiljka { Id = Guid.NewGuid(), Naziv = "Xiaomi Narukvica", Status = StatusPosiljke.NaPutu, DatumKreiranja = DateTime.Now.AddDays(-2) },
+    new Posiljka { Id = Guid.NewGuid(), Naziv = "Logitech Tastatura", Status = StatusPosiljke.Isporuceno, DatumKreiranja = DateTime.Now.AddDays(-20), DatumIsporuke = DateTime.Now.AddDays(-3) },
+    new Posiljka { Id = Guid.NewGuid(), Naziv = "Lenovo Laptop", Status = StatusPosiljke.USkladistu, DatumKreiranja = DateTime.Now.AddDays(-8) },
+    new Posiljka { Id = Guid.NewGuid(), Naziv = "Asus Monitor", Status = StatusPosiljke.NaPutu, DatumKreiranja = DateTime.Now.AddDays(-6) }
+
             };
         }
 
