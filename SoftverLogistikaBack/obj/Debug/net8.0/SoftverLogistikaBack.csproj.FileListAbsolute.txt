@@ -9,6 +9,7 @@ F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaBack\bin\Debug\net8.0\Softv
 F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaBack\bin\Debug\net8.0\FluentValidation.dll
 F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaBack\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
 F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaBack\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaBack\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaBack\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
 F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaBack\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
 F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaBack\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Binder.dll
@@ -22,6 +23,12 @@ F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaBack\bin\Debug\net8.0\Micro
 F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaBack\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
 F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaBack\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
 F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaBack\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaBack\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaBack\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaBack\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaBack\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaBack\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaBack\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
 F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaBack\bin\Debug\net8.0\Microsoft.OpenApi.dll
 F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaBack\bin\Debug\net8.0\Serilog.dll
 F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaBack\bin\Debug\net8.0\Serilog.AspNetCore.dll
@@ -36,6 +43,7 @@ F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaBack\bin\Debug\net8.0\Swash
 F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaBack\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaBack\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaBack\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaBack\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
 F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaBack\bin\Debug\net8.0\System.IO.Pipelines.dll
 F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaBack\bin\Debug\net8.0\System.Text.Encodings.Web.dll
 F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaBack\bin\Debug\net8.0\System.Text.Json.dll
@@ -49,6 +57,7 @@ F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaBack\obj\Debug\net8.0\Softv
 F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaBack\obj\Debug\net8.0\SoftverLogistikaBack.csproj.CoreCompileInputs.cache
 F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaBack\obj\Debug\net8.0\SoftverLogistikaBack.MvcApplicationPartsAssemblyInfo.cs
 F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaBack\obj\Debug\net8.0\SoftverLogistikaBack.MvcApplicationPartsAssemblyInfo.cache
+F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaBack\obj\Debug\net8.0\SoftverLogistikaBack.sourcelink.json
 F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaBack\obj\Debug\net8.0\scopedcss\bundle\SoftverLogistikaBack.styles.css
 F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaBack\obj\Debug\net8.0\staticwebassets.build.json
 F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaBack\obj\Debug\net8.0\staticwebassets.development.json
@@ -66,4 +75,3 @@ F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaBack\obj\Debug\net8.0\refin
 F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaBack\obj\Debug\net8.0\SoftverLogistikaBack.pdb
 F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaBack\obj\Debug\net8.0\SoftverLogistikaBack.genruntimeconfig.cache
 F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaBack\obj\Debug\net8.0\ref\SoftverLogistikaBack.dll
-F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaBack\obj\Debug\net8.0\SoftverLogistikaBack.sourcelink.json

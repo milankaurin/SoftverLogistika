@@ -1,6 +1,5 @@
 ﻿@page "/"
 
-@using SoftverLogistikaFront.Models
 @using SoftverLogistikaFront.Services
 @using SoftverLogistikaFront.Components
 @using DeljeniPodaci;
@@ -146,6 +145,12 @@
         if (success)
         {
             posiljke = await PosiljkaService.GetAllAsync();
+            filteredPosiljke = posiljke.Where(p =>
+            (string.IsNullOrEmpty(tekstPretraga) || p.Naziv.Contains(tekstPretraga, StringComparison.OrdinalIgnoreCase)) &&
+            ((filterNaPutu && p.Status == StatusPosiljke.NaPutu) ||
+             (filterUSkladistu && p.Status == StatusPosiljke.USkladistu) ||
+             (filterIsporuceno && p.Status == StatusPosiljke.Isporuceno))
+        ).ToList();
         }
     }
 }

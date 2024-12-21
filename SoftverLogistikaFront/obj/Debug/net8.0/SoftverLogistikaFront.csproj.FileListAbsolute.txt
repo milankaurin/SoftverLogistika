@@ -1,9 +1,3 @@
-F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaFront\obj\Debug\net8.0\SoftverLogistikaFront.csproj.AssemblyReference.cache
-F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaFront\obj\Debug\net8.0\SoftverLogistikaFront.GeneratedMSBuildEditorConfig.editorconfig
-F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaFront\obj\Debug\net8.0\SoftverLogistikaFront.AssemblyInfoInputs.cache
-F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaFront\obj\Debug\net8.0\SoftverLogistikaFront.AssemblyInfo.cs
-F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaFront\obj\Debug\net8.0\SoftverLogistikaFront.csproj.CoreCompileInputs.cache
-F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaFront\obj\Debug\net8.0\SoftverLogistikaFront.MvcApplicationPartsAssemblyInfo.cache
 F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaFront\bin\Debug\net8.0\wwwroot\_framework\blazor.boot.json
 F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaFront\bin\Debug\net8.0\wwwroot\_framework\blazor.webassembly.js
 F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaFront\bin\Debug\net8.0\wwwroot\_framework\DeljeniPodaci.pdb
@@ -625,6 +619,13 @@ F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaFront\bin\Debug\net8.0\icud
 F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaFront\bin\Debug\net8.0\emcc-props.json
 F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaFront\bin\Debug\net8.0\DeljeniPodaci.dll
 F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaFront\bin\Debug\net8.0\DeljeniPodaci.pdb
+F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaFront\obj\Debug\net8.0\SoftverLogistikaFront.csproj.AssemblyReference.cache
+F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaFront\obj\Debug\net8.0\SoftverLogistikaFront.GeneratedMSBuildEditorConfig.editorconfig
+F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaFront\obj\Debug\net8.0\SoftverLogistikaFront.AssemblyInfoInputs.cache
+F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaFront\obj\Debug\net8.0\SoftverLogistikaFront.AssemblyInfo.cs
+F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaFront\obj\Debug\net8.0\SoftverLogistikaFront.csproj.CoreCompileInputs.cache
+F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaFront\obj\Debug\net8.0\SoftverLogistikaFront.MvcApplicationPartsAssemblyInfo.cache
+F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaFront\obj\Debug\net8.0\SoftverLogistikaFront.sourcelink.json
 F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaFront\obj\Debug\net8.0\webcil\Microsoft.AspNetCore.Authorization.wasm
 F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaFront\obj\Debug\net8.0\webcil\Microsoft.AspNetCore.Components.wasm
 F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaFront\obj\Debug\net8.0\webcil\Microsoft.AspNetCore.Components.Forms.wasm
@@ -1026,8 +1027,11 @@ F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaFront\obj\Debug\net8.0\comp
 F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaFront\obj\Debug\net8.0\compressed\udy4crvq48-tptq2av103.gz
 F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaFront\obj\Debug\net8.0\compressed\xpsfj766y4-lfu7j35m59.gz
 F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaFront\obj\Debug\net8.0\compressed\yc9uel7itw-oyz0vx2fzb.gz
-F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaFront\obj\Debug\net8.0\compressed\fzs4qy50zd-v352fiakqj.gz
-F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaFront\obj\Debug\net8.0\compressed\jq33ugfyta-50s2rx1cqb.gz
+F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaFront\obj\Debug\net8.0\compressed\fzs4qy50zd-mnq6s0ivbg.gz
+F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaFront\obj\Debug\net8.0\compressed\jq33ugfyta-xkhlvmm3kl.gz
+F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaFront\obj\Debug\net8.0\compressed\pc6epgkbww-jdwc6at7uo.gz
+F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaFront\obj\Debug\net8.0\compressed\c389x25p1h-1lyia3jee0.gz
+F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaFront\obj\Debug\net8.0\compressed\keni8mg4yt-2zvmtds1bd.gz
 F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaFront\obj\Debug\net8.0\staticwebassets.build.json
 F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaFront\obj\Debug\net8.0\staticwebassets.development.json
 F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaFront\obj\Debug\net8.0\staticwebassets.build.endpoints.json
@@ -1043,7 +1047,3 @@ F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaFront\obj\Debug\net8.0\Soft
 F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaFront\obj\Debug\net8.0\refint\SoftverLogistikaFront.dll
 F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaFront\obj\Debug\net8.0\SoftverLogistikaFront.pdb
 F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaFront\obj\Debug\net8.0\ref\SoftverLogistikaFront.dll
-F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaFront\obj\Debug\net8.0\SoftverLogistikaFront.sourcelink.json
-F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaFront\obj\Debug\net8.0\compressed\pc6epgkbww-zbl6ujnsxl.gz
-F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaFront\obj\Debug\net8.0\compressed\c389x25p1h-r4t4e3607t.gz
-F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaFront\obj\Debug\net8.0\compressed\keni8mg4yt-vos96ecu18.gz

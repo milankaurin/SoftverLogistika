@@ -1,16 +1,16 @@
 ﻿@page "/addposiljka"
-@using SoftverLogistikaFront.Models
 @using SoftverLogistikaFront.Services
 @using SoftverLogistikaFront.Layout
 @using SoftverLogistikaFront.Components
 @using DeljeniPodaci;
+@using System.Text
 @inject PosiljkaService PosiljkaService
 @inject NavigationManager NavigationManager
 
 <PageTitle>Dodavanje nove pošiljke</PageTitle>
 
 
-    <h3 class>Dodaj novu pošiljku</h3>
+    <h3>Dodaj novu pošiljku</h3>
 
     <!-- Koristimo shared komponentu PosiljkaForm -->
     <PosiljkaForma PosiljkaModel="newPosiljka" OnSave="HandleSave" OnCancelCallback="HandleCancel" />
@@ -27,24 +27,65 @@
 
     private async Task HandleSave(Posiljka posiljka)
     {
+        StringBuilder errorMessageBuilder = new StringBuilder();
+
+        // Validacija naziva
+        if (newPosiljka.Naziv.Length < 3)
+        {
+            errorMessageBuilder.AppendLine("Naziv mora imati najmanje 3 karaktera.");
+        }
+
+        // Validacija datuma isporuke u zavisnosti od statusa pošiljke
+        if (newPosiljka.Status == StatusPosiljke.Isporuceno)
+        {
+            if (!newPosiljka.DatumIsporuke.HasValue)
+            {
+                errorMessageBuilder.AppendLine("Datum isporuke je obavezan za pošiljke koje su isporučene.");
+            }
+            if (newPosiljka.DatumIsporuke > DateTime.Now)
+            {
+                errorMessageBuilder.AppendLine("Datum isporuke za isporučene pošiljke ne može biti u budućnosti.");
+            }
+            if (newPosiljka.DatumIsporuke < newPosiljka.DatumKreiranja)
+            {
+                errorMessageBuilder.AppendLine("Datum isporuke mora biti nakon datuma kreiranja.");
+            }
+        }
+        else if (newPosiljka.Status == StatusPosiljke.NaPutu || newPosiljka.Status == StatusPosiljke.USkladistu)
+        {
+            if (newPosiljka.DatumIsporuke.HasValue && newPosiljka.DatumIsporuke <= DateTime.Now)
+            {
+                errorMessageBuilder.AppendLine("Datum isporuke za pošiljke koje su na putu ili u skladištu mora biti u budućnosti.");
+            }
+        }
+
+        // Provera da li ima grešaka
+        if (errorMessageBuilder.Length > 0)
+        {
+            successMessage = errorMessageBuilder.ToString();
+            StateHasChanged();
+            return;
+        }
+
+
         var success = await PosiljkaService.CreateAsync(posiljka);
 
         if (success)
         {
-            successMessage = "Pošiljka uspešno ažurirana! Preusmeravamo vas na glavnu stranu...";
+            successMessage = "Pošiljka uspešno kreirana! Preusmeravamo vas na glavnu stranu...";
 
             // Osveži komponentu da bi se prikazala poruka
             StateHasChanged();
 
             // Sačekaj 2 sekunde pre preusmeravanja
-            await Task.Delay(1500);
-
+            await Task.Delay(2500);
+                
             // Preusmeravanje na početnu stranicu
             NavigationManager.NavigateTo("/");
         }
         else
         {
-            successMessage = "Došlo je do greške prilikom ažuriranja pošiljke.";
+            successMessage = "Došlo je do greške prilikom kreiranja pošiljke.";
             StateHasChanged(); // Osveži prikaz za grešku
         }
     }

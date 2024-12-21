@@ -1,5 +1,4 @@
-﻿using SoftverLogistikaFront.Models;
-using System.Net.Http.Json;
+﻿using System.Net.Http.Json;
 using DeljeniPodaci;
 
 namespace SoftverLogistikaFront.Services

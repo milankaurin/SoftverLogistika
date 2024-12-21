@@ -1,12 +1,10 @@
 ﻿@page "/izmenaposiljkeid={id:guid}"
 @using DeljeniPodaci
 @using SoftverLogistikaFront.Services
-
 @inject NavigationManager NavigationManager
-
 @using SoftverLogistikaFront.Layout
 @using SoftverLogistikaFront.Components
-@using DeljeniPodaci;
+@using System.Text
 @inject PosiljkaService PosiljkaService
 
 
@@ -74,6 +72,48 @@ else
     {
         if (selectedPosiljka != null)
         {
+
+            StringBuilder errorMessageBuilder = new StringBuilder();
+
+            // Validacija naziva
+            if (selectedPosiljka.Naziv.Length < 3)
+            {
+                errorMessageBuilder.AppendLine("Naziv mora imati najmanje 3 karaktera.");
+            }
+
+            // Validacija datuma isporuke u zavisnosti od statusa pošiljke
+            if (selectedPosiljka.Status == StatusPosiljke.Isporuceno)
+            {
+                if (!selectedPosiljka.DatumIsporuke.HasValue)
+                {
+                    errorMessageBuilder.AppendLine("Datum isporuke je obavezan za pošiljke koje su isporučene.");
+                }
+                if (selectedPosiljka.DatumIsporuke > DateTime.Now)
+                {
+                    errorMessageBuilder.AppendLine("Datum isporuke za isporučene pošiljke ne može biti u budućnosti.");
+                }
+                if (selectedPosiljka.DatumIsporuke < selectedPosiljka.DatumKreiranja)
+                {
+                    errorMessageBuilder.AppendLine("Datum isporuke mora biti nakon datuma kreiranja.");
+                }
+            }
+            else if (selectedPosiljka.Status == StatusPosiljke.NaPutu || selectedPosiljka.Status == StatusPosiljke.USkladistu)
+            {
+                if (selectedPosiljka.DatumIsporuke.HasValue && selectedPosiljka.DatumIsporuke <= DateTime.Now)
+                {
+                    errorMessageBuilder.AppendLine("Datum isporuke za pošiljke koje su na putu ili u skladištu mora biti u budućnosti.");
+                }
+            }
+
+            // Provera da li ima grešaka
+            if (errorMessageBuilder.Length > 0)
+            {
+                successMessage = errorMessageBuilder.ToString();
+                StateHasChanged();
+                return;
+            }
+
+
             var success = await PosiljkaService.UpdateAsync(selectedPosiljka.Id, selectedPosiljka);
             if (success)
             {
@@ -83,7 +123,7 @@ else
                 StateHasChanged();
 
                 // Sačekaj 2 sekunde pre preusmeravanja
-                await Task.Delay(2000);
+                await Task.Delay(2500);
 
                 // Preusmeravanje na početnu stranicu
                 NavigationManager.NavigateTo("/");
@@ -104,18 +144,5 @@ else
 
   
 
-    private async Task HandleSave(Posiljka posiljka)
-    {
-        var success = await PosiljkaService.CreateAsync(posiljka);
-
-        if (success)
-        {
-            successMessage = "Nova pošiljka je uspešno dodata!";
-            
-        }
-        else
-        {
-            successMessage = "Došlo je do greške prilikom dodavanja pošiljke.";
-        }
-    }
+   
 }

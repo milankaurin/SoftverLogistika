@@ -1,5 +1,4 @@
-﻿using SoftverLogistikaBack.Models;
-using FluentValidation;
+﻿using FluentValidation;
 using DeljeniPodaci;
 
 namespace SoftverLogistikaBack.Validators

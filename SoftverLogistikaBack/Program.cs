@@ -3,8 +3,13 @@ using Serilog;
 using SoftverLogistikaBack.Endpoints;
 using SoftverLogistikaBack.Services;
 using SoftverLogistikaBack.Validators;
+using System.Text;
+
+
 
 var builder = WebApplication.CreateBuilder(args);
+
+
 
 
 Log.Logger = new LoggerConfiguration()

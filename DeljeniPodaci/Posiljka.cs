@@ -1,8 +1,12 @@
-﻿namespace DeljeniPodaci
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace DeljeniPodaci
 {
     public class Posiljka
     {
         public Guid Id { get; set; }
+
+        
         public string Naziv { get; set; }
         public StatusPosiljke Status { get; set; }
         public DateTime DatumKreiranja { get; set; }

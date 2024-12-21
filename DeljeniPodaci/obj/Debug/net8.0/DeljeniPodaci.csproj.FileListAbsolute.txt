@@ -5,6 +5,7 @@ F:\SoftverLogistika\SoftverLogistika\DeljeniPodaci\obj\Debug\net8.0\DeljeniPodac
 F:\SoftverLogistika\SoftverLogistika\DeljeniPodaci\obj\Debug\net8.0\DeljeniPodaci.AssemblyInfoInputs.cache
 F:\SoftverLogistika\SoftverLogistika\DeljeniPodaci\obj\Debug\net8.0\DeljeniPodaci.AssemblyInfo.cs
 F:\SoftverLogistika\SoftverLogistika\DeljeniPodaci\obj\Debug\net8.0\DeljeniPodaci.csproj.CoreCompileInputs.cache
+F:\SoftverLogistika\SoftverLogistika\DeljeniPodaci\obj\Debug\net8.0\DeljeniPodaci.sourcelink.json
 F:\SoftverLogistika\SoftverLogistika\DeljeniPodaci\obj\Debug\net8.0\DeljeniPodaci.dll
 F:\SoftverLogistika\SoftverLogistika\DeljeniPodaci\obj\Debug\net8.0\refint\DeljeniPodaci.dll
 F:\SoftverLogistika\SoftverLogistika\DeljeniPodaci\obj\Debug\net8.0\DeljeniPodaci.pdb
