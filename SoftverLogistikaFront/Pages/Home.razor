@@ -19,6 +19,35 @@
         </p>
     </div>
 
+    <div class="mb-4">
+        <div class="row">
+            <!-- Polje za pretragu naziva -->
+            <div class="col-md-6">
+                <label for="search" class="form-label">Pretraga po nazivu</label>
+                @* <input id="search" type="text" class="form-control" @bind="tekstPretraga" @bind:event="oninput" /> *@
+                <input id="search" type="text" class="form-control" @bind="TekstPretraga" @bind:event="oninput" />
+            </div>
+
+            <!-- Checkboxovi za filtriranje po statusu -->
+            <div class="col-md-6">
+                <label class="form-label">Filtriraj po statusu</label>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="status1" @bind="FilterNaPutu" />
+                    <label class="form-check-label" for="status1">Na putu</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="status2" @bind="FilterUSkladistu" />
+                    <label class="form-check-label" for="status2">U skladištu</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="status3" @bind="FilterIsporuceno" />
+                    <label class="form-check-label" for="status3">Isporučeno</label>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
     <!-- Lista pošiljki -->
     <div>
         <h3 class="mb-3 text-secondary">Lista Pošiljki</h3>
@@ -32,7 +61,7 @@
         else
         {
             <!-- Pozivanje komponente -->
-            <PosiljkaTable Posiljke="posiljke" OnEdit="EditPosiljka" OnDelete="Delete" />
+            <PosiljkaTable Posiljke="filteredPosiljke" OnEdit="EditPosiljka" OnDelete="Delete" />
         }
     </div>
 </div>
@@ -40,10 +69,71 @@
 @code {
     private List<Posiljka>? posiljke;
 
+    private string tekstPretraga = string.Empty;
+    private bool filterNaPutu = true;
+    private bool filterUSkladistu = true;
+    private bool filterIsporuceno = true;
+
+    private List<Posiljka>? filteredPosiljke;
+
     protected override async Task OnInitializedAsync()
     {
         posiljke = await PosiljkaService.GetAllAsync();
+        filteredPosiljke = posiljke;
     }
+
+    private void PretragaIFiltriranje()
+    {
+        if (posiljke == null) return;
+
+        filteredPosiljke = posiljke.Where(p =>
+            (string.IsNullOrEmpty(tekstPretraga) || p.Naziv.Contains(tekstPretraga, StringComparison.OrdinalIgnoreCase)) &&
+            ((filterNaPutu && p.Status == StatusPosiljke.NaPutu) ||
+             (filterUSkladistu && p.Status == StatusPosiljke.USkladistu) ||
+             (filterIsporuceno && p.Status == StatusPosiljke.Isporuceno))
+        ).ToList();
+    }
+
+    private string TekstPretraga
+    {
+        get => tekstPretraga;
+        set
+        {
+            tekstPretraga = value;
+            PretragaIFiltriranje();
+        }
+    }
+
+    private bool FilterNaPutu
+    {
+        get => filterNaPutu;
+        set
+        {
+            filterNaPutu = value;
+            PretragaIFiltriranje();
+        }
+    }
+
+    private bool FilterUSkladistu
+    {
+        get => filterUSkladistu;
+        set
+        {
+            filterUSkladistu = value;
+            PretragaIFiltriranje();
+        }
+    }
+
+    private bool FilterIsporuceno
+    {
+        get => filterIsporuceno;
+        set
+        {
+            filterIsporuceno = value;
+            PretragaIFiltriranje();
+        }
+    }
+
 
     void EditPosiljka(Guid id)
     {

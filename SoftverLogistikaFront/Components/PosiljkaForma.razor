@@ -47,13 +47,13 @@
 
     [Parameter] public EventCallback<Posiljka> OnSave { get; set; }
     [Parameter] public EventCallback OnCancelCallback { get; set; }
-    [Parameter] public Posiljka PosiljkaModel { get; set; } = new Posiljka();
+    [Parameter] public Posiljka PosiljkaModel { get; set; }  
 
 
 
 
 
-    protected override void OnInitialized()
+    protected override void OnInitialized()   // ovo se okine kad se inicijalizuje komponenta
     {
         if (PosiljkaModel.Id == Guid.Empty && PosiljkaModel.DatumKreiranja == default)
         {
@@ -61,12 +61,12 @@
         }
     }
 
-    private async Task HandleValidSubmit()
+    private async Task HandleValidSubmit()   //ovo se uvek pozove kad se klikne dugme tipa submit
     {
         await OnSave.InvokeAsync(PosiljkaModel);
     }
 
-    private async Task OnCancel()
+    private async Task OnCancel()   //ovo smo u dugmetu delete definisali da se okine kad se klikne cancel
     {
         await OnCancelCallback.InvokeAsync();
     }

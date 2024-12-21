@@ -31,23 +31,27 @@
 
         if (success)
         {
-            successMessage = "Nova pošiljka je uspešno dodata!";
+            successMessage = "Pošiljka uspešno ažurirana! Preusmeravamo vas na glavnu stranu...";
 
-            // Prikaz poruke na 2 sekunde
-            await Task.Delay(10000);
+            // Osveži komponentu da bi se prikazala poruka
+            StateHasChanged();
+
+            // Sačekaj 2 sekunde pre preusmeravanja
+            await Task.Delay(1500);
 
             // Preusmeravanje na početnu stranicu
             NavigationManager.NavigateTo("/");
         }
         else
         {
-            successMessage = "Došlo je do greške prilikom dodavanja pošiljke.";
+            successMessage = "Došlo je do greške prilikom ažuriranja pošiljke.";
+            StateHasChanged(); // Osveži prikaz za grešku
         }
     }
 
     private void HandleCancel()
     {
-        // Vraća korisnika na početnu stranicu ili resetuje formu
+        
         NavigationManager.NavigateTo("/");
     }
 }

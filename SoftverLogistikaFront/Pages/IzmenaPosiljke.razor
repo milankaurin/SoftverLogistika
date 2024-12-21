@@ -77,7 +77,7 @@ else
             var success = await PosiljkaService.UpdateAsync(selectedPosiljka.Id, selectedPosiljka);
             if (success)
             {
-                successMessage = "Pošiljka uspešno ažurirana!";
+                successMessage = "Pošiljka uspešno ažurirana! Preusmeravamo vas na glavnu stranu...";
 
                 // Osveži komponentu da bi se prikazala poruka
                 StateHasChanged();
