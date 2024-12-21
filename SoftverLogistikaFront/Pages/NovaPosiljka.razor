@@ -1,0 +1,53 @@
+﻿@page "/addposiljka"
+@using SoftverLogistikaFront.Models
+@using SoftverLogistikaFront.Services
+@using SoftverLogistikaFront.Layout
+@using SoftverLogistikaFront.Components
+@using DeljeniPodaci;
+@inject PosiljkaService PosiljkaService
+@inject NavigationManager NavigationManager
+
+<PageTitle>Dodavanje nove pošiljke</PageTitle>
+
+
+    <h3 class>Dodaj novu pošiljku</h3>
+
+    <!-- Koristimo shared komponentu PosiljkaForm -->
+    <PosiljkaForma PosiljkaModel="newPosiljka" OnSave="HandleSave" OnCancelCallback="HandleCancel" />
+
+    @if (successMessage != null)
+    {
+        <div class="alert alert-success mt-3">@successMessage</div>
+    }
+
+
+@code {
+    private Posiljka newPosiljka = new Posiljka();
+    private string? successMessage;
+
+    private async Task HandleSave(Posiljka posiljka)
+    {
+        var success = await PosiljkaService.CreateAsync(posiljka);
+
+        if (success)
+        {
+            successMessage = "Nova pošiljka je uspešno dodata!";
+
+            // Prikaz poruke na 2 sekunde
+            await Task.Delay(10000);
+
+            // Preusmeravanje na početnu stranicu
+            NavigationManager.NavigateTo("/");
+        }
+        else
+        {
+            successMessage = "Došlo je do greške prilikom dodavanja pošiljke.";
+        }
+    }
+
+    private void HandleCancel()
+    {
+        // Vraća korisnika na početnu stranicu ili resetuje formu
+        NavigationManager.NavigateTo("/");
+    }
+}

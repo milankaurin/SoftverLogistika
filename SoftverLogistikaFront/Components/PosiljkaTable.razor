@@ -1,0 +1,50 @@
+﻿@using SoftverLogistikaFront.Models
+@using DeljeniPodaci;
+@using SoftverLogistikaFront.Services
+
+<table class="table table-hover table-bordered shadow-sm">
+    <thead class="table-dark">
+        <tr>
+            <th>Id</th>
+            <th>Naziv</th>
+            <th>Status</th>
+            <th>Datum Kreiranja</th>
+            <th>Datum Isporuke</th>
+            <th>Akcije</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var posiljka in Posiljke)
+        {
+            <tr>
+                <td>@(posiljka.Id.ToString().Substring(0, 6) /*prikazujemo samo prvih 6 karaktera Id propertija radi lepšeg prikaza*/)</td>
+                <td>@posiljka.Naziv</td>
+                <td>@Posiljka.VratiStatusKaoTekst((int)(posiljka.Status))</td>
+                <td>@posiljka.DatumKreiranja.ToShortDateString()</td>
+                <td>@(posiljka.DatumIsporuke.HasValue ? posiljka.DatumIsporuke.Value.ToShortDateString() : "-")</td>
+                <td>
+                    <button class="btn btn-sm btn-primary me-2" @onclick="() => EditPosiljka(posiljka.Id)">Izmeni</button>
+                    <button class="btn btn-sm btn-danger" @onclick="() => DeletePosiljka(posiljka.Id)">Obriši</button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@code {
+    [Parameter] public List<Posiljka> Posiljke { get; set; } = new();
+    [Parameter] public EventCallback<Guid> OnEdit { get; set; }
+    [Parameter] public EventCallback<Guid> OnDelete { get; set; }
+
+    private async Task EditPosiljka(Guid id)
+    {
+        // Poziv OnEdit EventCallback-a sa ID-em pošiljke
+        await OnEdit.InvokeAsync(id);
+    }
+
+    private async Task DeletePosiljka(Guid id)
+    {
+        // Poziv OnDelete EventCallback-a sa ID-em pošiljke
+        await OnDelete.InvokeAsync(id);
+    }
+}

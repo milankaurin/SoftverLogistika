@@ -1,0 +1,61 @@
+﻿@page "/"
+
+@using SoftverLogistikaFront.Models
+@using SoftverLogistikaFront.Services
+@using SoftverLogistikaFront.Components
+@using DeljeniPodaci;
+@inject NavigationManager NavigationManager
+@inject PosiljkaService PosiljkaService
+
+<PageTitle>Početna stranica</PageTitle>
+
+<div class="container mt-4">
+    <!-- Naslovna poruka sa stilizacijom -->
+    <div class="mb-5">
+        <h1 class="display-4">Zdravo!</h1>
+        <p class="lead">
+            Dobrodošli u <strong>Sistem za praćenje pošiljki u logistici</strong> koji predstavlja projektni zadatak u okviru konkursa za .NET Developera praktikanta.
+            Nadam se da će vam se aplikacija svideti. Pozdrav, Milan!
+        </p>
+    </div>
+
+    <!-- Lista pošiljki -->
+    <div>
+        <h3 class="mb-3 text-secondary">Lista Pošiljki</h3>
+
+        @if (posiljke == null)
+        {
+            <div class="alert alert-info" role="alert">
+                <p>Učitavanje...</p>
+            </div>
+        }
+        else
+        {
+            <!-- Pozivanje komponente -->
+            <PosiljkaTable Posiljke="posiljke" OnEdit="EditPosiljka" OnDelete="Delete" />
+        }
+    </div>
+</div>
+
+@code {
+    private List<Posiljka>? posiljke;
+
+    protected override async Task OnInitializedAsync()
+    {
+        posiljke = await PosiljkaService.GetAllAsync();
+    }
+
+    void EditPosiljka(Guid id)
+    {
+        NavigationManager.NavigateTo($"/izmenaposiljkeid={id}");
+    }
+
+    async Task Delete(Guid id)
+    {
+        var success = await PosiljkaService.DeleteAsync(id);
+        if (success)
+        {
+            posiljke = await PosiljkaService.GetAllAsync();
+        }
+    }
+}

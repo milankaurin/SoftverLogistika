@@ -1,0 +1,11 @@
+F:\SoftverLogistika\SoftverLogistika\DeljeniPodaci\bin\Debug\net8.0\DeljeniPodaci.deps.json
+F:\SoftverLogistika\SoftverLogistika\DeljeniPodaci\bin\Debug\net8.0\DeljeniPodaci.dll
+F:\SoftverLogistika\SoftverLogistika\DeljeniPodaci\bin\Debug\net8.0\DeljeniPodaci.pdb
+F:\SoftverLogistika\SoftverLogistika\DeljeniPodaci\obj\Debug\net8.0\DeljeniPodaci.GeneratedMSBuildEditorConfig.editorconfig
+F:\SoftverLogistika\SoftverLogistika\DeljeniPodaci\obj\Debug\net8.0\DeljeniPodaci.AssemblyInfoInputs.cache
+F:\SoftverLogistika\SoftverLogistika\DeljeniPodaci\obj\Debug\net8.0\DeljeniPodaci.AssemblyInfo.cs
+F:\SoftverLogistika\SoftverLogistika\DeljeniPodaci\obj\Debug\net8.0\DeljeniPodaci.csproj.CoreCompileInputs.cache
+F:\SoftverLogistika\SoftverLogistika\DeljeniPodaci\obj\Debug\net8.0\DeljeniPodaci.dll
+F:\SoftverLogistika\SoftverLogistika\DeljeniPodaci\obj\Debug\net8.0\refint\DeljeniPodaci.dll
+F:\SoftverLogistika\SoftverLogistika\DeljeniPodaci\obj\Debug\net8.0\DeljeniPodaci.pdb
+F:\SoftverLogistika\SoftverLogistika\DeljeniPodaci\obj\Debug\net8.0\ref\DeljeniPodaci.dll

@@ -1,0 +1,61 @@
+{
+  "Files": [
+    {
+      "Id": "F:\\SoftverLogistika\\SoftverLogistika\\SoftverLogistikaFront\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "F:\\SoftverLogistika\\SoftverLogistika\\SoftverLogistikaFront\\obj\\Debug\\net8.0\\scopedcss\\bundle\\SoftverLogistikaFront.styles.css",
+      "PackagePath": "staticwebassets\\SoftverLogistikaFront.styles.css"
+    },
+    {
+      "Id": "F:\\SoftverLogistika\\SoftverLogistika\\SoftverLogistikaFront\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "F:\\SoftverLogistika\\SoftverLogistika\\SoftverLogistikaFront\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "F:\\SoftverLogistika\\SoftverLogistika\\SoftverLogistikaFront\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "F:\\SoftverLogistika\\SoftverLogistika\\SoftverLogistikaFront\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "F:\\SoftverLogistika\\SoftverLogistika\\SoftverLogistikaFront\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "F:\\SoftverLogistika\\SoftverLogistika\\SoftverLogistikaFront\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "F:\\SoftverLogistika\\SoftverLogistika\\SoftverLogistikaFront\\wwwroot\\sample-data\\weather.json",
+      "PackagePath": "staticwebassets\\sample-data\\weather.json"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.SoftverLogistikaFront.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.SoftverLogistikaFront.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.SoftverLogistikaFront.props",
+      "PackagePath": "build\\SoftverLogistikaFront.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.SoftverLogistikaFront.props",
+      "PackagePath": "buildMultiTargeting\\SoftverLogistikaFront.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.SoftverLogistikaFront.props",
+      "PackagePath": "buildTransitive\\SoftverLogistikaFront.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

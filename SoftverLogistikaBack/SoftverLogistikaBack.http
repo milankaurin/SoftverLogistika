@@ -1,0 +1,6 @@
+@SoftverLogistikaBack_HostAddress = http://localhost:5195
+
+GET {{SoftverLogistikaBack_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

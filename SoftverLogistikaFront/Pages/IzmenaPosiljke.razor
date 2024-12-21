@@ -1,0 +1,121 @@
+﻿@page "/izmenaposiljkeid={id:guid}"
+@using DeljeniPodaci
+@using SoftverLogistikaFront.Services
+
+@inject NavigationManager NavigationManager
+
+@using SoftverLogistikaFront.Layout
+@using SoftverLogistikaFront.Components
+@using DeljeniPodaci;
+@inject PosiljkaService PosiljkaService
+
+
+<PageTitle>Izmena Pošiljke</PageTitle>
+
+<h3>Izmena Pošiljke</h3>
+
+@if (loading)
+{
+    <p>Učitavanje...</p>
+}
+else if (selectedPosiljka == null)
+{
+    <p class="text-danger">Pošiljka nije pronađena!</p>
+}
+
+else
+{
+    <!-- Koristimo shared komponentu PosiljkaForm -->
+    <PosiljkaForma PosiljkaModel="selectedPosiljka" OnSave="HandleValidSubmit" OnCancelCallback="HandleCancel" />
+
+    @if (successMessage != null)
+    {
+        <div class="alert alert-success mt-3">@successMessage</div>
+    }
+
+}
+
+
+@code {
+    [Parameter] public Guid id { get; set; }
+
+    private Posiljka? selectedPosiljka;
+    private bool loading = true;
+    private string? successMessage;
+    private int StatusValue
+    {
+        get => (int)(selectedPosiljka?.Status ?? 0);
+        set
+        {
+            if (selectedPosiljka != null)
+            {
+                selectedPosiljka.Status = (StatusPosiljke)value;
+            }
+        }
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            selectedPosiljka = await PosiljkaService.GetByIdAsync(id);
+        }
+        catch
+        {
+            selectedPosiljka = null;
+        }
+        finally
+        {
+            loading = false;
+        }
+    }
+
+    private async Task HandleValidSubmit()
+    {
+        if (selectedPosiljka != null)
+        {
+            var success = await PosiljkaService.UpdateAsync(selectedPosiljka.Id, selectedPosiljka);
+            if (success)
+            {
+                successMessage = "Pošiljka uspešno ažurirana!";
+
+                // Osveži komponentu da bi se prikazala poruka
+                StateHasChanged();
+
+                // Sačekaj 2 sekunde pre preusmeravanja
+                await Task.Delay(2000);
+
+                // Preusmeravanje na početnu stranicu
+                NavigationManager.NavigateTo("/");
+            }
+            else
+            {
+                successMessage = "Došlo je do greške prilikom ažuriranja pošiljke.";
+                StateHasChanged(); // Osveži prikaz za grešku
+            }
+        }
+    }
+
+    private void HandleCancel()
+    {
+        NavigationManager.NavigateTo("/");
+    }
+
+
+  
+
+    private async Task HandleSave(Posiljka posiljka)
+    {
+        var success = await PosiljkaService.CreateAsync(posiljka);
+
+        if (success)
+        {
+            successMessage = "Nova pošiljka je uspešno dodata!";
+            
+        }
+        else
+        {
+            successMessage = "Došlo je do greške prilikom dodavanja pošiljke.";
+        }
+    }
+}

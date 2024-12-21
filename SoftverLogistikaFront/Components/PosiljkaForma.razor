@@ -1,0 +1,80 @@
+﻿@using SoftverLogistikaFront.Models
+@using Microsoft.AspNetCore.Components.Forms
+@using DeljeniPodaci;
+
+<EditForm Model="PosiljkaModel" OnValidSubmit="HandleValidSubmit">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+
+   
+
+    <!-- Polje za naziv -->
+    <div class="mb-3">
+        <label class="form-label">Naziv</label>
+        <InputText @bind-Value="PosiljkaModel.Naziv" class="form-control" />
+    </div>
+
+    <!-- Padajući meni za status -->
+    <div class="mb-3">
+        <label class="form-label">Status</label>
+        <InputSelect @bind-Value="StatusValue" class="form-control">
+            @foreach (var status in Posiljka.Statusi)
+            {
+                <option value="@status.Key">@status.Value</option>
+            }
+        </InputSelect>
+    </div>
+
+    <!-- Polje za datum kreiranja -->
+    <div class="mb-3">
+        <label class="form-label">Datum Kreiranja</label>
+        <InputDate @bind-Value="PosiljkaModel.DatumKreiranja" class="form-control" />
+    </div>
+
+    <!-- Polje za datum isporuke -->
+    <div class="mb-3">
+        <label class="form-label">Datum Isporuke</label>
+        <InputDate @bind-Value="PosiljkaModel.DatumIsporuke" class="form-control" />
+    </div>
+
+    <!-- Dugmad za akcije -->
+    <button type="submit" class="btn btn-success me-2">Sačuvaj</button>
+    <button type="button" class="btn btn-secondary" @onclick="OnCancel">Otkaži</button>
+</EditForm>
+
+@code {
+
+    [Parameter] public EventCallback<Posiljka> OnSave { get; set; }
+    [Parameter] public EventCallback OnCancelCallback { get; set; }
+    [Parameter] public Posiljka PosiljkaModel { get; set; } = new Posiljka();
+
+
+
+
+
+    protected override void OnInitialized()
+    {
+        if (PosiljkaModel.Id == Guid.Empty && PosiljkaModel.DatumKreiranja == default)
+        {
+            PosiljkaModel.DatumKreiranja = DateTime.Now;
+        }
+    }
+
+    private async Task HandleValidSubmit()
+    {
+        await OnSave.InvokeAsync(PosiljkaModel);
+    }
+
+    private async Task OnCancel()
+    {
+        await OnCancelCallback.InvokeAsync();
+    }
+
+    private int StatusValue
+    {
+        get => (int)PosiljkaModel.Status;
+        set => PosiljkaModel.Status = (StatusPosiljke)value;
+    }
+
+}
