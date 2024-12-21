@@ -9,14 +9,14 @@
    
 
     <!-- Polje za naziv -->
-    <div class="mb-3">
-        <label class="form-label">Naziv</label>
+    <div class="mb-3" >
+        <label class="form-label" style="color: white;">Naziv</label>
         <InputText @bind-Value="PosiljkaModel.Naziv" class="form-control" />
     </div>
 
     <!-- Padajući meni za status -->
     <div class="mb-3">
-        <label class="form-label">Status</label>
+        <label class="form-label" style="color: white;">Status</label>
         <InputSelect @bind-Value="StatusValue" class="form-control">
             @foreach (var status in Posiljka.Statusi)
             {
@@ -27,13 +27,13 @@
 
     <!-- Polje za datum kreiranja -->
     <div class="mb-3">
-        <label class="form-label">Datum Kreiranja</label>
+        <label class="form-label" style="color: white;">Datum Kreiranja</label>
         <InputDate @bind-Value="PosiljkaModel.DatumKreiranja" class="form-control" />
     </div>
 
     <!-- Polje za datum isporuke -->
     <div class="mb-3">
-        <label class="form-label">Datum Isporuke</label>
+        <label class="form-label" style="color: white;">Datum Isporuke</label>
         <InputDate @bind-Value="PosiljkaModel.DatumIsporuke" class="form-control" />
     </div>
 

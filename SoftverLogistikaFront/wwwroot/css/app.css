@@ -1,6 +1,98 @@
 html, body {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    /* font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; */
+    background-color: #3e4772; /* Svetlo pastelna pozadina */
+    color: #4a4a4a; /* Neutralna siva za tekst */
+    font-family: 'Arial', sans-serif;
 }
+
+
+.container {
+    background-color: #3e4772; /* Belo za kontrast */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+/* Sidebar */
+.sidebar {
+    background-color: #a3cef1; /* Pastelna plava */
+    color: #ffffff;
+    padding: 20px;
+}
+
+    .sidebar .nav-item {
+        margin-bottom: 10px;
+    }
+
+    .sidebar .nav-link {
+        color: #ffffff;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+        .sidebar .nav-link:hover {
+            text-decoration: underline;
+        }
+
+/* Header */
+h1.display-4 {
+    color: #6a94bf; /* Pastelna tamnoplava */
+}
+
+p.lead {
+    color: #7a7a7a; /* Svetlo siva za kontrast */
+}
+
+
+
+/* Tabela */
+table {
+    background-color: #ffffff;
+    border: 1px solid #e3e6e8;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%; /* Širina tabele */
+    margin-top: 20px; /* Razmak od drugih elemenata */
+}
+
+/* Zaglavlje tabele */
+thead.table-dark1 {
+    background-color: #e9effb; /* Pastelna plava za zaglavlje */
+    color: #3e4772;
+    
+}
+
+/* Æelije */
+td {
+    padding: 15px;
+    text-align: center;
+    font-size: 14px; /* Velièina fonta */
+    color: #4a4a4a; /* Neutralna boja teksta */
+    border-bottom: 1px solid #e3e6e8; /* Linija ispod svake æelije */
+}
+
+
+th {
+    padding: 15px;
+    text-align: center;
+    font-size: 14px; /* Velièina fonta */
+    color: #3e4772; /* Neutralna boja teksta */
+    border-bottom: 1px solid #e3e6e8; /* Linija ispod svake æelije */
+}
+
+/* Redovi */
+tbody tr {
+    background-color: #f7f8fa; /* Svetlo siva pozadina za redove */
+    transition: background-color 0.3s ease;
+}
+
+    /* Hover efekat za redove */
+    tbody tr:hover {
+        background-color: #e9effb; /* Svetlija pastelna plava na hover */
+    }
+
+
 
 h1:focus {
     outline: none;

@@ -11,8 +11,8 @@
 <div class="container mt-4">
     <!-- Naslovna poruka sa stilizacijom -->
     <div class="mb-5">
-        <h1 class="display-4">Zdravo!</h1>
-        <p class="lead">
+        <h1 class="display-4" style="color: white;">Zdravo!</h1>
+        <p class="lead" style="color: white;">
             Dobrodošli u <strong>Sistem za praćenje pošiljki u logistici</strong> koji predstavlja projektni zadatak u okviru konkursa za .NET Developera praktikanta.
             Nadam se da će vam se aplikacija svideti. Pozdrav, Milan!
         </p>
@@ -22,25 +22,25 @@
         <div class="row">
             <!-- Polje za pretragu naziva -->
             <div class="col-md-6">
-                <label for="search" class="form-label">Pretraga po nazivu</label>
+                <label for="search" class="form-label" style="color: white;">Pretraga po nazivu</label>
                 @* <input id="search" type="text" class="form-control" @bind="tekstPretraga" @bind:event="oninput" /> *@
                 <input id="search" type="text" class="form-control" @bind="TekstPretraga" @bind:event="oninput" />
             </div>
 
             <!-- Checkboxovi za filtriranje po statusu -->
             <div class="col-md-6">
-                <label class="form-label">Filtriraj po statusu</label>
+                <label class="form-label" style="color: white;">Filtriraj po statusu</label>
                 <div class="form-check">
                     <input class="form-check-input" type="checkbox" id="status1" @bind="FilterNaPutu" />
-                    <label class="form-check-label" for="status1">Na putu</label>
+                    <label class="form-check-label" for="status1" style="color: white;">Na putu</label>
                 </div>
                 <div class="form-check">
                     <input class="form-check-input" type="checkbox" id="status2" @bind="FilterUSkladistu" />
-                    <label class="form-check-label" for="status2">U skladištu</label>
+                    <label class="form-check-label" for="status2" style="color: white;">U skladištu</label>
                 </div>
                 <div class="form-check">
                     <input class="form-check-input" type="checkbox" id="status3" @bind="FilterIsporuceno" />
-                    <label class="form-check-label" for="status3">Isporučeno</label>
+                    <label class="form-check-label" for="status3" style="color: white;">Isporučeno</label>
                 </div>
             </div>
         </div>
@@ -49,7 +49,7 @@
 
     <!-- Lista pošiljki -->
     <div>
-        <h3 class="mb-3 text-secondary">Lista Pošiljki</h3>
+        <h3 class="mb-3" style="color: white;">Lista pošiljki</h3>
 
         @if (posiljke == null)
         {
