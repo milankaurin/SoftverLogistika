@@ -8,7 +8,7 @@
       },
       {
         "Path": "SoftverLogistikaFront\\SoftverLogistikaFront.csproj",
-        "Action": "Start"
+        "Action": "StartWithoutDebugging"
       }
     ]
   }
