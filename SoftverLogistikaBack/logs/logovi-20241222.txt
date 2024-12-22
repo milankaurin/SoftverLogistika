@@ -773,3 +773,1209 @@
 2024-12-22 21:37:24.208 +01:00 [INF] Primljen GET zahtev na /swagger/v1/swagger.json
 2024-12-22 21:37:24.231 +01:00 [INF] Odgovor za /swagger/v1/swagger.json vraćen sa status kodom 200
 2024-12-22 21:37:24.246 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 52.0881ms
+2024-12-22 21:47:54.310 +01:00 [INF] Now listening on: https://localhost:7261
+2024-12-22 21:47:54.378 +01:00 [INF] Now listening on: http://localhost:5195
+2024-12-22 21:47:54.397 +01:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-12-22 21:47:54.638 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-22 21:47:54.642 +01:00 [INF] Hosting environment: Development
+2024-12-22 21:47:54.645 +01:00 [INF] Content root path: F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaBack
+2024-12-22 21:47:54.969 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/index.html - null null
+2024-12-22 21:47:55.186 +01:00 [INF] Primljen GET zahtev na /swagger/index.html
+2024-12-22 21:47:55.277 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/api/posiljke - null null
+2024-12-22 21:47:55.301 +01:00 [INF] Primljen GET zahtev na /api/posiljke
+2024-12-22 21:47:55.306 +01:00 [INF] Odgovor za /swagger/index.html vraćen sa status kodom 200
+2024-12-22 21:47:55.310 +01:00 [INF] CORS policy execution successful.
+2024-12-22 21:47:55.316 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-22 21:47:55.319 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_vs/browserLink - null null
+2024-12-22 21:47:55.362 +01:00 [INF] Executing endpoint 'HTTP: GET /api/posiljke'
+2024-12-22 21:47:55.361 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/index.html - 200 null text/html;charset=utf-8 388.5549ms
+2024-12-22 21:47:55.371 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - 200 13792 application/javascript; charset=utf-8 55.2277ms
+2024-12-22 21:47:55.426 +01:00 [INF] Setting HTTP status code 200.
+2024-12-22 21:47:55.434 +01:00 [INF] Writing value of type 'List`1' as Json.
+2024-12-22 21:47:55.469 +01:00 [INF] Executed endpoint 'HTTP: GET /api/posiljke'
+2024-12-22 21:47:55.470 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_vs/browserLink - 200 null text/javascript; charset=UTF-8 150.9968ms
+2024-12-22 21:47:55.474 +01:00 [INF] Odgovor za /api/posiljke vraćen sa status kodom 200
+2024-12-22 21:47:55.486 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/api/posiljke - 200 null application/json; charset=utf-8 210.2433ms
+2024-12-22 21:47:55.570 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - null null
+2024-12-22 21:47:55.582 +01:00 [INF] Primljen GET zahtev na /swagger/v1/swagger.json
+2024-12-22 21:47:55.604 +01:00 [INF] Odgovor za /swagger/v1/swagger.json vraćen sa status kodom 200
+2024-12-22 21:47:55.611 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 40.6939ms
+2024-12-22 21:48:51.848 +01:00 [INF] Now listening on: https://localhost:7261
+2024-12-22 21:48:51.888 +01:00 [INF] Now listening on: http://localhost:5195
+2024-12-22 21:48:51.903 +01:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-12-22 21:48:52.118 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-22 21:48:52.121 +01:00 [INF] Hosting environment: Development
+2024-12-22 21:48:52.125 +01:00 [INF] Content root path: F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaBack
+2024-12-22 21:48:52.900 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/index.html - null null
+2024-12-22 21:48:52.927 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/api/posiljke - null null
+2024-12-22 21:48:52.992 +01:00 [INF] Primljen GET zahtev na /api/posiljke
+2024-12-22 21:48:53.016 +01:00 [INF] CORS policy execution successful.
+2024-12-22 21:48:53.056 +01:00 [INF] Executing endpoint 'HTTP: GET /api/posiljke'
+2024-12-22 21:48:53.084 +01:00 [INF] Setting HTTP status code 200.
+2024-12-22 21:48:53.089 +01:00 [INF] Primljen GET zahtev na /swagger/index.html
+2024-12-22 21:48:53.093 +01:00 [INF] Writing value of type 'List`1' as Json.
+2024-12-22 21:48:53.121 +01:00 [INF] Executed endpoint 'HTTP: GET /api/posiljke'
+2024-12-22 21:48:53.129 +01:00 [INF] Odgovor za /api/posiljke vraćen sa status kodom 200
+2024-12-22 21:48:53.140 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/api/posiljke - 200 null application/json; charset=utf-8 212.4961ms
+2024-12-22 21:48:53.206 +01:00 [INF] Odgovor za /swagger/index.html vraćen sa status kodom 200
+2024-12-22 21:48:53.213 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/index.html - 200 null text/html;charset=utf-8 322.6245ms
+2024-12-22 21:48:53.223 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-22 21:48:53.230 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_vs/browserLink - null null
+2024-12-22 21:48:53.245 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - 200 13792 application/javascript; charset=utf-8 23.7652ms
+2024-12-22 21:48:53.311 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_vs/browserLink - 200 null text/javascript; charset=UTF-8 80.3658ms
+2024-12-22 21:48:53.393 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - null null
+2024-12-22 21:48:53.405 +01:00 [INF] Primljen GET zahtev na /swagger/v1/swagger.json
+2024-12-22 21:48:53.426 +01:00 [INF] Odgovor za /swagger/v1/swagger.json vraćen sa status kodom 200
+2024-12-22 21:48:53.437 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 44.5972ms
+2024-12-22 21:49:27.090 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/api/posiljke - null null
+2024-12-22 21:49:27.103 +01:00 [INF] Primljen GET zahtev na /api/posiljke
+2024-12-22 21:49:27.109 +01:00 [INF] CORS policy execution successful.
+2024-12-22 21:49:27.115 +01:00 [INF] Executing endpoint 'HTTP: GET /api/posiljke'
+2024-12-22 21:49:27.122 +01:00 [INF] Setting HTTP status code 200.
+2024-12-22 21:49:27.128 +01:00 [INF] Writing value of type 'List`1' as Json.
+2024-12-22 21:49:27.133 +01:00 [INF] Executed endpoint 'HTTP: GET /api/posiljke'
+2024-12-22 21:49:27.136 +01:00 [INF] Odgovor za /api/posiljke vraćen sa status kodom 200
+2024-12-22 21:49:27.139 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/api/posiljke - 200 null application/json; charset=utf-8 50.2703ms
+2024-12-22 21:49:55.173 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/api/posiljke - null null
+2024-12-22 21:49:55.187 +01:00 [INF] Primljen GET zahtev na /api/posiljke
+2024-12-22 21:49:55.189 +01:00 [INF] CORS policy execution successful.
+2024-12-22 21:49:55.193 +01:00 [INF] Executing endpoint 'HTTP: GET /api/posiljke'
+2024-12-22 21:49:55.200 +01:00 [INF] Setting HTTP status code 200.
+2024-12-22 21:49:55.206 +01:00 [INF] Writing value of type 'List`1' as Json.
+2024-12-22 21:49:55.213 +01:00 [INF] Executed endpoint 'HTTP: GET /api/posiljke'
+2024-12-22 21:49:55.221 +01:00 [INF] Odgovor za /api/posiljke vraćen sa status kodom 200
+2024-12-22 21:49:55.227 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/api/posiljke - 200 null application/json; charset=utf-8 54.5009ms
+2024-12-22 21:50:01.589 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/api/posiljke - null null
+2024-12-22 21:50:01.598 +01:00 [INF] Primljen GET zahtev na /api/posiljke
+2024-12-22 21:50:01.602 +01:00 [INF] CORS policy execution successful.
+2024-12-22 21:50:01.608 +01:00 [INF] Executing endpoint 'HTTP: GET /api/posiljke'
+2024-12-22 21:50:01.615 +01:00 [INF] Setting HTTP status code 200.
+2024-12-22 21:50:01.620 +01:00 [INF] Writing value of type 'List`1' as Json.
+2024-12-22 21:50:01.625 +01:00 [INF] Executed endpoint 'HTTP: GET /api/posiljke'
+2024-12-22 21:50:01.632 +01:00 [INF] Odgovor za /api/posiljke vraćen sa status kodom 200
+2024-12-22 21:50:01.637 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/api/posiljke - 200 null application/json; charset=utf-8 48.9538ms
+2024-12-22 21:50:02.858 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/api/posiljke - null null
+2024-12-22 21:50:02.868 +01:00 [INF] Primljen GET zahtev na /api/posiljke
+2024-12-22 21:50:02.877 +01:00 [INF] CORS policy execution successful.
+2024-12-22 21:50:02.884 +01:00 [INF] Executing endpoint 'HTTP: GET /api/posiljke'
+2024-12-22 21:50:02.891 +01:00 [INF] Setting HTTP status code 200.
+2024-12-22 21:50:02.901 +01:00 [INF] Writing value of type 'List`1' as Json.
+2024-12-22 21:50:02.909 +01:00 [INF] Executed endpoint 'HTTP: GET /api/posiljke'
+2024-12-22 21:50:02.914 +01:00 [INF] Odgovor za /api/posiljke vraćen sa status kodom 200
+2024-12-22 21:50:02.917 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/api/posiljke - 200 null application/json; charset=utf-8 59.4725ms
+2024-12-22 22:17:23.975 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/index.html - null null
+2024-12-22 22:17:24.003 +01:00 [INF] Primljen GET zahtev na /swagger/index.html
+2024-12-22 22:17:24.011 +01:00 [INF] Odgovor za /swagger/index.html vraćen sa status kodom 200
+2024-12-22 22:17:24.014 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/index.html - 200 null text/html;charset=utf-8 41.1125ms
+2024-12-22 22:17:24.040 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_vs/browserLink - null null
+2024-12-22 22:17:24.045 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-22 22:17:24.075 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - 200 13792 application/javascript; charset=utf-8 29.7876ms
+2024-12-22 22:17:24.103 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_vs/browserLink - 200 null text/javascript; charset=UTF-8 63.1449ms
+2024-12-22 22:17:24.195 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - null null
+2024-12-22 22:17:24.199 +01:00 [INF] Primljen GET zahtev na /swagger/v1/swagger.json
+2024-12-22 22:17:24.208 +01:00 [INF] Odgovor za /swagger/v1/swagger.json vraćen sa status kodom 200
+2024-12-22 22:17:24.210 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 15.4374ms
+2024-12-22 22:17:26.021 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/index.html - null null
+2024-12-22 22:17:26.028 +01:00 [INF] Primljen GET zahtev na /swagger/index.html
+2024-12-22 22:17:26.032 +01:00 [INF] Odgovor za /swagger/index.html vraćen sa status kodom 200
+2024-12-22 22:17:26.035 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/index.html - 200 null text/html;charset=utf-8 13.5956ms
+2024-12-22 22:17:26.042 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-22 22:17:26.042 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_vs/browserLink - null null
+2024-12-22 22:17:26.048 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - 200 13792 application/javascript; charset=utf-8 6.6847ms
+2024-12-22 22:17:26.067 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_vs/browserLink - 200 null text/javascript; charset=UTF-8 25.8377ms
+2024-12-22 22:17:26.148 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - null null
+2024-12-22 22:17:26.154 +01:00 [INF] Primljen GET zahtev na /swagger/v1/swagger.json
+2024-12-22 22:17:26.157 +01:00 [INF] Odgovor za /swagger/v1/swagger.json vraćen sa status kodom 200
+2024-12-22 22:17:26.159 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 12.0138ms
+2024-12-22 22:18:55.262 +01:00 [INF] Now listening on: https://localhost:7261
+2024-12-22 22:18:55.297 +01:00 [INF] Now listening on: http://localhost:5195
+2024-12-22 22:18:55.313 +01:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-12-22 22:18:55.678 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-22 22:18:55.681 +01:00 [INF] Hosting environment: Development
+2024-12-22 22:18:55.685 +01:00 [INF] Content root path: F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaBack
+2024-12-22 22:18:56.185 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/index.html - null null
+2024-12-22 22:18:56.357 +01:00 [INF] Primljen GET zahtev na /swagger/index.html
+2024-12-22 22:18:56.430 +01:00 [INF] Odgovor za /swagger/index.html vraćen sa status kodom 200
+2024-12-22 22:18:56.443 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-22 22:18:56.444 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/index.html - 200 null text/html;charset=utf-8 264.3894ms
+2024-12-22 22:18:56.452 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - 200 13792 application/javascript; charset=utf-8 9.8411ms
+2024-12-22 22:18:56.466 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_vs/browserLink - null null
+2024-12-22 22:18:56.526 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_vs/browserLink - 200 null text/javascript; charset=UTF-8 60.7653ms
+2024-12-22 22:18:56.678 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - null null
+2024-12-22 22:18:56.697 +01:00 [INF] Primljen GET zahtev na /swagger/v1/swagger.json
+2024-12-22 22:18:56.716 +01:00 [INF] Odgovor za /swagger/v1/swagger.json vraćen sa status kodom 200
+2024-12-22 22:18:56.727 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 48.3794ms
+2024-12-22 22:21:06.140 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/api/posiljke - null null
+2024-12-22 22:21:06.149 +01:00 [INF] Primljen GET zahtev na /api/posiljke
+2024-12-22 22:21:06.159 +01:00 [INF] CORS policy execution successful.
+2024-12-22 22:21:06.176 +01:00 [INF] Executing endpoint 'HTTP: GET /api/posiljke'
+2024-12-22 22:21:06.201 +01:00 [INF] Setting HTTP status code 200.
+2024-12-22 22:21:06.211 +01:00 [INF] Writing value of type 'List`1' as Json.
+2024-12-22 22:21:06.246 +01:00 [INF] Executed endpoint 'HTTP: GET /api/posiljke'
+2024-12-22 22:21:06.251 +01:00 [INF] Odgovor za /api/posiljke vraćen sa status kodom 200
+2024-12-22 22:21:06.258 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/api/posiljke - 200 null application/json; charset=utf-8 118.9947ms
+2024-12-22 22:21:10.710 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/api/posiljke - null null
+2024-12-22 22:21:10.718 +01:00 [INF] Primljen GET zahtev na /api/posiljke
+2024-12-22 22:21:10.727 +01:00 [INF] CORS policy execution successful.
+2024-12-22 22:21:10.731 +01:00 [INF] Executing endpoint 'HTTP: GET /api/posiljke'
+2024-12-22 22:21:10.733 +01:00 [INF] Setting HTTP status code 200.
+2024-12-22 22:21:10.735 +01:00 [INF] Writing value of type 'List`1' as Json.
+2024-12-22 22:21:10.739 +01:00 [INF] Executed endpoint 'HTTP: GET /api/posiljke'
+2024-12-22 22:21:10.743 +01:00 [INF] Odgovor za /api/posiljke vraćen sa status kodom 200
+2024-12-22 22:21:10.745 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/api/posiljke - 200 null application/json; charset=utf-8 35.8386ms
+2024-12-22 22:22:20.053 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/api/posiljke - null null
+2024-12-22 22:22:20.063 +01:00 [INF] Primljen GET zahtev na /api/posiljke
+2024-12-22 22:22:20.066 +01:00 [INF] CORS policy execution successful.
+2024-12-22 22:22:20.068 +01:00 [INF] Executing endpoint 'HTTP: GET /api/posiljke'
+2024-12-22 22:22:20.069 +01:00 [INF] Setting HTTP status code 200.
+2024-12-22 22:22:20.070 +01:00 [INF] Writing value of type 'List`1' as Json.
+2024-12-22 22:22:20.073 +01:00 [INF] Executed endpoint 'HTTP: GET /api/posiljke'
+2024-12-22 22:22:20.075 +01:00 [INF] Odgovor za /api/posiljke vraćen sa status kodom 200
+2024-12-22 22:22:20.077 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/api/posiljke - 200 null application/json; charset=utf-8 24.6019ms
+2024-12-22 22:22:59.848 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/api/posiljke - null null
+2024-12-22 22:22:59.869 +01:00 [INF] Primljen GET zahtev na /api/posiljke
+2024-12-22 22:22:59.872 +01:00 [INF] CORS policy execution successful.
+2024-12-22 22:22:59.872 +01:00 [INF] Executing endpoint 'HTTP: GET /api/posiljke'
+2024-12-22 22:22:59.873 +01:00 [INF] Setting HTTP status code 200.
+2024-12-22 22:22:59.875 +01:00 [INF] Writing value of type 'List`1' as Json.
+2024-12-22 22:22:59.877 +01:00 [INF] Executed endpoint 'HTTP: GET /api/posiljke'
+2024-12-22 22:22:59.899 +01:00 [INF] Odgovor za /api/posiljke vraćen sa status kodom 200
+2024-12-22 22:22:59.907 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/api/posiljke - 200 null application/json; charset=utf-8 58.9903ms
+2024-12-22 22:23:17.344 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/api/posiljke - null null
+2024-12-22 22:23:17.358 +01:00 [INF] Primljen GET zahtev na /api/posiljke
+2024-12-22 22:23:17.359 +01:00 [INF] CORS policy execution successful.
+2024-12-22 22:23:17.360 +01:00 [INF] Executing endpoint 'HTTP: GET /api/posiljke'
+2024-12-22 22:23:17.361 +01:00 [INF] Setting HTTP status code 200.
+2024-12-22 22:23:17.362 +01:00 [INF] Writing value of type 'List`1' as Json.
+2024-12-22 22:23:17.363 +01:00 [INF] Executed endpoint 'HTTP: GET /api/posiljke'
+2024-12-22 22:23:17.365 +01:00 [INF] Odgovor za /api/posiljke vraćen sa status kodom 200
+2024-12-22 22:23:17.366 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/api/posiljke - 200 null application/json; charset=utf-8 21.865ms
+2024-12-22 22:23:17.946 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/api/posiljke - null null
+2024-12-22 22:23:17.961 +01:00 [INF] Primljen GET zahtev na /api/posiljke
+2024-12-22 22:23:17.963 +01:00 [INF] CORS policy execution successful.
+2024-12-22 22:23:17.964 +01:00 [INF] Executing endpoint 'HTTP: GET /api/posiljke'
+2024-12-22 22:23:17.965 +01:00 [INF] Setting HTTP status code 200.
+2024-12-22 22:23:17.965 +01:00 [INF] Writing value of type 'List`1' as Json.
+2024-12-22 22:23:17.966 +01:00 [INF] Executed endpoint 'HTTP: GET /api/posiljke'
+2024-12-22 22:23:17.968 +01:00 [INF] Odgovor za /api/posiljke vraćen sa status kodom 200
+2024-12-22 22:23:17.969 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/api/posiljke - 200 null application/json; charset=utf-8 23.1474ms
+2024-12-22 22:23:18.673 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/api/posiljke - null null
+2024-12-22 22:23:18.679 +01:00 [INF] Primljen GET zahtev na /api/posiljke
+2024-12-22 22:23:18.680 +01:00 [INF] CORS policy execution successful.
+2024-12-22 22:23:18.682 +01:00 [INF] Executing endpoint 'HTTP: GET /api/posiljke'
+2024-12-22 22:23:18.683 +01:00 [INF] Setting HTTP status code 200.
+2024-12-22 22:23:18.687 +01:00 [INF] Writing value of type 'List`1' as Json.
+2024-12-22 22:23:18.690 +01:00 [INF] Executed endpoint 'HTTP: GET /api/posiljke'
+2024-12-22 22:23:18.694 +01:00 [INF] Odgovor za /api/posiljke vraćen sa status kodom 200
+2024-12-22 22:23:18.699 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/api/posiljke - 200 null application/json; charset=utf-8 26.1752ms
+2024-12-22 22:23:35.724 +01:00 [INF] Now listening on: https://localhost:7261
+2024-12-22 22:23:35.752 +01:00 [INF] Now listening on: http://localhost:5195
+2024-12-22 22:23:35.758 +01:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-12-22 22:23:35.873 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-22 22:23:35.876 +01:00 [INF] Hosting environment: Development
+2024-12-22 22:23:35.877 +01:00 [INF] Content root path: F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaBack
+2024-12-22 22:23:36.202 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/index.html - null null
+2024-12-22 22:23:36.373 +01:00 [INF] Primljen GET zahtev na /swagger/index.html
+2024-12-22 22:23:36.410 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/api/posiljke - null null
+2024-12-22 22:23:36.414 +01:00 [INF] Primljen GET zahtev na /api/posiljke
+2024-12-22 22:23:36.421 +01:00 [INF] CORS policy execution successful.
+2024-12-22 22:23:36.430 +01:00 [INF] Executing endpoint 'HTTP: GET /api/posiljke'
+2024-12-22 22:23:36.446 +01:00 [INF] Setting HTTP status code 200.
+2024-12-22 22:23:36.451 +01:00 [INF] Writing value of type 'List`1' as Json.
+2024-12-22 22:23:36.464 +01:00 [INF] Executed endpoint 'HTTP: GET /api/posiljke'
+2024-12-22 22:23:36.468 +01:00 [INF] Odgovor za /api/posiljke vraćen sa status kodom 200
+2024-12-22 22:23:36.474 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/api/posiljke - 200 null application/json; charset=utf-8 63.9324ms
+2024-12-22 22:23:36.477 +01:00 [INF] Odgovor za /swagger/index.html vraćen sa status kodom 200
+2024-12-22 22:23:36.483 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/index.html - 200 null text/html;charset=utf-8 286.2462ms
+2024-12-22 22:23:36.485 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-22 22:23:36.486 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_vs/browserLink - null null
+2024-12-22 22:23:36.500 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - 200 13792 application/javascript; charset=utf-8 17.2105ms
+2024-12-22 22:23:36.537 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_vs/browserLink - 200 null text/javascript; charset=UTF-8 52.0037ms
+2024-12-22 22:23:36.566 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - null null
+2024-12-22 22:23:36.571 +01:00 [INF] Primljen GET zahtev na /swagger/v1/swagger.json
+2024-12-22 22:23:36.577 +01:00 [INF] Odgovor za /swagger/v1/swagger.json vraćen sa status kodom 200
+2024-12-22 22:23:36.581 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 15.1172ms
+2024-12-22 22:23:43.664 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/api/posiljke - null null
+2024-12-22 22:23:43.673 +01:00 [INF] Primljen GET zahtev na /api/posiljke
+2024-12-22 22:23:43.676 +01:00 [INF] CORS policy execution successful.
+2024-12-22 22:23:43.680 +01:00 [INF] Executing endpoint 'HTTP: GET /api/posiljke'
+2024-12-22 22:23:43.683 +01:00 [INF] Setting HTTP status code 200.
+2024-12-22 22:23:43.686 +01:00 [INF] Writing value of type 'List`1' as Json.
+2024-12-22 22:23:43.694 +01:00 [INF] Executed endpoint 'HTTP: GET /api/posiljke'
+2024-12-22 22:23:43.697 +01:00 [INF] Odgovor za /api/posiljke vraćen sa status kodom 200
+2024-12-22 22:23:43.703 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/api/posiljke - 200 null application/json; charset=utf-8 40.241ms
+2024-12-22 22:24:03.908 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/api/posiljke - null null
+2024-12-22 22:24:03.922 +01:00 [INF] Primljen GET zahtev na /api/posiljke
+2024-12-22 22:24:03.927 +01:00 [INF] CORS policy execution successful.
+2024-12-22 22:24:03.931 +01:00 [INF] Executing endpoint 'HTTP: GET /api/posiljke'
+2024-12-22 22:24:03.932 +01:00 [INF] Setting HTTP status code 200.
+2024-12-22 22:24:03.934 +01:00 [INF] Writing value of type 'List`1' as Json.
+2024-12-22 22:24:03.937 +01:00 [INF] Executed endpoint 'HTTP: GET /api/posiljke'
+2024-12-22 22:24:03.944 +01:00 [INF] Odgovor za /api/posiljke vraćen sa status kodom 200
+2024-12-22 22:24:03.949 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/api/posiljke - 200 null application/json; charset=utf-8 41.1275ms
+2024-12-22 22:24:17.392 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/api/posiljke - null null
+2024-12-22 22:24:17.414 +01:00 [INF] Primljen GET zahtev na /api/posiljke
+2024-12-22 22:24:17.415 +01:00 [INF] CORS policy execution successful.
+2024-12-22 22:24:17.415 +01:00 [INF] Executing endpoint 'HTTP: GET /api/posiljke'
+2024-12-22 22:24:17.416 +01:00 [INF] Setting HTTP status code 200.
+2024-12-22 22:24:17.417 +01:00 [INF] Writing value of type 'List`1' as Json.
+2024-12-22 22:24:17.418 +01:00 [INF] Executed endpoint 'HTTP: GET /api/posiljke'
+2024-12-22 22:24:17.421 +01:00 [INF] Odgovor za /api/posiljke vraćen sa status kodom 200
+2024-12-22 22:24:17.422 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/api/posiljke - 200 null application/json; charset=utf-8 30.1024ms
+2024-12-22 22:24:32.458 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/api/posiljke - null null
+2024-12-22 22:24:32.471 +01:00 [INF] Primljen GET zahtev na /api/posiljke
+2024-12-22 22:24:32.481 +01:00 [INF] CORS policy execution successful.
+2024-12-22 22:24:32.487 +01:00 [INF] Executing endpoint 'HTTP: GET /api/posiljke'
+2024-12-22 22:24:32.490 +01:00 [INF] Setting HTTP status code 200.
+2024-12-22 22:24:32.492 +01:00 [INF] Writing value of type 'List`1' as Json.
+2024-12-22 22:24:32.495 +01:00 [INF] Executed endpoint 'HTTP: GET /api/posiljke'
+2024-12-22 22:24:32.498 +01:00 [INF] Odgovor za /api/posiljke vraćen sa status kodom 200
+2024-12-22 22:24:32.510 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/api/posiljke - 200 null application/json; charset=utf-8 52.3246ms
+2024-12-22 22:24:33.114 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/api/posiljke - null null
+2024-12-22 22:24:33.118 +01:00 [INF] Primljen GET zahtev na /api/posiljke
+2024-12-22 22:24:33.119 +01:00 [INF] CORS policy execution successful.
+2024-12-22 22:24:33.120 +01:00 [INF] Executing endpoint 'HTTP: GET /api/posiljke'
+2024-12-22 22:24:33.121 +01:00 [INF] Setting HTTP status code 200.
+2024-12-22 22:24:33.122 +01:00 [INF] Writing value of type 'List`1' as Json.
+2024-12-22 22:24:33.124 +01:00 [INF] Executed endpoint 'HTTP: GET /api/posiljke'
+2024-12-22 22:24:33.128 +01:00 [INF] Odgovor za /api/posiljke vraćen sa status kodom 200
+2024-12-22 22:24:33.129 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/api/posiljke - 200 null application/json; charset=utf-8 15.5026ms
+2024-12-22 22:24:34.905 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/api/posiljke - null null
+2024-12-22 22:24:34.911 +01:00 [INF] Primljen GET zahtev na /api/posiljke
+2024-12-22 22:24:34.918 +01:00 [INF] CORS policy execution successful.
+2024-12-22 22:24:34.922 +01:00 [INF] Executing endpoint 'HTTP: GET /api/posiljke'
+2024-12-22 22:24:34.926 +01:00 [INF] Setting HTTP status code 200.
+2024-12-22 22:24:34.932 +01:00 [INF] Writing value of type 'List`1' as Json.
+2024-12-22 22:24:34.939 +01:00 [INF] Executed endpoint 'HTTP: GET /api/posiljke'
+2024-12-22 22:24:34.942 +01:00 [INF] Odgovor za /api/posiljke vraćen sa status kodom 200
+2024-12-22 22:24:34.965 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/api/posiljke - 200 null application/json; charset=utf-8 60.4404ms
+2024-12-22 22:27:33.972 +01:00 [INF] Now listening on: https://localhost:7261
+2024-12-22 22:27:33.999 +01:00 [INF] Now listening on: http://localhost:5195
+2024-12-22 22:27:34.012 +01:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-12-22 22:27:34.127 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-22 22:27:34.130 +01:00 [INF] Hosting environment: Development
+2024-12-22 22:27:34.131 +01:00 [INF] Content root path: F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaBack
+2024-12-22 22:27:34.696 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/index.html - null null
+2024-12-22 22:27:34.696 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/api/posiljke - null null
+2024-12-22 22:27:34.741 +01:00 [INF] Primljen GET zahtev na /api/posiljke
+2024-12-22 22:27:34.746 +01:00 [INF] CORS policy execution successful.
+2024-12-22 22:27:34.773 +01:00 [INF] Executing endpoint 'HTTP: GET /api/posiljke'
+2024-12-22 22:27:34.790 +01:00 [INF] Setting HTTP status code 200.
+2024-12-22 22:27:34.792 +01:00 [INF] Writing value of type 'List`1' as Json.
+2024-12-22 22:27:34.798 +01:00 [INF] Primljen GET zahtev na /swagger/index.html
+2024-12-22 22:27:34.801 +01:00 [INF] Executed endpoint 'HTTP: GET /api/posiljke'
+2024-12-22 22:27:34.803 +01:00 [INF] Odgovor za /api/posiljke vraćen sa status kodom 200
+2024-12-22 22:27:34.807 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/api/posiljke - 200 null application/json; charset=utf-8 116.586ms
+2024-12-22 22:27:34.843 +01:00 [INF] Odgovor za /swagger/index.html vraćen sa status kodom 200
+2024-12-22 22:27:34.847 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/index.html - 200 null text/html;charset=utf-8 157.573ms
+2024-12-22 22:27:34.856 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_vs/browserLink - null null
+2024-12-22 22:27:34.856 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-22 22:27:34.882 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - 200 13792 application/javascript; charset=utf-8 25.9443ms
+2024-12-22 22:27:34.904 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_vs/browserLink - 200 null text/javascript; charset=UTF-8 48.139ms
+2024-12-22 22:27:34.936 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - null null
+2024-12-22 22:27:34.943 +01:00 [INF] Primljen GET zahtev na /swagger/v1/swagger.json
+2024-12-22 22:27:34.955 +01:00 [INF] Odgovor za /swagger/v1/swagger.json vraćen sa status kodom 200
+2024-12-22 22:27:34.957 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 21.5082ms
+2024-12-22 22:28:37.805 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/index.html - null null
+2024-12-22 22:28:37.822 +01:00 [INF] Primljen GET zahtev na /swagger/index.html
+2024-12-22 22:28:37.858 +01:00 [INF] Odgovor za /swagger/index.html vraćen sa status kodom 200
+2024-12-22 22:28:37.867 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/index.html - 200 null text/html;charset=utf-8 61.6845ms
+2024-12-22 22:28:37.907 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_vs/browserLink - null null
+2024-12-22 22:28:37.926 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-22 22:28:37.937 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - 200 13792 application/javascript; charset=utf-8 11.7842ms
+2024-12-22 22:28:37.971 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_vs/browserLink - 200 null text/javascript; charset=UTF-8 65.1564ms
+2024-12-22 22:28:38.107 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - null null
+2024-12-22 22:28:38.118 +01:00 [INF] Primljen GET zahtev na /swagger/v1/swagger.json
+2024-12-22 22:28:38.136 +01:00 [INF] Odgovor za /swagger/v1/swagger.json vraćen sa status kodom 200
+2024-12-22 22:28:38.146 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 40.5996ms
+2024-12-22 22:28:42.803 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/api/posiljke - null null
+2024-12-22 22:28:42.813 +01:00 [INF] Primljen GET zahtev na /api/posiljke
+2024-12-22 22:28:42.814 +01:00 [INF] CORS policy execution successful.
+2024-12-22 22:28:42.820 +01:00 [INF] Executing endpoint 'HTTP: GET /api/posiljke'
+2024-12-22 22:28:42.822 +01:00 [INF] Setting HTTP status code 200.
+2024-12-22 22:28:42.830 +01:00 [INF] Writing value of type 'List`1' as Json.
+2024-12-22 22:28:42.834 +01:00 [INF] Executed endpoint 'HTTP: GET /api/posiljke'
+2024-12-22 22:28:42.839 +01:00 [INF] Odgovor za /api/posiljke vraćen sa status kodom 200
+2024-12-22 22:28:42.842 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/api/posiljke - 200 null application/json; charset=utf-8 38.6604ms
+2024-12-22 22:31:04.647 +01:00 [INF] Now listening on: https://localhost:7261
+2024-12-22 22:31:04.677 +01:00 [INF] Now listening on: http://localhost:5195
+2024-12-22 22:31:04.685 +01:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-12-22 22:31:04.821 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-22 22:31:04.824 +01:00 [INF] Hosting environment: Development
+2024-12-22 22:31:04.827 +01:00 [INF] Content root path: F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaBack
+2024-12-22 22:31:05.430 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/index.html - null null
+2024-12-22 22:31:05.430 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/api/posiljke - null null
+2024-12-22 22:31:05.479 +01:00 [INF] Primljen GET zahtev na /api/posiljke
+2024-12-22 22:31:05.499 +01:00 [INF] CORS policy execution successful.
+2024-12-22 22:31:05.521 +01:00 [INF] Executing endpoint 'HTTP: GET /api/posiljke'
+2024-12-22 22:31:05.531 +01:00 [INF] Setting HTTP status code 200.
+2024-12-22 22:31:05.535 +01:00 [INF] Writing value of type 'List`1' as Json.
+2024-12-22 22:31:05.535 +01:00 [INF] Primljen GET zahtev na /swagger/index.html
+2024-12-22 22:31:05.546 +01:00 [INF] Executed endpoint 'HTTP: GET /api/posiljke'
+2024-12-22 22:31:05.550 +01:00 [INF] Odgovor za /api/posiljke vraćen sa status kodom 200
+2024-12-22 22:31:05.555 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/api/posiljke - 200 null application/json; charset=utf-8 127.4901ms
+2024-12-22 22:31:05.601 +01:00 [INF] Odgovor za /swagger/index.html vraćen sa status kodom 200
+2024-12-22 22:31:05.613 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/index.html - 200 null text/html;charset=utf-8 189.744ms
+2024-12-22 22:31:05.619 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-22 22:31:05.619 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_vs/browserLink - null null
+2024-12-22 22:31:05.642 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - 200 13792 application/javascript; charset=utf-8 24.9595ms
+2024-12-22 22:31:05.679 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_vs/browserLink - 200 null text/javascript; charset=UTF-8 59.7618ms
+2024-12-22 22:31:05.710 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - null null
+2024-12-22 22:31:05.714 +01:00 [INF] Primljen GET zahtev na /swagger/v1/swagger.json
+2024-12-22 22:31:05.733 +01:00 [INF] Odgovor za /swagger/v1/swagger.json vraćen sa status kodom 200
+2024-12-22 22:31:05.736 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 26.6717ms
+2024-12-22 22:31:11.301 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/api/posiljke - null null
+2024-12-22 22:31:11.312 +01:00 [INF] Primljen GET zahtev na /api/posiljke
+2024-12-22 22:31:11.320 +01:00 [INF] CORS policy execution successful.
+2024-12-22 22:31:11.325 +01:00 [INF] Executing endpoint 'HTTP: GET /api/posiljke'
+2024-12-22 22:31:11.333 +01:00 [INF] Setting HTTP status code 200.
+2024-12-22 22:31:11.338 +01:00 [INF] Writing value of type 'List`1' as Json.
+2024-12-22 22:31:11.344 +01:00 [INF] Executed endpoint 'HTTP: GET /api/posiljke'
+2024-12-22 22:31:11.345 +01:00 [INF] Odgovor za /api/posiljke vraćen sa status kodom 200
+2024-12-22 22:31:11.354 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/api/posiljke - 200 null application/json; charset=utf-8 53.5405ms
+2024-12-22 22:31:18.036 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/api/posiljke - null null
+2024-12-22 22:31:18.048 +01:00 [INF] Primljen GET zahtev na /api/posiljke
+2024-12-22 22:31:18.050 +01:00 [INF] CORS policy execution successful.
+2024-12-22 22:31:18.051 +01:00 [INF] Executing endpoint 'HTTP: GET /api/posiljke'
+2024-12-22 22:31:18.052 +01:00 [INF] Setting HTTP status code 200.
+2024-12-22 22:31:18.053 +01:00 [INF] Writing value of type 'List`1' as Json.
+2024-12-22 22:31:18.054 +01:00 [INF] Executed endpoint 'HTTP: GET /api/posiljke'
+2024-12-22 22:31:18.055 +01:00 [INF] Odgovor za /api/posiljke vraćen sa status kodom 200
+2024-12-22 22:31:18.058 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/api/posiljke - 200 null application/json; charset=utf-8 22.0637ms
+2024-12-22 22:31:23.403 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/api/posiljke - null null
+2024-12-22 22:31:23.409 +01:00 [INF] Primljen GET zahtev na /api/posiljke
+2024-12-22 22:31:23.414 +01:00 [INF] CORS policy execution successful.
+2024-12-22 22:31:23.417 +01:00 [INF] Executing endpoint 'HTTP: GET /api/posiljke'
+2024-12-22 22:31:23.420 +01:00 [INF] Setting HTTP status code 200.
+2024-12-22 22:31:23.424 +01:00 [INF] Writing value of type 'List`1' as Json.
+2024-12-22 22:31:23.427 +01:00 [INF] Executed endpoint 'HTTP: GET /api/posiljke'
+2024-12-22 22:31:23.430 +01:00 [INF] Odgovor za /api/posiljke vraćen sa status kodom 200
+2024-12-22 22:31:23.432 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/api/posiljke - 200 null application/json; charset=utf-8 29.7691ms
+2024-12-22 22:34:02.189 +01:00 [INF] Now listening on: https://localhost:7261
+2024-12-22 22:34:02.234 +01:00 [INF] Now listening on: http://localhost:5195
+2024-12-22 22:34:02.252 +01:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-12-22 22:34:02.449 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/index.html - null null
+2024-12-22 22:34:02.557 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-22 22:34:02.565 +01:00 [INF] Hosting environment: Development
+2024-12-22 22:34:02.567 +01:00 [INF] Content root path: F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaBack
+2024-12-22 22:34:02.665 +01:00 [INF] Primljen GET zahtev na /swagger/index.html
+2024-12-22 22:34:02.779 +01:00 [INF] Odgovor za /swagger/index.html vraćen sa status kodom 200
+2024-12-22 22:34:02.791 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-22 22:34:02.793 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_vs/browserLink - null null
+2024-12-22 22:34:02.794 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/index.html - 200 null text/html;charset=utf-8 357.2977ms
+2024-12-22 22:34:02.811 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - 200 13792 application/javascript; charset=utf-8 20.3548ms
+2024-12-22 22:34:02.869 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_vs/browserLink - 200 null text/javascript; charset=UTF-8 78.6761ms
+2024-12-22 22:34:02.918 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - null null
+2024-12-22 22:34:02.924 +01:00 [INF] Primljen GET zahtev na /swagger/v1/swagger.json
+2024-12-22 22:34:02.934 +01:00 [INF] Odgovor za /swagger/v1/swagger.json vraćen sa status kodom 200
+2024-12-22 22:34:02.939 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 22.7196ms
+2024-12-22 22:34:03.384 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/api/posiljke - null null
+2024-12-22 22:34:03.398 +01:00 [INF] Primljen GET zahtev na /api/posiljke
+2024-12-22 22:34:03.401 +01:00 [INF] CORS policy execution successful.
+2024-12-22 22:34:03.417 +01:00 [INF] Executing endpoint 'HTTP: GET /api/posiljke'
+2024-12-22 22:34:03.449 +01:00 [INF] Setting HTTP status code 200.
+2024-12-22 22:34:03.459 +01:00 [INF] Writing value of type 'List`1' as Json.
+2024-12-22 22:34:03.478 +01:00 [INF] Executed endpoint 'HTTP: GET /api/posiljke'
+2024-12-22 22:34:03.485 +01:00 [INF] Odgovor za /api/posiljke vraćen sa status kodom 200
+2024-12-22 22:34:03.493 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/api/posiljke - 200 null application/json; charset=utf-8 108.9403ms
+2024-12-22 22:34:09.883 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/api/posiljke - null null
+2024-12-22 22:34:09.893 +01:00 [INF] Primljen GET zahtev na /api/posiljke
+2024-12-22 22:34:09.901 +01:00 [INF] CORS policy execution successful.
+2024-12-22 22:34:09.908 +01:00 [INF] Executing endpoint 'HTTP: GET /api/posiljke'
+2024-12-22 22:34:09.916 +01:00 [INF] Setting HTTP status code 200.
+2024-12-22 22:34:09.920 +01:00 [INF] Writing value of type 'List`1' as Json.
+2024-12-22 22:34:09.929 +01:00 [INF] Executed endpoint 'HTTP: GET /api/posiljke'
+2024-12-22 22:34:09.933 +01:00 [INF] Odgovor za /api/posiljke vraćen sa status kodom 200
+2024-12-22 22:34:09.940 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/api/posiljke - 200 null application/json; charset=utf-8 58.3622ms
+2024-12-22 22:34:41.287 +01:00 [INF] Now listening on: https://localhost:7261
+2024-12-22 22:34:41.326 +01:00 [INF] Now listening on: http://localhost:5195
+2024-12-22 22:34:41.405 +01:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-12-22 22:34:41.602 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-22 22:34:41.606 +01:00 [INF] Hosting environment: Development
+2024-12-22 22:34:41.610 +01:00 [INF] Content root path: F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaBack
+2024-12-22 22:34:41.889 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/index.html - null null
+2024-12-22 22:34:42.097 +01:00 [INF] Primljen GET zahtev na /swagger/index.html
+2024-12-22 22:34:42.226 +01:00 [INF] Odgovor za /swagger/index.html vraćen sa status kodom 200
+2024-12-22 22:34:42.239 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/index.html - 200 null text/html;charset=utf-8 359.8412ms
+2024-12-22 22:34:42.242 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-22 22:34:42.243 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_vs/browserLink - null null
+2024-12-22 22:34:42.288 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - 200 13792 application/javascript; charset=utf-8 45.8867ms
+2024-12-22 22:34:42.337 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/api/posiljke - null null
+2024-12-22 22:34:42.354 +01:00 [INF] Primljen GET zahtev na /api/posiljke
+2024-12-22 22:34:42.364 +01:00 [INF] CORS policy execution successful.
+2024-12-22 22:34:42.397 +01:00 [INF] Executing endpoint 'HTTP: GET /api/posiljke'
+2024-12-22 22:34:42.404 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_vs/browserLink - 200 null text/javascript; charset=UTF-8 161.278ms
+2024-12-22 22:34:42.455 +01:00 [INF] Setting HTTP status code 200.
+2024-12-22 22:34:42.462 +01:00 [INF] Writing value of type 'List`1' as Json.
+2024-12-22 22:34:42.467 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - null null
+2024-12-22 22:34:42.478 +01:00 [INF] Primljen GET zahtev na /swagger/v1/swagger.json
+2024-12-22 22:34:42.488 +01:00 [INF] Executed endpoint 'HTTP: GET /api/posiljke'
+2024-12-22 22:34:42.492 +01:00 [INF] Odgovor za /api/posiljke vraćen sa status kodom 200
+2024-12-22 22:34:42.496 +01:00 [INF] Odgovor za /swagger/v1/swagger.json vraćen sa status kodom 200
+2024-12-22 22:34:42.498 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/api/posiljke - 200 null application/json; charset=utf-8 161.0745ms
+2024-12-22 22:34:42.503 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 36.8658ms
+2024-12-22 22:34:48.257 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/api/posiljke - null null
+2024-12-22 22:34:48.272 +01:00 [INF] Primljen GET zahtev na /api/posiljke
+2024-12-22 22:34:48.277 +01:00 [INF] CORS policy execution successful.
+2024-12-22 22:34:48.283 +01:00 [INF] Executing endpoint 'HTTP: GET /api/posiljke'
+2024-12-22 22:34:48.292 +01:00 [INF] Setting HTTP status code 200.
+2024-12-22 22:34:48.298 +01:00 [INF] Writing value of type 'List`1' as Json.
+2024-12-22 22:34:48.305 +01:00 [INF] Executed endpoint 'HTTP: GET /api/posiljke'
+2024-12-22 22:34:48.311 +01:00 [INF] Odgovor za /api/posiljke vraćen sa status kodom 200
+2024-12-22 22:34:48.316 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/api/posiljke - 200 null application/json; charset=utf-8 59.1434ms
+2024-12-22 22:34:50.743 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/api/posiljke - null null
+2024-12-22 22:34:50.755 +01:00 [INF] Primljen GET zahtev na /api/posiljke
+2024-12-22 22:34:50.758 +01:00 [INF] CORS policy execution successful.
+2024-12-22 22:34:50.760 +01:00 [INF] Executing endpoint 'HTTP: GET /api/posiljke'
+2024-12-22 22:34:50.763 +01:00 [INF] Setting HTTP status code 200.
+2024-12-22 22:34:50.767 +01:00 [INF] Writing value of type 'List`1' as Json.
+2024-12-22 22:34:50.769 +01:00 [INF] Executed endpoint 'HTTP: GET /api/posiljke'
+2024-12-22 22:34:50.774 +01:00 [INF] Odgovor za /api/posiljke vraćen sa status kodom 200
+2024-12-22 22:34:50.778 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/api/posiljke - 200 null application/json; charset=utf-8 35.2534ms
+2024-12-22 22:34:55.480 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/api/posiljke - null null
+2024-12-22 22:34:55.492 +01:00 [INF] Primljen GET zahtev na /api/posiljke
+2024-12-22 22:34:55.497 +01:00 [INF] CORS policy execution successful.
+2024-12-22 22:34:55.503 +01:00 [INF] Executing endpoint 'HTTP: GET /api/posiljke'
+2024-12-22 22:34:55.509 +01:00 [INF] Setting HTTP status code 200.
+2024-12-22 22:34:55.515 +01:00 [INF] Writing value of type 'List`1' as Json.
+2024-12-22 22:34:55.520 +01:00 [INF] Executed endpoint 'HTTP: GET /api/posiljke'
+2024-12-22 22:34:55.526 +01:00 [INF] Odgovor za /api/posiljke vraćen sa status kodom 200
+2024-12-22 22:34:55.528 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/api/posiljke - 200 null application/json; charset=utf-8 48.6928ms
+2024-12-22 22:34:56.864 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/api/posiljke - null null
+2024-12-22 22:34:56.871 +01:00 [INF] Primljen GET zahtev na /api/posiljke
+2024-12-22 22:34:56.877 +01:00 [INF] CORS policy execution successful.
+2024-12-22 22:34:56.881 +01:00 [INF] Executing endpoint 'HTTP: GET /api/posiljke'
+2024-12-22 22:34:56.887 +01:00 [INF] Setting HTTP status code 200.
+2024-12-22 22:34:56.895 +01:00 [INF] Writing value of type 'List`1' as Json.
+2024-12-22 22:34:56.900 +01:00 [INF] Executed endpoint 'HTTP: GET /api/posiljke'
+2024-12-22 22:34:56.905 +01:00 [INF] Odgovor za /api/posiljke vraćen sa status kodom 200
+2024-12-22 22:34:56.911 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/api/posiljke - 200 null application/json; charset=utf-8 48.0509ms
+2024-12-22 23:00:59.118 +01:00 [INF] User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-12-22 23:00:59.308 +01:00 [INF] Creating key {394d5001-25f4-4666-a24a-a6c44113bae3} with creation date 2024-12-22 22:00:59Z, activation date 2024-12-22 22:00:59Z, and expiration date 2025-03-22 22:00:59Z.
+2024-12-22 23:00:59.329 +01:00 [INF] Writing data to file 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys\key-394d5001-25f4-4666-a24a-a6c44113bae3.xml'.
+2024-12-22 23:00:59.765 +01:00 [INF] Now listening on: https://localhost:7261
+2024-12-22 23:00:59.771 +01:00 [INF] Now listening on: http://localhost:5195
+2024-12-22 23:00:59.785 +01:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-12-22 23:01:00.039 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-22 23:01:00.045 +01:00 [INF] Hosting environment: Development
+2024-12-22 23:01:00.048 +01:00 [INF] Content root path: F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaBack
+2024-12-22 23:01:00.300 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/login-status - null null
+2024-12-22 23:01:00.938 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/index.html - null null
+2024-12-22 23:01:02.967 +01:00 [INF] Primljen GET zahtev na /login-status
+2024-12-22 23:01:02.968 +01:00 [INF] Primljen GET zahtev na /swagger/index.html
+2024-12-22 23:01:02.981 +01:00 [INF] CORS policy execution successful.
+2024-12-22 23:01:03.061 +01:00 [INF] Executing endpoint 'HTTP: GET /login-status'
+2024-12-22 23:01:03.096 +01:00 [INF] Setting HTTP status code 200.
+2024-12-22 23:01:03.113 +01:00 [INF] Writing value of type '<>f__AnonymousType0`1' as Json.
+2024-12-22 23:01:03.130 +01:00 [INF] Executed endpoint 'HTTP: GET /login-status'
+2024-12-22 23:01:03.136 +01:00 [INF] Odgovor za /login-status vraćen sa status kodom 200
+2024-12-22 23:01:03.143 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/login-status - 200 null application/json; charset=utf-8 2849.0992ms
+2024-12-22 23:01:03.195 +01:00 [INF] Odgovor za /swagger/index.html vraćen sa status kodom 200
+2024-12-22 23:01:03.204 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-22 23:01:03.207 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_vs/browserLink - null null
+2024-12-22 23:01:03.210 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/index.html - 200 null text/html;charset=utf-8 2272.4976ms
+2024-12-22 23:01:03.231 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - 200 13792 application/javascript; charset=utf-8 27.362ms
+2024-12-22 23:01:03.308 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_vs/browserLink - 200 null text/javascript; charset=UTF-8 102.554ms
+2024-12-22 23:01:03.367 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - null null
+2024-12-22 23:01:03.384 +01:00 [INF] Primljen GET zahtev na /swagger/v1/swagger.json
+2024-12-22 23:01:03.410 +01:00 [INF] Odgovor za /swagger/v1/swagger.json vraćen sa status kodom 200
+2024-12-22 23:01:03.418 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 51.753ms
+2024-12-22 23:01:14.490 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/api/posiljke - null null
+2024-12-22 23:01:14.509 +01:00 [INF] Primljen GET zahtev na /api/posiljke
+2024-12-22 23:01:14.515 +01:00 [INF] CORS policy execution successful.
+2024-12-22 23:01:14.519 +01:00 [INF] Executing endpoint 'HTTP: GET /api/posiljke'
+2024-12-22 23:01:14.531 +01:00 [INF] Setting HTTP status code 200.
+2024-12-22 23:01:14.542 +01:00 [INF] Writing value of type 'List`1' as Json.
+2024-12-22 23:01:14.571 +01:00 [INF] Executed endpoint 'HTTP: GET /api/posiljke'
+2024-12-22 23:01:14.576 +01:00 [INF] Odgovor za /api/posiljke vraćen sa status kodom 200
+2024-12-22 23:01:14.582 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/api/posiljke - 200 null application/json; charset=utf-8 92.9063ms
+2024-12-22 23:01:14.625 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/login-status - null null
+2024-12-22 23:01:14.640 +01:00 [INF] Primljen GET zahtev na /login-status
+2024-12-22 23:01:14.649 +01:00 [INF] CORS policy execution successful.
+2024-12-22 23:01:14.656 +01:00 [INF] Executing endpoint 'HTTP: GET /login-status'
+2024-12-22 23:01:14.662 +01:00 [INF] Setting HTTP status code 200.
+2024-12-22 23:01:14.670 +01:00 [INF] Writing value of type '<>f__AnonymousType0`1' as Json.
+2024-12-22 23:01:14.677 +01:00 [INF] Executed endpoint 'HTTP: GET /login-status'
+2024-12-22 23:01:14.681 +01:00 [INF] Odgovor za /login-status vraćen sa status kodom 200
+2024-12-22 23:01:14.689 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/login-status - 200 null application/json; charset=utf-8 64.2391ms
+2024-12-22 23:01:48.743 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/api/posiljke - null null
+2024-12-22 23:01:48.750 +01:00 [INF] Primljen GET zahtev na /api/posiljke
+2024-12-22 23:01:48.756 +01:00 [INF] CORS policy execution successful.
+2024-12-22 23:01:48.760 +01:00 [INF] Executing endpoint 'HTTP: GET /api/posiljke'
+2024-12-22 23:01:48.767 +01:00 [INF] Setting HTTP status code 200.
+2024-12-22 23:01:48.773 +01:00 [INF] Writing value of type 'List`1' as Json.
+2024-12-22 23:01:48.779 +01:00 [INF] Executed endpoint 'HTTP: GET /api/posiljke'
+2024-12-22 23:01:48.782 +01:00 [INF] Odgovor za /api/posiljke vraćen sa status kodom 200
+2024-12-22 23:01:48.785 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/api/posiljke - 200 null application/json; charset=utf-8 42.9401ms
+2024-12-22 23:01:48.923 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/login-status - null null
+2024-12-22 23:01:48.935 +01:00 [INF] Primljen GET zahtev na /login-status
+2024-12-22 23:01:48.941 +01:00 [INF] CORS policy execution successful.
+2024-12-22 23:01:48.947 +01:00 [INF] Executing endpoint 'HTTP: GET /login-status'
+2024-12-22 23:01:48.956 +01:00 [INF] Setting HTTP status code 200.
+2024-12-22 23:01:48.963 +01:00 [INF] Writing value of type '<>f__AnonymousType0`1' as Json.
+2024-12-22 23:01:48.973 +01:00 [INF] Executed endpoint 'HTTP: GET /login-status'
+2024-12-22 23:01:48.991 +01:00 [INF] Odgovor za /login-status vraćen sa status kodom 200
+2024-12-22 23:01:49.003 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/login-status - 200 null application/json; charset=utf-8 81.1237ms
+2024-12-22 23:01:49.891 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/index.html - null null
+2024-12-22 23:01:49.924 +01:00 [INF] Primljen GET zahtev na /swagger/index.html
+2024-12-22 23:01:49.951 +01:00 [INF] Odgovor za /swagger/index.html vraćen sa status kodom 200
+2024-12-22 23:01:49.958 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/index.html - 200 null text/html;charset=utf-8 68.942ms
+2024-12-22 23:01:49.964 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-22 23:01:49.965 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_vs/browserLink - null null
+2024-12-22 23:01:49.978 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - 200 13792 application/javascript; charset=utf-8 13.6873ms
+2024-12-22 23:01:50.034 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_vs/browserLink - 200 null text/javascript; charset=UTF-8 69.6732ms
+2024-12-22 23:01:50.326 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - null null
+2024-12-22 23:01:50.342 +01:00 [INF] Primljen GET zahtev na /swagger/v1/swagger.json
+2024-12-22 23:01:50.361 +01:00 [INF] Odgovor za /swagger/v1/swagger.json vraćen sa status kodom 200
+2024-12-22 23:01:50.368 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 43.1085ms
+2024-12-22 23:01:53.895 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7261/login - null 0
+2024-12-22 23:01:53.906 +01:00 [INF] Primljen POST zahtev na /login
+2024-12-22 23:01:53.912 +01:00 [INF] CORS policy execution successful.
+2024-12-22 23:01:53.916 +01:00 [INF] Executing endpoint 'HTTP: POST /login'
+2024-12-22 23:01:53.918 +01:00 [INF] Setting HTTP status code 200.
+2024-12-22 23:01:53.922 +01:00 [INF] Writing value of type '<>f__AnonymousType0`1' as Json.
+2024-12-22 23:01:53.932 +01:00 [INF] Executed endpoint 'HTTP: POST /login'
+2024-12-22 23:01:53.940 +01:00 [INF] Odgovor za /login vraćen sa status kodom 200
+2024-12-22 23:01:53.947 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7261/login - 200 null application/json; charset=utf-8 51.8431ms
+2024-12-22 23:01:56.068 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7261/login - null 0
+2024-12-22 23:01:56.083 +01:00 [INF] Primljen POST zahtev na /login
+2024-12-22 23:01:56.087 +01:00 [INF] CORS policy execution successful.
+2024-12-22 23:01:56.090 +01:00 [INF] Executing endpoint 'HTTP: POST /login'
+2024-12-22 23:01:56.096 +01:00 [INF] Setting HTTP status code 200.
+2024-12-22 23:01:56.102 +01:00 [INF] Writing value of type '<>f__AnonymousType0`1' as Json.
+2024-12-22 23:01:56.106 +01:00 [INF] Executed endpoint 'HTTP: POST /login'
+2024-12-22 23:01:56.111 +01:00 [INF] Odgovor za /login vraćen sa status kodom 200
+2024-12-22 23:01:56.116 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7261/login - 200 null application/json; charset=utf-8 48.5937ms
+2024-12-22 23:01:59.792 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7261/login - null 0
+2024-12-22 23:01:59.803 +01:00 [INF] Primljen POST zahtev na /login
+2024-12-22 23:01:59.821 +01:00 [INF] CORS policy execution successful.
+2024-12-22 23:01:59.826 +01:00 [INF] Executing endpoint 'HTTP: POST /login'
+2024-12-22 23:01:59.834 +01:00 [INF] Setting HTTP status code 200.
+2024-12-22 23:01:59.838 +01:00 [INF] Writing value of type '<>f__AnonymousType0`1' as Json.
+2024-12-22 23:01:59.843 +01:00 [INF] Executed endpoint 'HTTP: POST /login'
+2024-12-22 23:01:59.846 +01:00 [INF] Odgovor za /login vraćen sa status kodom 200
+2024-12-22 23:01:59.855 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7261/login - 200 null application/json; charset=utf-8 63.1199ms
+2024-12-22 23:02:02.307 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7261/login - null 0
+2024-12-22 23:02:02.320 +01:00 [INF] Primljen POST zahtev na /login
+2024-12-22 23:02:02.326 +01:00 [INF] CORS policy execution successful.
+2024-12-22 23:02:02.332 +01:00 [INF] Executing endpoint 'HTTP: POST /login'
+2024-12-22 23:02:02.335 +01:00 [INF] Setting HTTP status code 200.
+2024-12-22 23:02:02.340 +01:00 [INF] Writing value of type '<>f__AnonymousType0`1' as Json.
+2024-12-22 23:02:02.346 +01:00 [INF] Executed endpoint 'HTTP: POST /login'
+2024-12-22 23:02:02.351 +01:00 [INF] Odgovor za /login vraćen sa status kodom 200
+2024-12-22 23:02:02.360 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7261/login - 200 null application/json; charset=utf-8 54.4766ms
+2024-12-22 23:02:04.651 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7261/login - null 0
+2024-12-22 23:02:04.662 +01:00 [INF] Primljen POST zahtev na /login
+2024-12-22 23:02:04.671 +01:00 [INF] CORS policy execution successful.
+2024-12-22 23:02:04.677 +01:00 [INF] Executing endpoint 'HTTP: POST /login'
+2024-12-22 23:02:04.685 +01:00 [INF] Setting HTTP status code 200.
+2024-12-22 23:02:04.691 +01:00 [INF] Writing value of type '<>f__AnonymousType0`1' as Json.
+2024-12-22 23:02:04.697 +01:00 [INF] Executed endpoint 'HTTP: POST /login'
+2024-12-22 23:02:04.702 +01:00 [INF] Odgovor za /login vraćen sa status kodom 200
+2024-12-22 23:02:04.707 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7261/login - 200 null application/json; charset=utf-8 56.8548ms
+2024-12-22 23:02:06.334 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7261/login - null 0
+2024-12-22 23:02:06.347 +01:00 [INF] Primljen POST zahtev na /login
+2024-12-22 23:02:06.355 +01:00 [INF] CORS policy execution successful.
+2024-12-22 23:02:06.360 +01:00 [INF] Executing endpoint 'HTTP: POST /login'
+2024-12-22 23:02:06.366 +01:00 [INF] Setting HTTP status code 200.
+2024-12-22 23:02:06.371 +01:00 [INF] Writing value of type '<>f__AnonymousType0`1' as Json.
+2024-12-22 23:02:06.376 +01:00 [INF] Executed endpoint 'HTTP: POST /login'
+2024-12-22 23:02:06.380 +01:00 [INF] Odgovor za /login vraćen sa status kodom 200
+2024-12-22 23:02:06.386 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7261/login - 200 null application/json; charset=utf-8 52.7201ms
+2024-12-22 23:02:09.949 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7261/login - null 0
+2024-12-22 23:02:09.959 +01:00 [INF] Primljen POST zahtev na /login
+2024-12-22 23:02:09.963 +01:00 [INF] CORS policy execution successful.
+2024-12-22 23:02:09.965 +01:00 [INF] Executing endpoint 'HTTP: POST /login'
+2024-12-22 23:02:09.967 +01:00 [INF] Setting HTTP status code 200.
+2024-12-22 23:02:09.969 +01:00 [INF] Writing value of type '<>f__AnonymousType0`1' as Json.
+2024-12-22 23:02:09.976 +01:00 [INF] Executed endpoint 'HTTP: POST /login'
+2024-12-22 23:02:09.985 +01:00 [INF] Odgovor za /login vraćen sa status kodom 200
+2024-12-22 23:02:09.991 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7261/login - 200 null application/json; charset=utf-8 42.041ms
+2024-12-22 23:02:11.284 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7261/login - null 0
+2024-12-22 23:02:11.302 +01:00 [INF] Primljen POST zahtev na /login
+2024-12-22 23:02:11.305 +01:00 [INF] CORS policy execution successful.
+2024-12-22 23:02:11.312 +01:00 [INF] Executing endpoint 'HTTP: POST /login'
+2024-12-22 23:02:11.316 +01:00 [INF] Setting HTTP status code 200.
+2024-12-22 23:02:11.321 +01:00 [INF] Writing value of type '<>f__AnonymousType0`1' as Json.
+2024-12-22 23:02:11.326 +01:00 [INF] Executed endpoint 'HTTP: POST /login'
+2024-12-22 23:02:11.333 +01:00 [INF] Odgovor za /login vraćen sa status kodom 200
+2024-12-22 23:02:11.337 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7261/login - 200 null application/json; charset=utf-8 54.0161ms
+2024-12-22 23:02:15.832 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7261/login - null 0
+2024-12-22 23:02:15.843 +01:00 [INF] Primljen POST zahtev na /login
+2024-12-22 23:02:15.847 +01:00 [INF] CORS policy execution successful.
+2024-12-22 23:02:15.851 +01:00 [INF] Executing endpoint 'HTTP: POST /login'
+2024-12-22 23:02:15.858 +01:00 [INF] Setting HTTP status code 200.
+2024-12-22 23:02:15.862 +01:00 [INF] Writing value of type '<>f__AnonymousType0`1' as Json.
+2024-12-22 23:02:15.864 +01:00 [INF] Executed endpoint 'HTTP: POST /login'
+2024-12-22 23:02:15.867 +01:00 [INF] Odgovor za /login vraćen sa status kodom 200
+2024-12-22 23:02:15.875 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7261/login - 200 null application/json; charset=utf-8 43.844ms
+2024-12-22 23:02:16.589 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7261/login - null 0
+2024-12-22 23:02:16.598 +01:00 [INF] Primljen POST zahtev na /login
+2024-12-22 23:02:16.601 +01:00 [INF] CORS policy execution successful.
+2024-12-22 23:02:16.604 +01:00 [INF] Executing endpoint 'HTTP: POST /login'
+2024-12-22 23:02:16.612 +01:00 [INF] Setting HTTP status code 200.
+2024-12-22 23:02:16.618 +01:00 [INF] Writing value of type '<>f__AnonymousType0`1' as Json.
+2024-12-22 23:02:16.627 +01:00 [INF] Executed endpoint 'HTTP: POST /login'
+2024-12-22 23:02:16.632 +01:00 [INF] Odgovor za /login vraćen sa status kodom 200
+2024-12-22 23:02:16.641 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7261/login - 200 null application/json; charset=utf-8 54.4908ms
+2024-12-22 23:04:14.321 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/api/posiljke - null null
+2024-12-22 23:04:14.344 +01:00 [INF] Primljen GET zahtev na /api/posiljke
+2024-12-22 23:04:14.351 +01:00 [INF] CORS policy execution successful.
+2024-12-22 23:04:14.354 +01:00 [INF] Executing endpoint 'HTTP: GET /api/posiljke'
+2024-12-22 23:04:14.359 +01:00 [INF] Setting HTTP status code 200.
+2024-12-22 23:04:14.365 +01:00 [INF] Writing value of type 'List`1' as Json.
+2024-12-22 23:04:14.372 +01:00 [INF] Executed endpoint 'HTTP: GET /api/posiljke'
+2024-12-22 23:04:14.377 +01:00 [INF] Odgovor za /api/posiljke vraćen sa status kodom 200
+2024-12-22 23:04:14.384 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/api/posiljke - 200 null application/json; charset=utf-8 62.5586ms
+2024-12-22 23:04:14.459 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/index.html - null null
+2024-12-22 23:04:14.488 +01:00 [INF] Primljen GET zahtev na /swagger/index.html
+2024-12-22 23:04:14.500 +01:00 [INF] Odgovor za /swagger/index.html vraćen sa status kodom 200
+2024-12-22 23:04:14.515 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/index.html - 200 null text/html;charset=utf-8 56.651ms
+2024-12-22 23:04:14.516 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_vs/browserLink - null null
+2024-12-22 23:04:14.515 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-22 23:04:14.558 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - 200 13792 application/javascript; charset=utf-8 43.2245ms
+2024-12-22 23:04:14.571 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/login-status - null null
+2024-12-22 23:04:14.581 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_vs/browserLink - 200 null text/javascript; charset=UTF-8 64.6752ms
+2024-12-22 23:04:14.585 +01:00 [INF] Primljen GET zahtev na /login-status
+2024-12-22 23:04:14.595 +01:00 [INF] CORS policy execution successful.
+2024-12-22 23:04:14.598 +01:00 [INF] Executing endpoint 'HTTP: GET /login-status'
+2024-12-22 23:04:14.601 +01:00 [INF] Setting HTTP status code 200.
+2024-12-22 23:04:14.605 +01:00 [INF] Writing value of type '<>f__AnonymousType0`1' as Json.
+2024-12-22 23:04:14.608 +01:00 [INF] Executed endpoint 'HTTP: GET /login-status'
+2024-12-22 23:04:14.610 +01:00 [INF] Odgovor za /login-status vraćen sa status kodom 200
+2024-12-22 23:04:14.612 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/login-status - 200 null application/json; charset=utf-8 41.9179ms
+2024-12-22 23:04:14.687 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - null null
+2024-12-22 23:04:14.693 +01:00 [INF] Primljen GET zahtev na /swagger/v1/swagger.json
+2024-12-22 23:04:14.699 +01:00 [INF] Odgovor za /swagger/v1/swagger.json vraćen sa status kodom 200
+2024-12-22 23:04:14.703 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 16.7876ms
+2024-12-22 23:05:18.126 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/index.html - null null
+2024-12-22 23:05:18.151 +01:00 [INF] Primljen GET zahtev na /swagger/index.html
+2024-12-22 23:05:18.169 +01:00 [INF] Odgovor za /swagger/index.html vraćen sa status kodom 200
+2024-12-22 23:05:18.181 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/index.html - 200 null text/html;charset=utf-8 54.982ms
+2024-12-22 23:05:18.184 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_vs/browserLink - null null
+2024-12-22 23:05:18.184 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-22 23:05:18.213 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - 200 13792 application/javascript; charset=utf-8 29.6567ms
+2024-12-22 23:05:18.233 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_vs/browserLink - 200 null text/javascript; charset=UTF-8 49.1309ms
+2024-12-22 23:05:18.335 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - null null
+2024-12-22 23:05:18.347 +01:00 [INF] Primljen GET zahtev na /swagger/v1/swagger.json
+2024-12-22 23:05:18.352 +01:00 [INF] Odgovor za /swagger/v1/swagger.json vraćen sa status kodom 200
+2024-12-22 23:05:18.357 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 22.1134ms
+2024-12-22 23:05:24.860 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7261/login - null 0
+2024-12-22 23:05:24.874 +01:00 [INF] Primljen POST zahtev na /login
+2024-12-22 23:05:24.876 +01:00 [INF] CORS policy execution successful.
+2024-12-22 23:05:24.878 +01:00 [INF] Executing endpoint 'HTTP: POST /login'
+2024-12-22 23:05:24.882 +01:00 [INF] Setting HTTP status code 200.
+2024-12-22 23:05:24.885 +01:00 [INF] Writing value of type '<>f__AnonymousType0`1' as Json.
+2024-12-22 23:05:24.889 +01:00 [INF] Executed endpoint 'HTTP: POST /login'
+2024-12-22 23:05:24.894 +01:00 [INF] Odgovor za /login vraćen sa status kodom 200
+2024-12-22 23:05:24.902 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7261/login - 200 null application/json; charset=utf-8 42.6379ms
+2024-12-22 23:05:28.201 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/api/posiljke - null null
+2024-12-22 23:05:28.213 +01:00 [INF] Primljen GET zahtev na /api/posiljke
+2024-12-22 23:05:28.218 +01:00 [INF] CORS policy execution successful.
+2024-12-22 23:05:28.221 +01:00 [INF] Executing endpoint 'HTTP: GET /api/posiljke'
+2024-12-22 23:05:28.226 +01:00 [INF] Setting HTTP status code 200.
+2024-12-22 23:05:28.238 +01:00 [INF] Writing value of type 'List`1' as Json.
+2024-12-22 23:05:28.252 +01:00 [INF] Executed endpoint 'HTTP: GET /api/posiljke'
+2024-12-22 23:05:28.258 +01:00 [INF] Odgovor za /api/posiljke vraćen sa status kodom 200
+2024-12-22 23:05:28.264 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/api/posiljke - 200 null application/json; charset=utf-8 63.7206ms
+2024-12-22 23:05:28.305 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/login-status - null null
+2024-12-22 23:05:28.320 +01:00 [INF] Primljen GET zahtev na /login-status
+2024-12-22 23:05:28.329 +01:00 [INF] CORS policy execution successful.
+2024-12-22 23:05:28.330 +01:00 [INF] Executing endpoint 'HTTP: GET /login-status'
+2024-12-22 23:05:28.340 +01:00 [INF] Setting HTTP status code 200.
+2024-12-22 23:05:28.348 +01:00 [INF] Writing value of type '<>f__AnonymousType0`1' as Json.
+2024-12-22 23:05:28.353 +01:00 [INF] Executed endpoint 'HTTP: GET /login-status'
+2024-12-22 23:05:28.356 +01:00 [INF] Odgovor za /login-status vraćen sa status kodom 200
+2024-12-22 23:05:28.363 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/login-status - 200 null application/json; charset=utf-8 58.3515ms
+2024-12-22 23:05:30.042 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7261/login - null 0
+2024-12-22 23:05:30.052 +01:00 [INF] Primljen POST zahtev na /login
+2024-12-22 23:05:30.054 +01:00 [INF] CORS policy execution successful.
+2024-12-22 23:05:30.055 +01:00 [INF] Executing endpoint 'HTTP: POST /login'
+2024-12-22 23:05:30.058 +01:00 [INF] Setting HTTP status code 200.
+2024-12-22 23:05:30.063 +01:00 [INF] Writing value of type '<>f__AnonymousType0`1' as Json.
+2024-12-22 23:05:30.065 +01:00 [INF] Executed endpoint 'HTTP: POST /login'
+2024-12-22 23:05:30.069 +01:00 [INF] Odgovor za /login vraćen sa status kodom 200
+2024-12-22 23:05:30.074 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7261/login - 200 null application/json; charset=utf-8 32.7102ms
+2024-12-22 23:05:30.934 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/api/posiljke - null null
+2024-12-22 23:05:30.944 +01:00 [INF] Primljen GET zahtev na /api/posiljke
+2024-12-22 23:05:30.950 +01:00 [INF] CORS policy execution successful.
+2024-12-22 23:05:30.958 +01:00 [INF] Executing endpoint 'HTTP: GET /api/posiljke'
+2024-12-22 23:05:30.962 +01:00 [INF] Setting HTTP status code 200.
+2024-12-22 23:05:30.968 +01:00 [INF] Writing value of type 'List`1' as Json.
+2024-12-22 23:05:30.975 +01:00 [INF] Executed endpoint 'HTTP: GET /api/posiljke'
+2024-12-22 23:05:30.978 +01:00 [INF] Odgovor za /api/posiljke vraćen sa status kodom 200
+2024-12-22 23:05:30.984 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/api/posiljke - 200 null application/json; charset=utf-8 50.7548ms
+2024-12-22 23:05:30.994 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/login-status - null null
+2024-12-22 23:05:31.013 +01:00 [INF] Primljen GET zahtev na /login-status
+2024-12-22 23:05:31.024 +01:00 [INF] CORS policy execution successful.
+2024-12-22 23:05:31.028 +01:00 [INF] Executing endpoint 'HTTP: GET /login-status'
+2024-12-22 23:05:31.033 +01:00 [INF] Setting HTTP status code 200.
+2024-12-22 23:05:31.040 +01:00 [INF] Writing value of type '<>f__AnonymousType0`1' as Json.
+2024-12-22 23:05:31.045 +01:00 [INF] Executed endpoint 'HTTP: GET /login-status'
+2024-12-22 23:05:31.052 +01:00 [INF] Odgovor za /login-status vraćen sa status kodom 200
+2024-12-22 23:05:31.060 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/login-status - 200 null application/json; charset=utf-8 66.4472ms
+2024-12-22 23:05:32.788 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7261/login - null 0
+2024-12-22 23:05:32.799 +01:00 [INF] Primljen POST zahtev na /login
+2024-12-22 23:05:32.806 +01:00 [INF] CORS policy execution successful.
+2024-12-22 23:05:32.809 +01:00 [INF] Executing endpoint 'HTTP: POST /login'
+2024-12-22 23:05:32.815 +01:00 [INF] Setting HTTP status code 200.
+2024-12-22 23:05:32.819 +01:00 [INF] Writing value of type '<>f__AnonymousType0`1' as Json.
+2024-12-22 23:05:32.821 +01:00 [INF] Executed endpoint 'HTTP: POST /login'
+2024-12-22 23:05:32.823 +01:00 [INF] Odgovor za /login vraćen sa status kodom 200
+2024-12-22 23:05:32.825 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7261/login - 200 null application/json; charset=utf-8 38.2332ms
+2024-12-22 23:05:33.607 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/api/posiljke - null null
+2024-12-22 23:05:33.622 +01:00 [INF] Primljen GET zahtev na /api/posiljke
+2024-12-22 23:05:33.626 +01:00 [INF] CORS policy execution successful.
+2024-12-22 23:05:33.630 +01:00 [INF] Executing endpoint 'HTTP: GET /api/posiljke'
+2024-12-22 23:05:33.634 +01:00 [INF] Setting HTTP status code 200.
+2024-12-22 23:05:33.640 +01:00 [INF] Writing value of type 'List`1' as Json.
+2024-12-22 23:05:33.651 +01:00 [INF] Executed endpoint 'HTTP: GET /api/posiljke'
+2024-12-22 23:05:33.658 +01:00 [INF] Odgovor za /api/posiljke vraćen sa status kodom 200
+2024-12-22 23:05:33.666 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/api/posiljke - 200 null application/json; charset=utf-8 59.1765ms
+2024-12-22 23:05:33.674 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/login-status - null null
+2024-12-22 23:05:33.689 +01:00 [INF] Primljen GET zahtev na /login-status
+2024-12-22 23:05:33.696 +01:00 [INF] CORS policy execution successful.
+2024-12-22 23:05:33.700 +01:00 [INF] Executing endpoint 'HTTP: GET /login-status'
+2024-12-22 23:05:33.706 +01:00 [INF] Setting HTTP status code 200.
+2024-12-22 23:05:33.713 +01:00 [INF] Writing value of type '<>f__AnonymousType0`1' as Json.
+2024-12-22 23:05:33.717 +01:00 [INF] Executed endpoint 'HTTP: GET /login-status'
+2024-12-22 23:05:33.720 +01:00 [INF] Odgovor za /login-status vraćen sa status kodom 200
+2024-12-22 23:05:33.727 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/login-status - 200 null application/json; charset=utf-8 53.4131ms
+2024-12-22 23:06:42.129 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/index.html - null null
+2024-12-22 23:06:42.162 +01:00 [INF] Primljen GET zahtev na /swagger/index.html
+2024-12-22 23:06:42.173 +01:00 [INF] Odgovor za /swagger/index.html vraćen sa status kodom 200
+2024-12-22 23:06:42.179 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/index.html - 200 null text/html;charset=utf-8 51.2885ms
+2024-12-22 23:06:42.189 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-22 23:06:42.189 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_vs/browserLink - null null
+2024-12-22 23:06:42.198 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - 200 13792 application/javascript; charset=utf-8 9.6329ms
+2024-12-22 23:06:42.234 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_vs/browserLink - 200 null text/javascript; charset=UTF-8 45.7419ms
+2024-12-22 23:06:42.343 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - null null
+2024-12-22 23:06:42.347 +01:00 [INF] Primljen GET zahtev na /swagger/v1/swagger.json
+2024-12-22 23:06:42.352 +01:00 [INF] Odgovor za /swagger/v1/swagger.json vraćen sa status kodom 200
+2024-12-22 23:06:42.354 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 11.455ms
+2024-12-22 23:06:44.817 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7261/login - null 0
+2024-12-22 23:06:44.825 +01:00 [INF] Primljen POST zahtev na /login
+2024-12-22 23:06:44.832 +01:00 [INF] CORS policy execution successful.
+2024-12-22 23:06:44.835 +01:00 [INF] Executing endpoint 'HTTP: POST /login'
+2024-12-22 23:06:44.836 +01:00 [INF] Setting HTTP status code 200.
+2024-12-22 23:06:44.841 +01:00 [INF] Writing value of type '<>f__AnonymousType0`1' as Json.
+2024-12-22 23:06:44.849 +01:00 [INF] Executed endpoint 'HTTP: POST /login'
+2024-12-22 23:06:44.850 +01:00 [INF] Odgovor za /login vraćen sa status kodom 200
+2024-12-22 23:06:44.852 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7261/login - 200 null application/json; charset=utf-8 35.1077ms
+2024-12-22 23:07:20.220 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/index.html - null null
+2024-12-22 23:07:20.235 +01:00 [INF] Primljen GET zahtev na /swagger/index.html
+2024-12-22 23:07:20.242 +01:00 [INF] Odgovor za /swagger/index.html vraćen sa status kodom 200
+2024-12-22 23:07:20.256 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/index.html - 200 null text/html;charset=utf-8 33.6383ms
+2024-12-22 23:07:20.259 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_vs/browserLink - null null
+2024-12-22 23:07:20.259 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-22 23:07:20.272 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - 200 13792 application/javascript; charset=utf-8 12.2541ms
+2024-12-22 23:07:20.283 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_vs/browserLink - 200 null text/javascript; charset=UTF-8 24.6401ms
+2024-12-22 23:07:20.511 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - null null
+2024-12-22 23:07:20.523 +01:00 [INF] Primljen GET zahtev na /swagger/v1/swagger.json
+2024-12-22 23:07:20.530 +01:00 [INF] Odgovor za /swagger/v1/swagger.json vraćen sa status kodom 200
+2024-12-22 23:07:20.533 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 21.5289ms
+2024-12-22 23:07:22.630 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7261/login - null 0
+2024-12-22 23:07:22.649 +01:00 [INF] Primljen POST zahtev na /login
+2024-12-22 23:07:22.659 +01:00 [INF] CORS policy execution successful.
+2024-12-22 23:07:22.666 +01:00 [INF] Executing endpoint 'HTTP: POST /login'
+2024-12-22 23:07:22.672 +01:00 [INF] Setting HTTP status code 200.
+2024-12-22 23:07:22.676 +01:00 [INF] Writing value of type '<>f__AnonymousType0`1' as Json.
+2024-12-22 23:07:22.681 +01:00 [INF] Executed endpoint 'HTTP: POST /login'
+2024-12-22 23:07:22.684 +01:00 [INF] Odgovor za /login vraćen sa status kodom 200
+2024-12-22 23:07:22.688 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7261/login - 200 null application/json; charset=utf-8 57.389ms
+2024-12-22 23:07:23.352 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7261/login - null 0
+2024-12-22 23:07:23.363 +01:00 [INF] Primljen POST zahtev na /login
+2024-12-22 23:07:23.367 +01:00 [INF] CORS policy execution successful.
+2024-12-22 23:07:23.369 +01:00 [INF] Executing endpoint 'HTTP: POST /login'
+2024-12-22 23:07:23.371 +01:00 [INF] Setting HTTP status code 200.
+2024-12-22 23:07:23.372 +01:00 [INF] Writing value of type '<>f__AnonymousType0`1' as Json.
+2024-12-22 23:07:23.374 +01:00 [INF] Executed endpoint 'HTTP: POST /login'
+2024-12-22 23:07:23.377 +01:00 [INF] Odgovor za /login vraćen sa status kodom 200
+2024-12-22 23:07:23.380 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7261/login - 200 null application/json; charset=utf-8 29.108ms
+2024-12-22 23:08:25.345 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/api/posiljke - null null
+2024-12-22 23:08:25.361 +01:00 [INF] Primljen GET zahtev na /api/posiljke
+2024-12-22 23:08:25.365 +01:00 [INF] CORS policy execution successful.
+2024-12-22 23:08:25.371 +01:00 [INF] Executing endpoint 'HTTP: GET /api/posiljke'
+2024-12-22 23:08:25.375 +01:00 [INF] Setting HTTP status code 200.
+2024-12-22 23:08:25.382 +01:00 [INF] Writing value of type 'List`1' as Json.
+2024-12-22 23:08:25.392 +01:00 [INF] Executed endpoint 'HTTP: GET /api/posiljke'
+2024-12-22 23:08:25.400 +01:00 [INF] Odgovor za /api/posiljke vraćen sa status kodom 200
+2024-12-22 23:08:25.403 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/api/posiljke - 200 null application/json; charset=utf-8 59.9075ms
+2024-12-22 23:08:25.539 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/index.html - null null
+2024-12-22 23:08:25.557 +01:00 [INF] Primljen GET zahtev na /swagger/index.html
+2024-12-22 23:08:25.563 +01:00 [INF] Odgovor za /swagger/index.html vraćen sa status kodom 200
+2024-12-22 23:08:25.567 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/index.html - 200 null text/html;charset=utf-8 28.5004ms
+2024-12-22 23:08:25.576 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/login-status - null null
+2024-12-22 23:08:25.581 +01:00 [INF] Primljen GET zahtev na /login-status
+2024-12-22 23:08:25.585 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-22 23:08:25.585 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_vs/browserLink - null null
+2024-12-22 23:08:25.663 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - 200 13792 application/javascript; charset=utf-8 78.7101ms
+2024-12-22 23:08:25.620 +01:00 [INF] CORS policy execution successful.
+2024-12-22 23:08:25.714 +01:00 [INF] Executing endpoint 'HTTP: GET /login-status'
+2024-12-22 23:08:25.715 +01:00 [INF] Setting HTTP status code 200.
+2024-12-22 23:08:25.717 +01:00 [INF] Writing value of type '<>f__AnonymousType0`1' as Json.
+2024-12-22 23:08:25.720 +01:00 [INF] Executed endpoint 'HTTP: GET /login-status'
+2024-12-22 23:08:25.721 +01:00 [INF] Odgovor za /login-status vraćen sa status kodom 200
+2024-12-22 23:08:25.729 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/login-status - 200 null application/json; charset=utf-8 153.6643ms
+2024-12-22 23:08:25.732 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_vs/browserLink - 200 null text/javascript; charset=UTF-8 148.1059ms
+2024-12-22 23:08:25.856 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - null null
+2024-12-22 23:08:25.865 +01:00 [INF] Primljen GET zahtev na /swagger/v1/swagger.json
+2024-12-22 23:08:25.871 +01:00 [INF] Odgovor za /swagger/v1/swagger.json vraćen sa status kodom 200
+2024-12-22 23:08:25.874 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 18.4619ms
+2024-12-22 23:09:34.574 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/api/posiljke - null null
+2024-12-22 23:09:34.594 +01:00 [INF] Primljen GET zahtev na /api/posiljke
+2024-12-22 23:09:34.595 +01:00 [INF] CORS policy execution successful.
+2024-12-22 23:09:34.596 +01:00 [INF] Executing endpoint 'HTTP: GET /api/posiljke'
+2024-12-22 23:09:34.597 +01:00 [INF] Setting HTTP status code 200.
+2024-12-22 23:09:34.598 +01:00 [INF] Writing value of type 'List`1' as Json.
+2024-12-22 23:09:34.606 +01:00 [INF] Executed endpoint 'HTTP: GET /api/posiljke'
+2024-12-22 23:09:34.610 +01:00 [INF] Odgovor za /api/posiljke vraćen sa status kodom 200
+2024-12-22 23:09:34.612 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/api/posiljke - 200 null application/json; charset=utf-8 38.575ms
+2024-12-22 23:09:34.698 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/index.html - null null
+2024-12-22 23:09:34.718 +01:00 [INF] Primljen GET zahtev na /swagger/index.html
+2024-12-22 23:09:34.729 +01:00 [INF] Odgovor za /swagger/index.html vraćen sa status kodom 200
+2024-12-22 23:09:34.746 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-22 23:09:34.746 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_vs/browserLink - null null
+2024-12-22 23:09:34.746 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/index.html - 200 null text/html;charset=utf-8 48.6861ms
+2024-12-22 23:09:34.752 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - 200 13792 application/javascript; charset=utf-8 6.6805ms
+2024-12-22 23:09:34.786 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_vs/browserLink - 200 null text/javascript; charset=UTF-8 40.4814ms
+2024-12-22 23:09:34.808 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/login-status - null null
+2024-12-22 23:09:34.813 +01:00 [INF] Primljen GET zahtev na /login-status
+2024-12-22 23:09:34.815 +01:00 [INF] CORS policy execution successful.
+2024-12-22 23:09:34.817 +01:00 [INF] Executing endpoint 'HTTP: GET /login-status'
+2024-12-22 23:09:34.820 +01:00 [INF] Setting HTTP status code 200.
+2024-12-22 23:09:34.822 +01:00 [INF] Writing value of type '<>f__AnonymousType0`1' as Json.
+2024-12-22 23:09:34.825 +01:00 [INF] Executed endpoint 'HTTP: GET /login-status'
+2024-12-22 23:09:34.826 +01:00 [INF] Odgovor za /login-status vraćen sa status kodom 200
+2024-12-22 23:09:34.828 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/login-status - 200 null application/json; charset=utf-8 20.9437ms
+2024-12-22 23:09:34.917 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - null null
+2024-12-22 23:09:34.922 +01:00 [INF] Primljen GET zahtev na /swagger/v1/swagger.json
+2024-12-22 23:09:34.928 +01:00 [INF] Odgovor za /swagger/v1/swagger.json vraćen sa status kodom 200
+2024-12-22 23:09:34.930 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 14.1324ms
+2024-12-22 23:09:36.780 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7261/login - null 0
+2024-12-22 23:09:36.794 +01:00 [INF] Primljen POST zahtev na /login
+2024-12-22 23:09:36.797 +01:00 [INF] CORS policy execution successful.
+2024-12-22 23:09:36.799 +01:00 [INF] Executing endpoint 'HTTP: POST /login'
+2024-12-22 23:09:36.801 +01:00 [INF] Setting HTTP status code 200.
+2024-12-22 23:09:36.803 +01:00 [INF] Writing value of type '<>f__AnonymousType0`1' as Json.
+2024-12-22 23:09:36.805 +01:00 [INF] Executed endpoint 'HTTP: POST /login'
+2024-12-22 23:09:36.807 +01:00 [INF] Odgovor za /login vraćen sa status kodom 200
+2024-12-22 23:09:36.809 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7261/login - 200 null application/json; charset=utf-8 30.0987ms
+2024-12-22 23:09:50.896 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7261/login - null 0
+2024-12-22 23:09:50.916 +01:00 [INF] Primljen POST zahtev na /login
+2024-12-22 23:09:50.926 +01:00 [INF] CORS policy execution successful.
+2024-12-22 23:09:50.927 +01:00 [INF] Executing endpoint 'HTTP: POST /login'
+2024-12-22 23:09:50.933 +01:00 [INF] Setting HTTP status code 200.
+2024-12-22 23:09:50.939 +01:00 [INF] Writing value of type '<>f__AnonymousType0`1' as Json.
+2024-12-22 23:09:50.941 +01:00 [INF] Executed endpoint 'HTTP: POST /login'
+2024-12-22 23:09:50.944 +01:00 [INF] Odgovor za /login vraćen sa status kodom 200
+2024-12-22 23:09:50.949 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7261/login - 200 null application/json; charset=utf-8 53.5183ms
+2024-12-22 23:09:51.841 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7261/login - null 0
+2024-12-22 23:09:51.850 +01:00 [INF] Primljen POST zahtev na /login
+2024-12-22 23:09:51.855 +01:00 [INF] CORS policy execution successful.
+2024-12-22 23:09:51.858 +01:00 [INF] Executing endpoint 'HTTP: POST /login'
+2024-12-22 23:09:51.863 +01:00 [INF] Setting HTTP status code 200.
+2024-12-22 23:09:51.872 +01:00 [INF] Writing value of type '<>f__AnonymousType0`1' as Json.
+2024-12-22 23:09:51.879 +01:00 [INF] Executed endpoint 'HTTP: POST /login'
+2024-12-22 23:09:51.884 +01:00 [INF] Odgovor za /login vraćen sa status kodom 200
+2024-12-22 23:09:51.892 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7261/login - 200 null application/json; charset=utf-8 52.1508ms
+2024-12-22 23:09:52.493 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7261/login - null 0
+2024-12-22 23:09:52.512 +01:00 [INF] Primljen POST zahtev na /login
+2024-12-22 23:09:52.518 +01:00 [INF] CORS policy execution successful.
+2024-12-22 23:09:52.525 +01:00 [INF] Executing endpoint 'HTTP: POST /login'
+2024-12-22 23:09:52.532 +01:00 [INF] Setting HTTP status code 200.
+2024-12-22 23:09:52.536 +01:00 [INF] Writing value of type '<>f__AnonymousType0`1' as Json.
+2024-12-22 23:09:52.541 +01:00 [INF] Executed endpoint 'HTTP: POST /login'
+2024-12-22 23:09:52.549 +01:00 [INF] Odgovor za /login vraćen sa status kodom 200
+2024-12-22 23:09:52.554 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7261/login - 200 null application/json; charset=utf-8 61.196ms
+2024-12-22 23:09:54.608 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7261/login - null 0
+2024-12-22 23:09:54.622 +01:00 [INF] Primljen POST zahtev na /login
+2024-12-22 23:09:54.628 +01:00 [INF] CORS policy execution successful.
+2024-12-22 23:09:54.633 +01:00 [INF] Executing endpoint 'HTTP: POST /login'
+2024-12-22 23:09:54.638 +01:00 [INF] Setting HTTP status code 200.
+2024-12-22 23:09:54.642 +01:00 [INF] Writing value of type '<>f__AnonymousType0`1' as Json.
+2024-12-22 23:09:54.647 +01:00 [INF] Executed endpoint 'HTTP: POST /login'
+2024-12-22 23:09:54.652 +01:00 [INF] Odgovor za /login vraćen sa status kodom 200
+2024-12-22 23:09:54.659 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7261/login - 200 null application/json; charset=utf-8 50.6198ms
+2024-12-22 23:09:58.321 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7261/login - null 0
+2024-12-22 23:09:58.332 +01:00 [INF] Primljen POST zahtev na /login
+2024-12-22 23:09:58.336 +01:00 [INF] CORS policy execution successful.
+2024-12-22 23:09:58.337 +01:00 [INF] Executing endpoint 'HTTP: POST /login'
+2024-12-22 23:09:58.339 +01:00 [INF] Setting HTTP status code 200.
+2024-12-22 23:09:58.341 +01:00 [INF] Writing value of type '<>f__AnonymousType0`1' as Json.
+2024-12-22 23:09:58.343 +01:00 [INF] Executed endpoint 'HTTP: POST /login'
+2024-12-22 23:09:58.348 +01:00 [INF] Odgovor za /login vraćen sa status kodom 200
+2024-12-22 23:09:58.356 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7261/login - 200 null application/json; charset=utf-8 35.7344ms
+2024-12-22 23:11:44.742 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/index.html - null null
+2024-12-22 23:11:44.774 +01:00 [INF] Primljen GET zahtev na /swagger/index.html
+2024-12-22 23:11:44.788 +01:00 [INF] Odgovor za /swagger/index.html vraćen sa status kodom 200
+2024-12-22 23:11:44.796 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/index.html - 200 null text/html;charset=utf-8 55.2889ms
+2024-12-22 23:11:44.808 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-22 23:11:44.808 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_vs/browserLink - null null
+2024-12-22 23:11:44.825 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - 200 13792 application/javascript; charset=utf-8 17.6495ms
+2024-12-22 23:11:44.856 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_vs/browserLink - 200 null text/javascript; charset=UTF-8 48.2669ms
+2024-12-22 23:11:45.034 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - null null
+2024-12-22 23:11:45.045 +01:00 [INF] Primljen GET zahtev na /swagger/v1/swagger.json
+2024-12-22 23:11:45.053 +01:00 [INF] Odgovor za /swagger/v1/swagger.json vraćen sa status kodom 200
+2024-12-22 23:11:45.058 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 24.0285ms
+2024-12-22 23:11:47.959 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7261/login - null 0
+2024-12-22 23:11:47.973 +01:00 [INF] Primljen POST zahtev na /login
+2024-12-22 23:11:47.982 +01:00 [INF] CORS policy execution successful.
+2024-12-22 23:11:47.987 +01:00 [INF] Executing endpoint 'HTTP: POST /login'
+2024-12-22 23:11:47.993 +01:00 [INF] Setting HTTP status code 200.
+2024-12-22 23:11:47.998 +01:00 [INF] Writing value of type '<>f__AnonymousType0`1' as Json.
+2024-12-22 23:11:48.007 +01:00 [INF] Executed endpoint 'HTTP: POST /login'
+2024-12-22 23:11:48.015 +01:00 [INF] Odgovor za /login vraćen sa status kodom 200
+2024-12-22 23:11:48.020 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7261/login - 200 null application/json; charset=utf-8 61.6227ms
+2024-12-22 23:11:48.604 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7261/login - null 0
+2024-12-22 23:11:48.610 +01:00 [INF] Primljen POST zahtev na /login
+2024-12-22 23:11:48.613 +01:00 [INF] CORS policy execution successful.
+2024-12-22 23:11:48.618 +01:00 [INF] Executing endpoint 'HTTP: POST /login'
+2024-12-22 23:11:48.624 +01:00 [INF] Setting HTTP status code 200.
+2024-12-22 23:11:48.628 +01:00 [INF] Writing value of type '<>f__AnonymousType0`1' as Json.
+2024-12-22 23:11:48.631 +01:00 [INF] Executed endpoint 'HTTP: POST /login'
+2024-12-22 23:11:48.634 +01:00 [INF] Odgovor za /login vraćen sa status kodom 200
+2024-12-22 23:11:48.638 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7261/login - 200 null application/json; charset=utf-8 34.6601ms
+2024-12-22 23:12:05.055 +01:00 [INF] Now listening on: https://localhost:7261
+2024-12-22 23:12:05.104 +01:00 [INF] Now listening on: http://localhost:5195
+2024-12-22 23:12:05.124 +01:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-12-22 23:12:05.460 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/index.html - null null
+2024-12-22 23:12:05.519 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-22 23:12:05.524 +01:00 [INF] Hosting environment: Development
+2024-12-22 23:12:05.527 +01:00 [INF] Content root path: F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaBack
+2024-12-22 23:12:05.710 +01:00 [INF] Primljen GET zahtev na /swagger/index.html
+2024-12-22 23:12:05.825 +01:00 [INF] Odgovor za /swagger/index.html vraćen sa status kodom 200
+2024-12-22 23:12:05.830 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-22 23:12:05.830 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_vs/browserLink - null null
+2024-12-22 23:12:05.842 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/index.html - 200 null text/html;charset=utf-8 390.7245ms
+2024-12-22 23:12:05.863 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - 200 13792 application/javascript; charset=utf-8 35.3389ms
+2024-12-22 23:12:05.958 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_vs/browserLink - 200 null text/javascript; charset=UTF-8 130.0206ms
+2024-12-22 23:12:06.006 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - null null
+2024-12-22 23:12:06.011 +01:00 [INF] Primljen GET zahtev na /swagger/v1/swagger.json
+2024-12-22 23:12:06.025 +01:00 [INF] Odgovor za /swagger/v1/swagger.json vraćen sa status kodom 200
+2024-12-22 23:12:06.032 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 26.3317ms
+2024-12-22 23:12:06.229 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/login-status - null null
+2024-12-22 23:12:06.244 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/api/posiljke - null null
+2024-12-22 23:12:06.245 +01:00 [INF] Primljen GET zahtev na /login-status
+2024-12-22 23:12:06.253 +01:00 [INF] Primljen GET zahtev na /api/posiljke
+2024-12-22 23:12:06.259 +01:00 [INF] CORS policy execution successful.
+2024-12-22 23:12:06.259 +01:00 [INF] CORS policy execution successful.
+2024-12-22 23:12:06.293 +01:00 [INF] Executing endpoint 'HTTP: GET /login-status'
+2024-12-22 23:12:06.293 +01:00 [INF] Executing endpoint 'HTTP: GET /api/posiljke'
+2024-12-22 23:12:06.321 +01:00 [INF] Setting HTTP status code 200.
+2024-12-22 23:12:06.321 +01:00 [INF] Setting HTTP status code 200.
+2024-12-22 23:12:06.325 +01:00 [INF] Writing value of type 'List`1' as Json.
+2024-12-22 23:12:06.329 +01:00 [INF] Writing value of type '<>f__AnonymousType0`1' as Json.
+2024-12-22 23:12:06.335 +01:00 [INF] Executed endpoint 'HTTP: GET /login-status'
+2024-12-22 23:12:06.337 +01:00 [INF] Odgovor za /login-status vraćen sa status kodom 200
+2024-12-22 23:12:06.338 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/login-status - 200 null application/json; charset=utf-8 109.8891ms
+2024-12-22 23:12:06.341 +01:00 [INF] Executed endpoint 'HTTP: GET /api/posiljke'
+2024-12-22 23:12:06.345 +01:00 [INF] Odgovor za /api/posiljke vraćen sa status kodom 200
+2024-12-22 23:12:06.347 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/api/posiljke - 200 null application/json; charset=utf-8 103.9934ms
+2024-12-22 23:12:06.736 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/login-status - null null
+2024-12-22 23:12:06.753 +01:00 [INF] Primljen GET zahtev na /login-status
+2024-12-22 23:12:06.758 +01:00 [INF] CORS policy execution successful.
+2024-12-22 23:12:06.761 +01:00 [INF] Executing endpoint 'HTTP: GET /login-status'
+2024-12-22 23:12:06.765 +01:00 [INF] Setting HTTP status code 200.
+2024-12-22 23:12:06.769 +01:00 [INF] Writing value of type '<>f__AnonymousType0`1' as Json.
+2024-12-22 23:12:06.773 +01:00 [INF] Executed endpoint 'HTTP: GET /login-status'
+2024-12-22 23:12:06.779 +01:00 [INF] Odgovor za /login-status vraćen sa status kodom 200
+2024-12-22 23:12:06.784 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/login-status - 200 null application/json; charset=utf-8 48.7494ms
+2024-12-22 23:13:38.225 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7261/login - null 0
+2024-12-22 23:13:38.273 +01:00 [INF] Primljen POST zahtev na /login
+2024-12-22 23:13:38.276 +01:00 [INF] CORS policy execution successful.
+2024-12-22 23:13:38.282 +01:00 [INF] Executing endpoint 'HTTP: POST /login'
+2024-12-22 23:13:38.290 +01:00 [INF] Setting HTTP status code 200.
+2024-12-22 23:13:38.298 +01:00 [INF] Writing value of type '<>f__AnonymousType0`1' as Json.
+2024-12-22 23:13:38.305 +01:00 [INF] Executed endpoint 'HTTP: POST /login'
+2024-12-22 23:13:38.309 +01:00 [INF] Odgovor za /login vraćen sa status kodom 200
+2024-12-22 23:13:38.318 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7261/login - 200 null application/json; charset=utf-8 94.1236ms
+2024-12-22 23:13:39.059 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7261/login - null 0
+2024-12-22 23:13:39.070 +01:00 [INF] Primljen POST zahtev na /login
+2024-12-22 23:13:39.073 +01:00 [INF] CORS policy execution successful.
+2024-12-22 23:13:39.075 +01:00 [INF] Executing endpoint 'HTTP: POST /login'
+2024-12-22 23:13:39.077 +01:00 [INF] Setting HTTP status code 200.
+2024-12-22 23:13:39.080 +01:00 [INF] Writing value of type '<>f__AnonymousType0`1' as Json.
+2024-12-22 23:13:39.083 +01:00 [INF] Executed endpoint 'HTTP: POST /login'
+2024-12-22 23:13:39.090 +01:00 [INF] Odgovor za /login vraćen sa status kodom 200
+2024-12-22 23:13:39.101 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7261/login - 200 null application/json; charset=utf-8 42.5037ms
+2024-12-22 23:13:51.355 +01:00 [INF] Now listening on: https://localhost:7261
+2024-12-22 23:13:51.434 +01:00 [INF] Now listening on: http://localhost:5195
+2024-12-22 23:13:51.463 +01:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-12-22 23:13:51.660 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-22 23:13:51.664 +01:00 [INF] Hosting environment: Development
+2024-12-22 23:13:51.666 +01:00 [INF] Content root path: F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaBack
+2024-12-22 23:13:52.232 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/index.html - null null
+2024-12-22 23:13:52.441 +01:00 [INF] Primljen GET zahtev na /swagger/index.html
+2024-12-22 23:13:52.535 +01:00 [INF] Odgovor za /swagger/index.html vraćen sa status kodom 200
+2024-12-22 23:13:52.549 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-22 23:13:52.549 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_vs/browserLink - null null
+2024-12-22 23:13:52.556 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/index.html - 200 null text/html;charset=utf-8 334.0384ms
+2024-12-22 23:13:52.581 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - 200 13792 application/javascript; charset=utf-8 33.9167ms
+2024-12-22 23:13:52.663 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_vs/browserLink - 200 null text/javascript; charset=UTF-8 115.1123ms
+2024-12-22 23:13:52.723 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - null null
+2024-12-22 23:13:52.729 +01:00 [INF] Primljen GET zahtev na /swagger/v1/swagger.json
+2024-12-22 23:13:52.746 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/login-status - null null
+2024-12-22 23:13:52.757 +01:00 [INF] Odgovor za /swagger/v1/swagger.json vraćen sa status kodom 200
+2024-12-22 23:13:52.761 +01:00 [INF] Primljen GET zahtev na /login-status
+2024-12-22 23:13:52.766 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 44.7098ms
+2024-12-22 23:13:52.776 +01:00 [INF] CORS policy execution successful.
+2024-12-22 23:13:52.785 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/api/posiljke - null null
+2024-12-22 23:13:52.806 +01:00 [INF] Executing endpoint 'HTTP: GET /login-status'
+2024-12-22 23:13:52.807 +01:00 [INF] Primljen GET zahtev na /api/posiljke
+2024-12-22 23:13:52.824 +01:00 [INF] CORS policy execution successful.
+2024-12-22 23:13:52.827 +01:00 [INF] Executing endpoint 'HTTP: GET /api/posiljke'
+2024-12-22 23:13:52.828 +01:00 [INF] Setting HTTP status code 200.
+2024-12-22 23:13:52.835 +01:00 [INF] Setting HTTP status code 200.
+2024-12-22 23:13:52.841 +01:00 [INF] Writing value of type 'List`1' as Json.
+2024-12-22 23:13:52.843 +01:00 [INF] Writing value of type '<>f__AnonymousType0`1' as Json.
+2024-12-22 23:13:52.858 +01:00 [INF] Executed endpoint 'HTTP: GET /login-status'
+2024-12-22 23:13:52.863 +01:00 [INF] Odgovor za /login-status vraćen sa status kodom 200
+2024-12-22 23:13:52.872 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/login-status - 200 null application/json; charset=utf-8 126.3334ms
+2024-12-22 23:13:52.875 +01:00 [INF] Executed endpoint 'HTTP: GET /api/posiljke'
+2024-12-22 23:13:52.887 +01:00 [INF] Odgovor za /api/posiljke vraćen sa status kodom 200
+2024-12-22 23:13:52.890 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/api/posiljke - 200 null application/json; charset=utf-8 105.838ms
+2024-12-22 23:13:53.312 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/login-status - null null
+2024-12-22 23:13:53.335 +01:00 [INF] Primljen GET zahtev na /login-status
+2024-12-22 23:13:53.344 +01:00 [INF] CORS policy execution successful.
+2024-12-22 23:13:53.351 +01:00 [INF] Executing endpoint 'HTTP: GET /login-status'
+2024-12-22 23:13:53.361 +01:00 [INF] Setting HTTP status code 200.
+2024-12-22 23:13:53.368 +01:00 [INF] Writing value of type '<>f__AnonymousType0`1' as Json.
+2024-12-22 23:13:53.374 +01:00 [INF] Executed endpoint 'HTTP: GET /login-status'
+2024-12-22 23:13:53.380 +01:00 [INF] Odgovor za /login-status vraćen sa status kodom 200
+2024-12-22 23:13:53.388 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/login-status - 200 null application/json; charset=utf-8 76.325ms
+2024-12-22 23:14:17.273 +01:00 [INF] Now listening on: https://localhost:7261
+2024-12-22 23:14:17.307 +01:00 [INF] Now listening on: http://localhost:5195
+2024-12-22 23:14:17.320 +01:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-12-22 23:14:17.542 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-22 23:14:17.547 +01:00 [INF] Hosting environment: Development
+2024-12-22 23:14:17.553 +01:00 [INF] Content root path: F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaBack
+2024-12-22 23:14:18.405 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/index.html - null null
+2024-12-22 23:14:18.557 +01:00 [INF] Primljen GET zahtev na /swagger/index.html
+2024-12-22 23:14:18.644 +01:00 [INF] Odgovor za /swagger/index.html vraćen sa status kodom 200
+2024-12-22 23:14:18.655 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-22 23:14:18.656 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/_vs/browserLink - null null
+2024-12-22 23:14:18.659 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/index.html - 200 null text/html;charset=utf-8 263.5015ms
+2024-12-22 23:14:18.671 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_framework/aspnetcore-browser-refresh.js - 200 13792 application/javascript; charset=utf-8 16.7272ms
+2024-12-22 23:14:18.710 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/_vs/browserLink - 200 null text/javascript; charset=UTF-8 55.5279ms
+2024-12-22 23:14:18.773 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - null null
+2024-12-22 23:14:18.786 +01:00 [INF] Primljen GET zahtev na /swagger/v1/swagger.json
+2024-12-22 23:14:18.796 +01:00 [INF] Odgovor za /swagger/v1/swagger.json vraćen sa status kodom 200
+2024-12-22 23:14:18.800 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 28.8709ms
+2024-12-22 23:14:28.327 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/login-status - null null
+2024-12-22 23:14:28.328 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/api/posiljke - null null
+2024-12-22 23:14:28.339 +01:00 [INF] Primljen GET zahtev na /login-status
+2024-12-22 23:14:28.343 +01:00 [INF] Primljen GET zahtev na /api/posiljke
+2024-12-22 23:14:28.350 +01:00 [INF] CORS policy execution successful.
+2024-12-22 23:14:28.350 +01:00 [INF] CORS policy execution successful.
+2024-12-22 23:14:28.368 +01:00 [INF] Executing endpoint 'HTTP: GET /api/posiljke'
+2024-12-22 23:14:28.368 +01:00 [INF] Executing endpoint 'HTTP: GET /login-status'
+2024-12-22 23:14:28.389 +01:00 [INF] Setting HTTP status code 200.
+2024-12-22 23:14:28.389 +01:00 [INF] Setting HTTP status code 200.
+2024-12-22 23:14:28.400 +01:00 [INF] Writing value of type 'List`1' as Json.
+2024-12-22 23:14:28.402 +01:00 [INF] Writing value of type '<>f__AnonymousType0`1' as Json.
+2024-12-22 23:14:28.426 +01:00 [INF] Executed endpoint 'HTTP: GET /login-status'
+2024-12-22 23:14:28.432 +01:00 [INF] Odgovor za /login-status vraćen sa status kodom 200
+2024-12-22 23:14:28.442 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/login-status - 200 null application/json; charset=utf-8 115.9224ms
+2024-12-22 23:14:28.443 +01:00 [INF] Executed endpoint 'HTTP: GET /api/posiljke'
+2024-12-22 23:14:28.460 +01:00 [INF] Odgovor za /api/posiljke vraćen sa status kodom 200
+2024-12-22 23:14:28.469 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/api/posiljke - 200 null application/json; charset=utf-8 141.5025ms
+2024-12-22 23:14:28.556 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/login-status - null null
+2024-12-22 23:14:28.571 +01:00 [INF] Primljen GET zahtev na /login-status
+2024-12-22 23:14:28.574 +01:00 [INF] CORS policy execution successful.
+2024-12-22 23:14:28.578 +01:00 [INF] Executing endpoint 'HTTP: GET /login-status'
+2024-12-22 23:14:28.584 +01:00 [INF] Setting HTTP status code 200.
+2024-12-22 23:14:28.594 +01:00 [INF] Writing value of type '<>f__AnonymousType0`1' as Json.
+2024-12-22 23:14:28.602 +01:00 [INF] Executed endpoint 'HTTP: GET /login-status'
+2024-12-22 23:14:28.610 +01:00 [INF] Odgovor za /login-status vraćen sa status kodom 200
+2024-12-22 23:14:28.618 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/login-status - 200 null application/json; charset=utf-8 62.2323ms
+2024-12-22 23:14:31.935 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/api/posiljke - null null
+2024-12-22 23:14:31.945 +01:00 [INF] Primljen GET zahtev na /api/posiljke
+2024-12-22 23:14:31.956 +01:00 [INF] CORS policy execution successful.
+2024-12-22 23:14:31.964 +01:00 [INF] Executing endpoint 'HTTP: GET /api/posiljke'
+2024-12-22 23:14:31.973 +01:00 [INF] Setting HTTP status code 200.
+2024-12-22 23:14:31.982 +01:00 [INF] Writing value of type 'List`1' as Json.
+2024-12-22 23:14:31.990 +01:00 [INF] Executed endpoint 'HTTP: GET /api/posiljke'
+2024-12-22 23:14:31.995 +01:00 [INF] Odgovor za /api/posiljke vraćen sa status kodom 200
+2024-12-22 23:14:32.001 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/api/posiljke - 200 null application/json; charset=utf-8 67.2194ms
+2024-12-22 23:14:32.011 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/login-status - null null
+2024-12-22 23:14:32.032 +01:00 [INF] Primljen GET zahtev na /login-status
+2024-12-22 23:14:32.041 +01:00 [INF] CORS policy execution successful.
+2024-12-22 23:14:32.048 +01:00 [INF] Executing endpoint 'HTTP: GET /login-status'
+2024-12-22 23:14:32.056 +01:00 [INF] Setting HTTP status code 200.
+2024-12-22 23:14:32.063 +01:00 [INF] Writing value of type '<>f__AnonymousType0`1' as Json.
+2024-12-22 23:14:32.071 +01:00 [INF] Executed endpoint 'HTTP: GET /login-status'
+2024-12-22 23:14:32.076 +01:00 [INF] Odgovor za /login-status vraćen sa status kodom 200
+2024-12-22 23:14:32.082 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/login-status - 200 null application/json; charset=utf-8 71.3158ms
+2024-12-22 23:14:33.117 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7261/login - null 0
+2024-12-22 23:14:33.135 +01:00 [INF] Primljen POST zahtev na /login
+2024-12-22 23:14:33.146 +01:00 [INF] CORS policy execution successful.
+2024-12-22 23:14:33.151 +01:00 [INF] Executing endpoint 'HTTP: POST /login'
+2024-12-22 23:14:33.155 +01:00 [INF] Setting HTTP status code 200.
+2024-12-22 23:14:33.159 +01:00 [INF] Writing value of type '<>f__AnonymousType0`1' as Json.
+2024-12-22 23:14:33.166 +01:00 [INF] Executed endpoint 'HTTP: POST /login'
+2024-12-22 23:14:33.170 +01:00 [INF] Odgovor za /login vraćen sa status kodom 200
+2024-12-22 23:14:33.176 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7261/login - 200 null application/json; charset=utf-8 59.7455ms
+2024-12-22 23:14:33.801 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7261/login - null 0
+2024-12-22 23:14:33.810 +01:00 [INF] Primljen POST zahtev na /login
+2024-12-22 23:14:33.818 +01:00 [INF] CORS policy execution successful.
+2024-12-22 23:14:33.823 +01:00 [INF] Executing endpoint 'HTTP: POST /login'
+2024-12-22 23:14:33.829 +01:00 [INF] Setting HTTP status code 200.
+2024-12-22 23:14:33.836 +01:00 [INF] Writing value of type '<>f__AnonymousType0`1' as Json.
+2024-12-22 23:14:33.843 +01:00 [INF] Executed endpoint 'HTTP: POST /login'
+2024-12-22 23:14:33.852 +01:00 [INF] Odgovor za /login vraćen sa status kodom 200
+2024-12-22 23:14:33.862 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7261/login - 200 null application/json; charset=utf-8 62.1971ms
+2024-12-22 23:15:13.838 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7261/login - null 0
+2024-12-22 23:15:13.855 +01:00 [INF] Primljen POST zahtev na /login
+2024-12-22 23:15:13.857 +01:00 [INF] CORS policy execution successful.
+2024-12-22 23:15:13.859 +01:00 [INF] Executing endpoint 'HTTP: POST /login'
+2024-12-22 23:15:13.861 +01:00 [INF] Setting HTTP status code 200.
+2024-12-22 23:15:13.863 +01:00 [INF] Writing value of type '<>f__AnonymousType0`1' as Json.
+2024-12-22 23:15:13.865 +01:00 [INF] Executed endpoint 'HTTP: POST /login'
+2024-12-22 23:15:13.868 +01:00 [INF] Odgovor za /login vraćen sa status kodom 200
+2024-12-22 23:15:13.870 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7261/login - 200 null application/json; charset=utf-8 32.675ms
+2024-12-22 23:15:15.271 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7261/login - null 0
+2024-12-22 23:15:15.286 +01:00 [INF] Primljen POST zahtev na /login
+2024-12-22 23:15:15.298 +01:00 [INF] CORS policy execution successful.
+2024-12-22 23:15:15.306 +01:00 [INF] Executing endpoint 'HTTP: POST /login'
+2024-12-22 23:15:15.311 +01:00 [INF] Setting HTTP status code 200.
+2024-12-22 23:15:15.314 +01:00 [INF] Writing value of type '<>f__AnonymousType0`1' as Json.
+2024-12-22 23:15:15.316 +01:00 [INF] Executed endpoint 'HTTP: POST /login'
+2024-12-22 23:15:15.319 +01:00 [INF] Odgovor za /login vraćen sa status kodom 200
+2024-12-22 23:15:15.326 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7261/login - 200 null application/json; charset=utf-8 55.9833ms
+2024-12-22 23:15:17.908 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/api/posiljke - null null
+2024-12-22 23:15:17.919 +01:00 [INF] Primljen GET zahtev na /api/posiljke
+2024-12-22 23:15:17.927 +01:00 [INF] CORS policy execution successful.
+2024-12-22 23:15:17.932 +01:00 [INF] Executing endpoint 'HTTP: GET /api/posiljke'
+2024-12-22 23:15:17.939 +01:00 [INF] Setting HTTP status code 200.
+2024-12-22 23:15:17.945 +01:00 [INF] Writing value of type 'List`1' as Json.
+2024-12-22 23:15:17.954 +01:00 [INF] Executed endpoint 'HTTP: GET /api/posiljke'
+2024-12-22 23:15:17.960 +01:00 [INF] Odgovor za /api/posiljke vraćen sa status kodom 200
+2024-12-22 23:15:17.967 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/api/posiljke - 200 null application/json; charset=utf-8 60.152ms
+2024-12-22 23:15:17.977 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7261/login-status - null null
+2024-12-22 23:15:18.001 +01:00 [INF] Primljen GET zahtev na /login-status
+2024-12-22 23:15:18.010 +01:00 [INF] CORS policy execution successful.
+2024-12-22 23:15:18.014 +01:00 [INF] Executing endpoint 'HTTP: GET /login-status'
+2024-12-22 23:15:18.019 +01:00 [INF] Setting HTTP status code 200.
+2024-12-22 23:15:18.021 +01:00 [INF] Writing value of type '<>f__AnonymousType0`1' as Json.
+2024-12-22 23:15:18.024 +01:00 [INF] Executed endpoint 'HTTP: GET /login-status'
+2024-12-22 23:15:18.030 +01:00 [INF] Odgovor za /login-status vraćen sa status kodom 200
+2024-12-22 23:15:18.034 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7261/login-status - 200 null application/json; charset=utf-8 57.9903ms
+2024-12-22 23:15:33.613 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7261/login - null 0
+2024-12-22 23:15:33.629 +01:00 [INF] Primljen POST zahtev na /login
+2024-12-22 23:15:33.635 +01:00 [INF] CORS policy execution successful.
+2024-12-22 23:15:33.641 +01:00 [INF] Executing endpoint 'HTTP: POST /login'
+2024-12-22 23:15:33.649 +01:00 [INF] Setting HTTP status code 200.
+2024-12-22 23:15:33.658 +01:00 [INF] Writing value of type '<>f__AnonymousType0`1' as Json.
+2024-12-22 23:15:33.667 +01:00 [INF] Executed endpoint 'HTTP: POST /login'
+2024-12-22 23:15:33.671 +01:00 [INF] Odgovor za /login vraćen sa status kodom 200
+2024-12-22 23:15:33.680 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7261/login - 200 null application/json; charset=utf-8 68.4482ms
+2024-12-22 23:15:36.485 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7261/login - null 0
+2024-12-22 23:15:36.493 +01:00 [INF] Primljen POST zahtev na /login
+2024-12-22 23:15:36.496 +01:00 [INF] CORS policy execution successful.
+2024-12-22 23:15:36.499 +01:00 [INF] Executing endpoint 'HTTP: POST /login'
+2024-12-22 23:15:36.505 +01:00 [INF] Setting HTTP status code 200.
+2024-12-22 23:15:36.511 +01:00 [INF] Writing value of type '<>f__AnonymousType0`1' as Json.
+2024-12-22 23:15:36.518 +01:00 [INF] Executed endpoint 'HTTP: POST /login'
+2024-12-22 23:15:36.522 +01:00 [INF] Odgovor za /login vraćen sa status kodom 200
+2024-12-22 23:15:36.529 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7261/login - 200 null application/json; charset=utf-8 44.2006ms

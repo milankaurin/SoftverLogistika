@@ -67,3 +67,11 @@ F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaBack\obj\Debug\net8.0\refin
 F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaBack\obj\Debug\net8.0\SoftverLogistikaBack.pdb
 F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaBack\obj\Debug\net8.0\SoftverLogistikaBack.genruntimeconfig.cache
 F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaBack\obj\Debug\net8.0\ref\SoftverLogistikaBack.dll
+F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaBack\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaBack\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaBack\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaBack\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaBack\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaBack\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaBack\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaBack\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll

@@ -14,6 +14,8 @@ builder.Services.AddScoped(sp => new HttpClient
 });
 
 // Registracija PosiljkaService servisa za komunikaciju sa API
+builder.Services.AddScoped<AuthService>();
 builder.Services.AddScoped<PosiljkaService>();
+
 
 await builder.Build().RunAsync();

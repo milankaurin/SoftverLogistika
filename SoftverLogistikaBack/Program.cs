@@ -1,4 +1,5 @@
 using FluentValidation;
+
 using Serilog;
 using SoftverLogistikaBack.Endpoints;
 using SoftverLogistikaBack.Services;
@@ -8,6 +9,9 @@ using System.Text;
 
 
 var builder = WebApplication.CreateBuilder(args);
+
+bool isLoggedIn = false; // Globalno stanje prijave
+
 
 
 
@@ -43,6 +47,19 @@ builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
+
+
+
+// Endpoint za promenu statusa prijave
+app.MapPost("/login", () =>
+{
+    isLoggedIn = !isLoggedIn; // Menja status prijave
+    return Results.Ok(new { IsLoggedIn = isLoggedIn });
+});
+
+// Endpoint za proveru statusa prijave
+app.MapGet("/login-status", () => Results.Ok(new { IsLoggedIn = isLoggedIn }));
+
 app.Use(async (context, next) =>
 {
     // Logovanje ulaznog zahteva
@@ -65,6 +82,9 @@ app.Use(async (context, next) =>
 });
 
 app.UseCors("AllowFrontend");
+
+
+
 
 
 if (app.Environment.IsDevelopment())

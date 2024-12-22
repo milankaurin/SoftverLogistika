@@ -1,12 +1,35 @@
-﻿@inherits LayoutComponentBase
+﻿@using SoftverLogistikaFront.Services
+@inherits LayoutComponentBase
+@inject AuthService AuthService
+
 <div class="page">
     <div class="sidebar">
         <NavMenu />
+
+       
     </div>
 
     <main>
+        <div style="position: relative; display: flex; justify-content: flex-end; margin-right: 2rem; margin-top: 2rem;">
+            <button style="background-color: #8d96a9; color: #3e4772; border: none; padding: 0.75rem 1.5rem; border-radius: 8px; font-size: 1.2rem; font-family: 'Arial', sans-serif; cursor: pointer; transition: background-color 0.3s ease, transform 0.2s ease;"
+                    @onclick="AuthService.ToggleLogin"
+                    onmouseover="this.style.backgroundColor='#b0b8cc'; this.style.transform='scale(1.1)';"
+                    onmouseout="this.style.backgroundColor='#8d96a9'; this.style.transform='scale(1)';">
+                @LoginLogoutText
+            </button>
+        </div>
         <article class="content px-4">
             @Body
         </article>
     </main>
 </div>
+
+@code {
+    private string LoginLogoutText => AuthService.IsLoggedIn ? "Logout" : "Login";
+
+    protected override async Task OnInitializedAsync()
+    {
+        await AuthService.CheckLoginStatus(); // Proveri status prijave pri učitavanju aplikacije
+        AuthService.OnChange += StateHasChanged; // Pretplata na promenu stanja za automatski osvežavanje
+    }
+}

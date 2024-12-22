@@ -1044,6 +1044,6 @@ F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaFront\obj\Debug\net8.0\Soft
 F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaFront\obj\Debug\net8.0\refint\SoftverLogistikaFront.dll
 F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaFront\obj\Debug\net8.0\SoftverLogistikaFront.pdb
 F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaFront\obj\Debug\net8.0\ref\SoftverLogistikaFront.dll
-F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaFront\obj\Debug\net8.0\compressed\pc6epgkbww-72luqrzuic.gz
-F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaFront\obj\Debug\net8.0\compressed\c389x25p1h-zo65jhqvv3.gz
-F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaFront\obj\Debug\net8.0\compressed\keni8mg4yt-l3ic04wu90.gz
+F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaFront\obj\Debug\net8.0\compressed\pc6epgkbww-yldjlt40in.gz
+F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaFront\obj\Debug\net8.0\compressed\c389x25p1h-ifq8zcip55.gz
+F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaFront\obj\Debug\net8.0\compressed\keni8mg4yt-svg8geo17z.gz

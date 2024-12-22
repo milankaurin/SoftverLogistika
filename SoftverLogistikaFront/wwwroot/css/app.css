@@ -20,61 +20,67 @@ html, body {
     color: #ffffff;
     background-color: #8d96a9; /* Pastelna plava */
     padding: 20px;
+     
 }
 
 .sidebar-nav {
     background-image: none !important;
     background-color: #8d96a9;
     color: #ffffff; /* Postavi pozadinu na prozirno, ako je potrebno */
-    padding: 15px;
     height: 100vh; /* Zauzima celu visinu */
     box-shadow: none; /* Uklanja senku */
     border: none; /* Uklanja okvir */
-    border-radius: 0; /* Uklanja zaobljenje uglova */
+    justify-content: center;
+    align-items: center;
 }
 
+.sidebar .nav-item {
+    
+}
 
+.sidebar .nav-link {
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+}
 
-    .sidebar .nav-item {
-        margin-bottom: 10px;
+    .sidebar .nav-link:hover {
+        text-decoration: underline;
     }
-
-    .sidebar .nav-link {
-        color: #ffffff;
-        font-weight: bold;
-        text-decoration: none;
-    }
-
-        .sidebar .nav-link:hover {
-            text-decoration: underline;
-        }
-
 
 .sidebar-nav .pastel-link {
     background-color: #8d96a9;
-    display: flex;
-    align-items: center;
+    display: flex; /* Fleksibilno postavljanje */
+    align-items: center; /* Vertikalno centriranje */
+    justify-content: center; /* Horizontalno centriranje */
+    text-align: center; /* Centriranje teksta */
     color: #ffffff;
-    /* Tamnija pastelna plava */
     font-weight: bold;
+    width: 100%; /* Proteže link na celu širinu */
+    height: 50px; /* Fiksna visina za savršeno centriranje */
+    box-sizing: border-box;
     text-decoration: none;
-    padding: 10px;
-    border-radius: 5px;
-    transition: background-color 0.3s, color 0.3s;
+    padding: 0; /* Uklanja dodatni padding */
+    margin: 0; /* Uklanja nepotrebne margine */
+    border-radius: 20px; /* Zaobljeniji uglovi */
+    border: 2px solid transparent; /* Uklanjanje default border-a */
+    transition: all 0.3s ease; /* Animacija za hover */
+    white-space: nowrap;
 }
 
     .sidebar-nav .pastel-link:hover {
-        background-color: #a3d5f7; /* Svetlija pastelna plava na hover */
-        color: #ffffff;
+        color: #333333; /* Tamnija boja teksta na hover */
+        border-color: #ffffff; /* Prikazuje beli border na hover */
     }
 
     .sidebar-nav .pastel-link span {
-        margin-right: 10px;
         font-size: 1.2em;
+        margin: 0; /* Uklanja nepotrebne margine iz span-a */
+        line-height: 1; /* Obezbeðuje pravilno vertikalno centriranje teksta */
     }
 
 /* Header */
-h1.display-4 {
+        h1 .display-4 {
     color: #6a94bf; /* Pastelna tamnoplava */
 }
 

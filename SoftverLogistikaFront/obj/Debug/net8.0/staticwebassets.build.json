@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "W0QEiAtyex8LJTiX6t+Xfq2cNCCziLOiSNj2kcwBPUI=",
+  "Hash": "AYxlG84+N3fOTZYQ6UdwyiBuhFsZ/C48BPRu1SAlHa0=",
   "Source": "SoftverLogistikaFront",
   "BasePath": "/",
   "Mode": "Root",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "manifest",
-      "Fingerprint": "l3ic04wu90",
-      "Integrity": "ofZ5Mqe9D5ZWyDCa9gH458vFy0Oa1WD3OUY7rKOQVo8=",
+      "Fingerprint": "svg8geo17z",
+      "Integrity": "iDCQRNY8hIjlVReE5cGCMxnfNpc6qnDjyCCm32PS5ok=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net8.0\\blazor.boot.json"
@@ -934,8 +934,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "zo65jhqvv3",
-      "Integrity": "3ReEn0PB6Q3RiLT8wGMQN9Gc8nDoyWbLVijrxZ3XVKQ=",
+      "Fingerprint": "ifq8zcip55",
+      "Integrity": "zkqjdr/W2psg46ywceXzfMOUY4zU/W0m2a9+Rap7088=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net8.0\\SoftverLogistikaFront.pdb"
@@ -955,8 +955,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "72luqrzuic",
-      "Integrity": "4eOzPKKXxga7ElKIs+hCr6vxShAoO+WFRa1m6vhlj/s=",
+      "Fingerprint": "yldjlt40in",
+      "Integrity": "ptSmETag12daL0ERuPDzQt0dqhWEq5QInZOnbmMWgoY=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "F:\\SoftverLogistika\\SoftverLogistika\\SoftverLogistikaFront\\obj\\Debug\\net8.0\\webcil\\SoftverLogistikaFront.wasm"
@@ -5666,7 +5666,7 @@
       "OriginalItemSpec": "F:\\SoftverLogistika\\SoftverLogistika\\SoftverLogistikaFront\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.Win32.Registry.wasm"
     },
     {
-      "Identity": "F:\\SoftverLogistika\\SoftverLogistika\\SoftverLogistikaFront\\obj\\Debug\\net8.0\\compressed\\c389x25p1h-zo65jhqvv3.gz",
+      "Identity": "F:\\SoftverLogistika\\SoftverLogistika\\SoftverLogistikaFront\\obj\\Debug\\net8.0\\compressed\\c389x25p1h-ifq8zcip55.gz",
       "SourceId": "SoftverLogistikaFront",
       "SourceType": "Computed",
       "ContentRoot": "F:\\SoftverLogistika\\SoftverLogistika\\SoftverLogistikaFront\\obj\\Debug\\net8.0\\compressed\\",
@@ -5680,8 +5680,8 @@
       "RelatedAsset": "F:\\SoftverLogistika\\SoftverLogistika\\SoftverLogistikaFront\\bin\\Debug\\net8.0\\wwwroot\\_framework\\SoftverLogistikaFront.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "fz0huyryap",
-      "Integrity": "xQrwoYACksqmXLQl1dlDob+8d1KDW27XTPKrxebtF/4=",
+      "Fingerprint": "r3f6f5q43f",
+      "Integrity": "99QpXX1L3JFClBV8MCnjRcFX8vbyDPOeJZd/nVe5juM=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "F:\\SoftverLogistika\\SoftverLogistika\\SoftverLogistikaFront\\bin\\Debug\\net8.0\\wwwroot\\_framework\\SoftverLogistikaFront.pdb"
@@ -6800,7 +6800,7 @@
       "OriginalItemSpec": "F:\\SoftverLogistika\\SoftverLogistika\\SoftverLogistikaFront\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Reflection.Emit.ILGeneration.wasm"
     },
     {
-      "Identity": "F:\\SoftverLogistika\\SoftverLogistika\\SoftverLogistikaFront\\obj\\Debug\\net8.0\\compressed\\keni8mg4yt-l3ic04wu90.gz",
+      "Identity": "F:\\SoftverLogistika\\SoftverLogistika\\SoftverLogistikaFront\\obj\\Debug\\net8.0\\compressed\\keni8mg4yt-svg8geo17z.gz",
       "SourceId": "SoftverLogistikaFront",
       "SourceType": "Computed",
       "ContentRoot": "F:\\SoftverLogistika\\SoftverLogistika\\SoftverLogistikaFront\\obj\\Debug\\net8.0\\compressed\\",
@@ -6814,8 +6814,8 @@
       "RelatedAsset": "F:\\SoftverLogistika\\SoftverLogistika\\SoftverLogistikaFront\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.boot.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "cz0nxsc6fr",
-      "Integrity": "uFXtx399x3dsqpKcYJgCn0WdwjL07w07ofMgFyTp06I=",
+      "Fingerprint": "6an4v839bq",
+      "Integrity": "IqK8uSWF+myGsROQSA2n3ylNSaoTsQm/rrMCtv6eZdo=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "F:\\SoftverLogistika\\SoftverLogistika\\SoftverLogistikaFront\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.boot.json"
@@ -7388,7 +7388,7 @@
       "OriginalItemSpec": "F:\\SoftverLogistika\\SoftverLogistika\\SoftverLogistikaFront\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.WebAssembly.wasm"
     },
     {
-      "Identity": "F:\\SoftverLogistika\\SoftverLogistika\\SoftverLogistikaFront\\obj\\Debug\\net8.0\\compressed\\pc6epgkbww-72luqrzuic.gz",
+      "Identity": "F:\\SoftverLogistika\\SoftverLogistika\\SoftverLogistikaFront\\obj\\Debug\\net8.0\\compressed\\pc6epgkbww-yldjlt40in.gz",
       "SourceId": "SoftverLogistikaFront",
       "SourceType": "Computed",
       "ContentRoot": "F:\\SoftverLogistika\\SoftverLogistika\\SoftverLogistikaFront\\obj\\Debug\\net8.0\\compressed\\",
@@ -7402,8 +7402,8 @@
       "RelatedAsset": "F:\\SoftverLogistika\\SoftverLogistika\\SoftverLogistikaFront\\bin\\Debug\\net8.0\\wwwroot\\_framework\\SoftverLogistikaFront.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "jegylrnmeg",
-      "Integrity": "i/gjaAJiH71VhNVeDwyIfC/yp3iJBuLqOP6N1x+QmT4=",
+      "Fingerprint": "ytl4565gxz",
+      "Integrity": "emsA3JwoYJ7oBO5NJGUX47XzsHJwihukwrfAsUZMcEc=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "F:\\SoftverLogistika\\SoftverLogistika\\SoftverLogistikaFront\\bin\\Debug\\net8.0\\wwwroot\\_framework\\SoftverLogistikaFront.wasm"
@@ -8767,8 +8767,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "z38lunp6mr",
-      "Integrity": "sTkrNT8wy6i3re4S8WCvGPoazIubkpaDVhNEpuIXyB0=",
+      "Fingerprint": "omwdbdwt2m",
+      "Integrity": "cGXXkx19NrMomXvL8KjGho/arQZZrxw611PwZ07OAtA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\app.css"
@@ -8920,11 +8920,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ofZ5Mqe9D5ZWyDCa9gH458vFy0Oa1WD3OUY7rKOQVo8=\""
+          "Value": "\"iDCQRNY8hIjlVReE5cGCMxnfNpc6qnDjyCCm32PS5ok=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 22 Dec 2024 20:35:43 GMT"
+          "Value": "Sun, 22 Dec 2024 22:11:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8934,13 +8934,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ofZ5Mqe9D5ZWyDCa9gH458vFy0Oa1WD3OUY7rKOQVo8="
+          "Value": "sha256-iDCQRNY8hIjlVReE5cGCMxnfNpc6qnDjyCCm32PS5ok="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json",
-      "AssetFile": "F:\\SoftverLogistika\\SoftverLogistika\\SoftverLogistikaFront\\obj\\Debug\\net8.0\\compressed\\keni8mg4yt-l3ic04wu90.gz",
+      "AssetFile": "F:\\SoftverLogistika\\SoftverLogistika\\SoftverLogistikaFront\\obj\\Debug\\net8.0\\compressed\\keni8mg4yt-svg8geo17z.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -8959,11 +8959,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"uFXtx399x3dsqpKcYJgCn0WdwjL07w07ofMgFyTp06I=\""
+          "Value": "\"IqK8uSWF+myGsROQSA2n3ylNSaoTsQm/rrMCtv6eZdo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 22 Dec 2024 19:52:43 GMT"
+          "Value": "Sun, 22 Dec 2024 22:00:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8983,19 +8983,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"ofZ5Mqe9D5ZWyDCa9gH458vFy0Oa1WD3OUY7rKOQVo8=\""
+          "Value": "W/\"iDCQRNY8hIjlVReE5cGCMxnfNpc6qnDjyCCm32PS5ok=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ofZ5Mqe9D5ZWyDCa9gH458vFy0Oa1WD3OUY7rKOQVo8="
+          "Value": "sha256-iDCQRNY8hIjlVReE5cGCMxnfNpc6qnDjyCCm32PS5ok="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json.gz",
-      "AssetFile": "F:\\SoftverLogistika\\SoftverLogistika\\SoftverLogistikaFront\\obj\\Debug\\net8.0\\compressed\\keni8mg4yt-l3ic04wu90.gz",
+      "AssetFile": "F:\\SoftverLogistika\\SoftverLogistika\\SoftverLogistikaFront\\obj\\Debug\\net8.0\\compressed\\keni8mg4yt-svg8geo17z.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9012,11 +9012,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"uFXtx399x3dsqpKcYJgCn0WdwjL07w07ofMgFyTp06I=\""
+          "Value": "\"IqK8uSWF+myGsROQSA2n3ylNSaoTsQm/rrMCtv6eZdo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 22 Dec 2024 19:52:43 GMT"
+          "Value": "Sun, 22 Dec 2024 22:00:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9034,7 +9034,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-uFXtx399x3dsqpKcYJgCn0WdwjL07w07ofMgFyTp06I="
+          "Value": "sha256-IqK8uSWF+myGsROQSA2n3ylNSaoTsQm/rrMCtv6eZdo="
         }
       ]
     },
@@ -14803,7 +14803,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "36508"
+          "Value": "38404"
         },
         {
           "Name": "Content-Type",
@@ -14811,11 +14811,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"3ReEn0PB6Q3RiLT8wGMQN9Gc8nDoyWbLVijrxZ3XVKQ=\""
+          "Value": "\"zkqjdr/W2psg46ywceXzfMOUY4zU/W0m2a9+Rap7088=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 22 Dec 2024 19:52:43 GMT"
+          "Value": "Sun, 22 Dec 2024 22:11:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14825,18 +14825,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-3ReEn0PB6Q3RiLT8wGMQN9Gc8nDoyWbLVijrxZ3XVKQ="
+          "Value": "sha256-zkqjdr/W2psg46ywceXzfMOUY4zU/W0m2a9+Rap7088="
         }
       ]
     },
     {
       "Route": "_framework/SoftverLogistikaFront.pdb",
-      "AssetFile": "F:\\SoftverLogistika\\SoftverLogistika\\SoftverLogistikaFront\\obj\\Debug\\net8.0\\compressed\\c389x25p1h-zo65jhqvv3.gz",
+      "AssetFile": "F:\\SoftverLogistika\\SoftverLogistika\\SoftverLogistikaFront\\obj\\Debug\\net8.0\\compressed\\c389x25p1h-ifq8zcip55.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000037043897"
+          "Quality": "0.000035006651"
         }
       ],
       "ResponseHeaders": [
@@ -14846,15 +14846,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "26994"
+          "Value": "28565"
         },
         {
           "Name": "ETag",
-          "Value": "\"xQrwoYACksqmXLQl1dlDob+8d1KDW27XTPKrxebtF/4=\""
+          "Value": "\"99QpXX1L3JFClBV8MCnjRcFX8vbyDPOeJZd/nVe5juM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 22 Dec 2024 19:52:43 GMT"
+          "Value": "Sun, 22 Dec 2024 22:00:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14874,19 +14874,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"3ReEn0PB6Q3RiLT8wGMQN9Gc8nDoyWbLVijrxZ3XVKQ=\""
+          "Value": "W/\"zkqjdr/W2psg46ywceXzfMOUY4zU/W0m2a9+Rap7088=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-3ReEn0PB6Q3RiLT8wGMQN9Gc8nDoyWbLVijrxZ3XVKQ="
+          "Value": "sha256-zkqjdr/W2psg46ywceXzfMOUY4zU/W0m2a9+Rap7088="
         }
       ]
     },
     {
       "Route": "_framework/SoftverLogistikaFront.pdb.gz",
-      "AssetFile": "F:\\SoftverLogistika\\SoftverLogistika\\SoftverLogistikaFront\\obj\\Debug\\net8.0\\compressed\\c389x25p1h-zo65jhqvv3.gz",
+      "AssetFile": "F:\\SoftverLogistika\\SoftverLogistika\\SoftverLogistikaFront\\obj\\Debug\\net8.0\\compressed\\c389x25p1h-ifq8zcip55.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -14895,7 +14895,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "26994"
+          "Value": "28565"
         },
         {
           "Name": "Content-Type",
@@ -14903,11 +14903,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"xQrwoYACksqmXLQl1dlDob+8d1KDW27XTPKrxebtF/4=\""
+          "Value": "\"99QpXX1L3JFClBV8MCnjRcFX8vbyDPOeJZd/nVe5juM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 22 Dec 2024 19:52:43 GMT"
+          "Value": "Sun, 22 Dec 2024 22:00:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14925,7 +14925,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-xQrwoYACksqmXLQl1dlDob+8d1KDW27XTPKrxebtF/4="
+          "Value": "sha256-99QpXX1L3JFClBV8MCnjRcFX8vbyDPOeJZd/nVe5juM="
         }
       ]
     },
@@ -14940,7 +14940,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "44821"
+          "Value": "49941"
         },
         {
           "Name": "Content-Type",
@@ -14948,11 +14948,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"4eOzPKKXxga7ElKIs+hCr6vxShAoO+WFRa1m6vhlj/s=\""
+          "Value": "\"ptSmETag12daL0ERuPDzQt0dqhWEq5QInZOnbmMWgoY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 22 Dec 2024 19:52:43 GMT"
+          "Value": "Sun, 22 Dec 2024 22:11:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14962,18 +14962,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-4eOzPKKXxga7ElKIs+hCr6vxShAoO+WFRa1m6vhlj/s="
+          "Value": "sha256-ptSmETag12daL0ERuPDzQt0dqhWEq5QInZOnbmMWgoY="
         }
       ]
     },
     {
       "Route": "_framework/SoftverLogistikaFront.wasm",
-      "AssetFile": "F:\\SoftverLogistika\\SoftverLogistika\\SoftverLogistikaFront\\obj\\Debug\\net8.0\\compressed\\pc6epgkbww-72luqrzuic.gz",
+      "AssetFile": "F:\\SoftverLogistika\\SoftverLogistika\\SoftverLogistikaFront\\obj\\Debug\\net8.0\\compressed\\pc6epgkbww-yldjlt40in.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000057244261"
+          "Quality": "0.000050390527"
         }
       ],
       "ResponseHeaders": [
@@ -14983,15 +14983,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "17468"
+          "Value": "19844"
         },
         {
           "Name": "ETag",
-          "Value": "\"i/gjaAJiH71VhNVeDwyIfC/yp3iJBuLqOP6N1x+QmT4=\""
+          "Value": "\"emsA3JwoYJ7oBO5NJGUX47XzsHJwihukwrfAsUZMcEc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 22 Dec 2024 19:52:43 GMT"
+          "Value": "Sun, 22 Dec 2024 22:00:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -15011,19 +15011,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"4eOzPKKXxga7ElKIs+hCr6vxShAoO+WFRa1m6vhlj/s=\""
+          "Value": "W/\"ptSmETag12daL0ERuPDzQt0dqhWEq5QInZOnbmMWgoY=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-4eOzPKKXxga7ElKIs+hCr6vxShAoO+WFRa1m6vhlj/s="
+          "Value": "sha256-ptSmETag12daL0ERuPDzQt0dqhWEq5QInZOnbmMWgoY="
         }
       ]
     },
     {
       "Route": "_framework/SoftverLogistikaFront.wasm.gz",
-      "AssetFile": "F:\\SoftverLogistika\\SoftverLogistika\\SoftverLogistikaFront\\obj\\Debug\\net8.0\\compressed\\pc6epgkbww-72luqrzuic.gz",
+      "AssetFile": "F:\\SoftverLogistika\\SoftverLogistika\\SoftverLogistikaFront\\obj\\Debug\\net8.0\\compressed\\pc6epgkbww-yldjlt40in.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -15032,7 +15032,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "17468"
+          "Value": "19844"
         },
         {
           "Name": "Content-Type",
@@ -15040,11 +15040,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"i/gjaAJiH71VhNVeDwyIfC/yp3iJBuLqOP6N1x+QmT4=\""
+          "Value": "\"emsA3JwoYJ7oBO5NJGUX47XzsHJwihukwrfAsUZMcEc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 22 Dec 2024 19:52:43 GMT"
+          "Value": "Sun, 22 Dec 2024 22:00:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -15062,7 +15062,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-i/gjaAJiH71VhNVeDwyIfC/yp3iJBuLqOP6N1x+QmT4="
+          "Value": "sha256-emsA3JwoYJ7oBO5NJGUX47XzsHJwihukwrfAsUZMcEc="
         }
       ]
     },
@@ -37271,7 +37271,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6817"
+          "Value": "7372"
         },
         {
           "Name": "Content-Type",
@@ -37279,11 +37279,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"sTkrNT8wy6i3re4S8WCvGPoazIubkpaDVhNEpuIXyB0=\""
+          "Value": "\"cGXXkx19NrMomXvL8KjGho/arQZZrxw611PwZ07OAtA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 22 Dec 2024 19:38:13 GMT"
+          "Value": "Sun, 22 Dec 2024 21:34:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -37293,12 +37293,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-sTkrNT8wy6i3re4S8WCvGPoazIubkpaDVhNEpuIXyB0="
+          "Value": "sha256-cGXXkx19NrMomXvL8KjGho/arQZZrxw611PwZ07OAtA="
         }
       ]
     },
     {
-      "Route": "css/app.z38lunp6mr.css",
+      "Route": "css/app.omwdbdwt2m.css",
       "AssetFile": "F:\\SoftverLogistika\\SoftverLogistika\\SoftverLogistikaFront\\wwwroot\\css\\app.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -37308,7 +37308,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6817"
+          "Value": "7372"
         },
         {
           "Name": "Content-Type",
@@ -37316,11 +37316,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"sTkrNT8wy6i3re4S8WCvGPoazIubkpaDVhNEpuIXyB0=\""
+          "Value": "\"cGXXkx19NrMomXvL8KjGho/arQZZrxw611PwZ07OAtA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 22 Dec 2024 19:38:13 GMT"
+          "Value": "Sun, 22 Dec 2024 21:34:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -37330,7 +37330,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "z38lunp6mr"
+          "Value": "omwdbdwt2m"
         },
         {
           "Name": "label",
@@ -37338,7 +37338,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-sTkrNT8wy6i3re4S8WCvGPoazIubkpaDVhNEpuIXyB0="
+          "Value": "sha256-cGXXkx19NrMomXvL8KjGho/arQZZrxw611PwZ07OAtA="
         }
       ]
     },

@@ -5,6 +5,30 @@
     "version": "1.0"
   },
   "paths": {
+    "/login": {
+      "post": {
+        "tags": [
+          "SoftverLogistikaBack"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/login-status": {
+      "get": {
+        "tags": [
+          "SoftverLogistikaBack"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/posiljke": {
       "get": {
         "tags": [
