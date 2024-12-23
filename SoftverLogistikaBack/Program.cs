@@ -29,9 +29,11 @@ builder.Services.AddCors(options =>
     options.AddPolicy("AllowFrontend",
         policy =>
         {
-            policy.WithOrigins("https://localhost:7036") // URL frontenda
+            policy.WithOrigins("https://localhost:7036", "http://localhost:5173") // URL frontenda
                   .AllowAnyHeader()
                   .AllowAnyMethod();
+
+
         });
 });
 

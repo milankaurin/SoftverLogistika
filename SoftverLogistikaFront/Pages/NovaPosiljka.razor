@@ -35,6 +35,16 @@
             errorMessageBuilder.AppendLine("Naziv mora imati najmanje 3 karaktera.");
         }
 
+        if (newPosiljka.Posiljalac.Length < 3)
+        {
+            errorMessageBuilder.AppendLine("Naziv pošiljaoca mora imati najmanje 3 karaktera.");
+        }
+
+        if (newPosiljka.Primalac.Length < 3)
+        {
+            errorMessageBuilder.AppendLine("Naziv primaoca mora imati najmanje 3 karaktera.");
+        }
+
         // Validacija datuma isporuke u zavisnosti od statusa pošiljke
         if (newPosiljka.Status == StatusPosiljke.Isporuceno)
         {

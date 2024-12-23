@@ -60,7 +60,6 @@ F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaBack\obj\Debug\net8.0\stati
 F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaBack\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.SoftverLogistikaBack.props
 F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaBack\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.SoftverLogistikaBack.props
 F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaBack\obj\Debug\net8.0\staticwebassets.pack.json
-F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaBack\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaBack\obj\Debug\net8.0\SoftverL.51B0B6E6.Up2Date
 F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaBack\obj\Debug\net8.0\SoftverLogistikaBack.dll
 F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaBack\obj\Debug\net8.0\refint\SoftverLogistikaBack.dll
