@@ -116,7 +116,7 @@ Backend deo projekta koristi **ASP.NET Core Web API** za obradu zahteva i upravl
 - **`wwwroot`**
   - Sadrži statičke resurse aplikacije, poput CSS fajlova, slika, ikonica i drugih statičkih fajlova koji su dostupni klijentu.
 
-- **`Components`**
+- **`Components`** -- ponovo iskoristive komponente
   - **`PosiljkaForma.razor`**: Komponenta koja pruža formu za kreiranje i izmenu pošiljki.
   - **`PosiljkaTable.razor`**: Komponenta za prikazivanje liste pošiljki u tabelarnom formatu, sa podrškom za akcije kao što su izmena, brisanje i prikaz detalja.
 
