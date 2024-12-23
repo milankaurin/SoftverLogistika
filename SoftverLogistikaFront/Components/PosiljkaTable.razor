@@ -1,6 +1,7 @@
 ﻿@using DeljeniPodaci;
 @using SoftverLogistikaFront.Services
 @inject AuthService AuthService
+@inject NavigationManager NavigationManager
 
 <table class="table table-hover table-bordered shadow-sm">
     <thead class="table-dark1">
@@ -27,6 +28,7 @@
                     {
                         <button class="btn btn-sm btn-primary me-2" @onclick="() => EditPosiljka(posiljka.Id)">Izmeni</button>
                         <button class="btn btn-sm btn-danger" @onclick="() => DeletePosiljka(posiljka.Id)">Obriši</button>
+                        <button class="btn btn-sm btn-info" @onclick="() => PrikaziDetalje(posiljka.Id)">Detalji</button>
                     }
                     else
                     {
@@ -59,5 +61,10 @@
     {
         // Poziv OnDelete EventCallback-a sa ID-em pošiljke
         await OnDelete.InvokeAsync(id);
+    }
+
+    private void PrikaziDetalje(Guid id)
+    {
+        NavigationManager.NavigateTo($"/detaljiposiljkeid={id}");
     }
 }

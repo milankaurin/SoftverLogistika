@@ -11,6 +11,15 @@ namespace SoftverLogistikaBack.Validators
                 .NotEmpty().WithMessage("Naziv je obavezan.")
                 .MinimumLength(3).WithMessage("Naziv mora imati najmanje 3 karaktera.");
 
+
+            RuleFor(p => p.Posiljalac)
+                .NotEmpty().WithMessage("Naziv posiljaoca je obavezan.")
+                .MinimumLength(3).WithMessage("Naziv posiljaoca mora imati najmanje 3 karaktera.");
+
+            RuleFor(p => p.Primalac)
+               .NotEmpty().WithMessage("Naziv primaoca je obavezan.")
+               .MinimumLength(3).WithMessage("Naziv primaoca mora imati najmanje 3 karaktera.");
+
             // Pravilo za obavezan datum isporuke kada je status Isporučeno
             RuleFor(p => p.DatumIsporuke)
                 .NotEmpty()

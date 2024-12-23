@@ -12,6 +12,10 @@ namespace DeljeniPodaci
         public DateTime DatumKreiranja { get; set; }
         public DateTime? DatumIsporuke { get; set; }
 
+        public string Posiljalac {  get; set; }
+
+        public string Primalac { get; set; }
+
         public static readonly Dictionary<int, string> Statusi = new()
     {
         { 1, "Na putu" },

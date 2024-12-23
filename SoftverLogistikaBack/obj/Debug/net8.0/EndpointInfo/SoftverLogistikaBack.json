@@ -161,6 +161,14 @@
             "type": "string",
             "format": "date-time",
             "nullable": true
+          },
+          "posiljalac": {
+            "type": "string",
+            "nullable": true
+          },
+          "primalac": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false

@@ -36,6 +36,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQb3NpbGprYVRhYmxlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[F:/SoftverLogistika/SoftverLogistika/SoftverLogistikaFront/Pages/DetaljiPosiljke.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGV0YWxqaVBvc2lsamtlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [F:/SoftverLogistika/SoftverLogistika/SoftverLogistikaFront/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 

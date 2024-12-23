@@ -37,6 +37,16 @@
         <InputDate @bind-Value="PosiljkaModel.DatumIsporuke" class="form-control" />
     </div>
 
+    <div class="mb-3">
+        <label class="form-label" style="color: white;">Posiljaoc</label>
+        <InputText @bind-Value="PosiljkaModel.Posiljalac" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label" style="color: white;">Primalac</label>
+        <InputText @bind-Value="PosiljkaModel.Primalac" class="form-control" />
+    </div>
+
     <!-- Dugmad za akcije -->
     <button type="submit" class="btn btn-success me-2">Sačuvaj</button>
     <button type="button" class="btn btn-secondary" @onclick="OnCancel">Otkaži</button>

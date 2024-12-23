@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SoftverLogistikaBack")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1ae44166e678775462f9812295691318f1e6787c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2fe3f278fbe06eff05b9573c65dc3b72e0f0d47c")]
 [assembly: System.Reflection.AssemblyProductAttribute("SoftverLogistikaBack")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SoftverLogistikaBack")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

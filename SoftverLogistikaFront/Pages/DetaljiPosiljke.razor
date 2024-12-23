@@ -1,0 +1,47 @@
+﻿@page "/detaljiposiljkeid={id:guid}"
+@using DeljeniPodaci
+@using SoftverLogistikaFront.Services
+@inject PosiljkaService PosiljkaService
+@inject NavigationManager NavigationManager
+
+<h3 style="color: white;">Detalji Pošiljke</h3>
+
+@if (posiljka == null)
+{
+    <p style="color: white;">Učitavanje podataka...</p>
+}
+else
+{
+    <div class="card shadow-sm p-4">
+        <h4>@posiljka.Naziv</h4>
+        <p><strong>Status:</strong> @Posiljka.VratiStatusKaoTekst((int)(posiljka.Status))</p>
+        <p><strong>Datum kreiranja:</strong> @posiljka.DatumKreiranja.ToShortDateString()</p>
+        <p><strong>Datum isporuke:</strong> @(posiljka.DatumIsporuke.HasValue ? posiljka.DatumIsporuke.Value.ToShortDateString() : "N/A")</p>
+        <p><strong>Pošiljalac:</strong> @posiljka.Posiljalac</p>
+        <p><strong>Primalac:</strong> @posiljka.Primalac</p>
+        <button class="btn btn-secondary" @onclick="GoBack">Nazad</button>
+    </div>
+}
+
+@code {
+    [Parameter] public Guid id { get; set; }
+
+    private Posiljka? posiljka;
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            posiljka = await PosiljkaService.GetByIdAsync(id);
+        }
+        catch
+        {
+            NavigationManager.NavigateTo("/");
+        }
+    }
+
+    private void GoBack()
+    {
+        NavigationManager.NavigateTo("/");
+    }
+}
