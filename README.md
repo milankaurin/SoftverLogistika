@@ -139,7 +139,36 @@ Backend deo projekta koristi **ASP.NET Core Web API** za obradu zahteva i upravl
   - **`App.razor`**: Glavna ulazna tačka aplikacije, gde su definisane rute za sve stranice.
   - **`Program.cs`**: Konfiguracija servisa i pokretanje aplikacije.
 
+ ## Korišćene tehnologije i biblioteke
+
+Projekat **SoftverLogistika** koristi različite tehnologije i biblioteke za implementaciju funkcionalnosti i postizanje modularnosti i efikasnosti. Ovo su ključne tehnologije i biblioteke koje su korišćene:
+
+### Backend tehnologije i biblioteke
+**ASP.NET Core Web API (Minimal API)**: 
+  - Verzija: `8.0`.
+  - Minimal API je korišćen za implementaciju backend servisa, pružajući jednostavan i efikasan način za kreiranje RESTful API endpoint-a. Ova arhitektura omogućava lakšu konfiguraciju i manji kod u poređenju sa tradicionalnim kontrolerima, dok zadržava punu funkcionalnost ASP.NET Core ekosistema.
+  - Omogućava efikasno upravljanje HTTP zahtevima (GET, POST, PUT, DELETE) i lako integrisanje sa klijentima putem JSON formata.
  
+ **FluentValidation**: Ova biblioteka omogućava fleksibilnu validaciju unosa podataka kroz definisanje pravila validacije u modelima.
+  
+**Serilog.AspNetCore**: Verzija `9.0.0`. Omogućava jednostavno logovanje podataka u tekstualne fajlove unutar `logs` foldera, pomažući u praćenju aktivnosti aplikacije.
+  
+
+### Frontend tehnologije i biblioteke
+**Blazor WebAssembly**: Frontend aplikacija je razvijena pomoću Blazor WebAssembly tehnologije, što omogućava klijentsko renderovanje i interaktivno korisničko iskustvo.
+
+  - `HttpClient` je konfigurisan sa osnovnim URL-om za komunikaciju sa backend API-jem.
+  - **Blazor komponentni model**: Koristi se za izgradnju ponovo upotrebljivih komponenti kao što su tabele (`PosiljkaTable.razor`) i forme (`PosiljkaForma.razor`).
+  - **Bootstrap 5**: Koristi se za stilizaciju aplikacije, pružajući unapred definisane komponente za korisnički interfejs.
+
+### Glavne funkcionalnosti implementirane tehnologijama:
+1. **Validacija podataka**: `FluentValidation` omogućava proveru unosa na serveru, kao i prilagođene poruke o greškama.
+2. **Logovanje**: `Serilog` beleži važne informacije o radu aplikacije u log fajlove.
+3. **Dokumentacija API-ja**: Integracija sa Swagger UI omogućava jednostavan pregled i testiranje svih dostupnih endpoint-a.
+4. **Komunikacija frontend-backend**: `HttpClient` je konfigurisan da koristi osnovni URL backend API-ja (`https://localhost:7261/api/`) za slanje HTTP zahteva.
+5. **Frontend navigacija**: `Blazor` omogućava lakšu navigaciju između stranica uz pomoć komponenti kao što su `NavMenu.razor` i `App.razor`.
+
+
 
 
   
