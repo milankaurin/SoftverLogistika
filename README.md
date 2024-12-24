@@ -1,4 +1,4 @@
-# SoftverLogistika - Opis, Struktura, Tehnologije i Upuststvo za testiranje funkcionalnosti. Slabosti projekta i mogućnosti za dalji razvoj.
+# SoftverLogistika - Opis, Struktura, Tehnologije i Uputstvo za testiranje funkcionalnosti. Slabosti projekta i mogućnosti za dalji razvoj.
  
 ## Kratak opis projekta
 
