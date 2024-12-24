@@ -1,4 +1,4 @@
-# SoftverLogistika - Opis, Struktura, Tehnologije i Upuststvo za testiranje funkcionalnosti
+# SoftverLogistika - Opis, Struktura, Tehnologije i Upuststvo za testiranje funkcionalnosti. Slabosti projekta i mogućnosti za dalji razvoj.
  
 ## Kratak opis projekta
 
@@ -194,6 +194,22 @@ Kao i kod ažuriranja, ukoliko smo ulogovani imamo dugme **Obriši** koje briše
 #### Prikaz detalja pošiljke
  U koloni za akcije imamo dugme **Detalji** koje nas vodi ka novoj stranici gde će nam biti prikazani detalji o pošiljci koji nisu vidljivi u tabeli (konkretno podaci o primaocu i pošiljaocu).
 
+  ## Ranjivost projekta i mogućnost za dalji razvoj
+  Iako projekat zadovoljava osnovne funkcionalnosti za upravljanje pošiljkama i pruža dobro korisničko iskustvo, postoje određene slabosti i potencijali za unapređenje:
+
+### Slabost u sistemu autorizacije
+
+Opis problema: Trenutna implementacija koristi jednu globalnu promenljivu za čuvanje statusa autorizacije. Ovaj pristup uzrokuje probleme kada se koristi više instanci front-enda, jer prijava jednog korisnika utiče na sesiju drugog korisnika.
+Mogućnost za unapređenje: Prelazak na korišćenje JWT (JSON Web Token).
+
+### Ograničena povratna informacija prilikom validacije na backendu
+
+Opis problema: Trenutni sistem validacije na backendu koristi generičke poruke u slučaju grešaka. Iako frontend ima stroge validacione mehanizme, ukoliko dođe do greške koja probije te provere, backend ne vraća specifične informacije o grešci, već samo generičku poruku.
+Mogućnost za unapređenje: Poboljšanje validacije na backendu i implementacija povratnih specifičnih poruka grešaka (detalji o poljima koja nisu prošla validaciju). To bi omogućilo korisnicima i developerima jasniju povratnu informaciju i lakše ispravljanje grešaka.
+
+### Problem pri pokretanju preko Visual Studio okruženja  --- rešeno!
+
+Opis problema: Kada se projekat pokreće kroz Visual Studio, može doći do situacije u kojoj se frontend učita pre nego što backend postane dostupan. U ovom slučaju, na dnu stranice se pojavljuje poruka o grešci jer aplikacija ne može da povuče podatke sa servera. Problem se rešava osvežavanjem stranice nakon što backend postane dostupan. Kada se projekat otvara putem konzole kako je navedeno u uputstvo, ovaj problem nije očekivan.  Edit: Problem je rešen dodavanjem endpointa. Sada će front-end pokušavati da se poveže sa serverom sve dok server ne postane aktivan. U konzoli imamo informacije o tome da li je konekcija uspostavljena, ukoliko nije, za jednu sekundu će pokušati ponovo
 
  
 
