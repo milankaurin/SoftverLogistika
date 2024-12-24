@@ -1,4 +1,4 @@
-# SoftverLogistika
+# SoftverLogistika - Opis, Struktura, Tehnologije i Upuststvo za testiranje funkcionalnosti
  
 ## Kratak opis projekta
 
@@ -167,6 +167,35 @@ Projekat **SoftverLogistika** koristi različite tehnologije i biblioteke za imp
 3. **Dokumentacija API-ja**: Integracija sa Swagger UI omogućava jednostavan pregled i testiranje svih dostupnih endpoint-a.
 4. **Komunikacija frontend-backend**: `HttpClient` je konfigurisan da koristi osnovni URL backend API-ja (`https://localhost:7261/api/`) za slanje HTTP zahteva.
 5. **Frontend navigacija**: `Blazor` omogućava lakšu navigaciju između stranica uz pomoć komponenti kao što su `NavMenu.razor` i `App.razor`.
+
+ ## Testiranje funkcionalnosti
+ 
+Ovo uputstvo sadrži korake za testiranje osnovnih funkcionalnosti aplikacije.
+
+### 1. Pokretanje aplikacije
+Pre nego što započnete testiranje, uverite se da ste uspešno pokrenuli aplikaciju, prateći korake navedene u sekciji "Koraci za pokretanje aplikacije".
+
+### 2. Početna stranica
+Početna stranica se učitava sa spiskom postojećih pošiljki. Levo se nalazi **NavMenu** za navigaciju kroz sajt a u gornjem desnom uglu se nalazi dugme **Login** koje služi za prijavljivanje i odjavljivanje. Ovo nam omogućava pristup zaštićenim opcijama za upravljanje postojećim pošiljkama. 
+
+### 3. Kreiranje nove pošiljke
+Sa leve strane u okviru **NavMenu** se nalazi dugme ka formi za kreiranje novih pošiljki. U formu unosimo podatke i kreiramo pošiljku. Ako je akcija uspešna dobićemo informaciju o tome i bićemo preusmereni na glavnu stranu gde će nova pošiljka biti dodata na listu. Ukoliko kreiranje nije uspešno dobićemo odgovor (primarno validacija na frontu a potom i na back endu-retko) o tome koje polje u formi nismo pravilno uneli.
+
+### 4. Ažuriranje pošiljke
+Na glavnoj strani u tabeli (**ukoliko smo ulogovani**) u koloni Akcije biće prikazane opcije za izmenu, brisanje i ažuriranje pošiljke. Kliknemo dugme **Izmeni** za željenu pošiljku. To nas vodi ka novoj strani gde imamo istu formu kao za kreiranje. Nakon toga je ponašanje isto kao u prethodnom slučaju korišćenja.
+
+### 5. Brisanje pošiljke
+Kao i kod ažuriranja, ukoliko smo ulogovani imamo dugme **Obriši** koje briše željenu pošiljku, lista se odmah osvežava pa je promena odmah vidljiva
+
+### 6. Pomoćne funkcionalnosti
+#### Pretraga i filtriranje pošiljki
+ Iznad tabele imamo textbox gde unosimo tekst po kom pretražujemo pošiljku. Pored textbox-a se nalaze 3 check box-a koji služe za filtriranje pošiljki na osnovu Statusa (Na putu, U Skladištu, Isporučeno).
+
+#### Prikaz detalja pošiljke
+ U koloni za akcije imamo dugme **Detalji** koje nas vodi ka novoj stranici gde će nam biti prikazani detalji o pošiljci koji nisu vidljivi u tabeli (konkretno podaci o primaocu i pošiljaocu).
+
+
+ 
 
 
 
