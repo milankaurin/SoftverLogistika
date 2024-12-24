@@ -49,6 +49,7 @@ builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
+app.MapGet("/api/status", () => Results.Ok("Server je pokrenut"));  //endpoint za slanje odgovora klijentu da je server aktivan
 
 
 

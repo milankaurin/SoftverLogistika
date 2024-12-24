@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "F:\\SoftverLogistika\\SoftverLogistika\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{27F64AA8-3010-47F6-9FC4-66F8C6F7FE9B}|SoftverLogistikaBack\\SoftverLogistikaBack.csproj|f:\\softverlogistika\\softverlogistika\\softverlogistikaback\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27F64AA8-3010-47F6-9FC4-66F8C6F7FE9B}|SoftverLogistikaBack\\SoftverLogistikaBack.csproj|solutionrelative:softverlogistikaback\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56223204-1553-4CC6-BAEA-E2935058E936}|SoftverLogistikaFront\\SoftverLogistikaFront.csproj|f:\\softverlogistika\\softverlogistika\\softverlogistikafront\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56223204-1553-4CC6-BAEA-E2935058E936}|SoftverLogistikaFront\\SoftverLogistikaFront.csproj|solutionrelative:softverlogistikafront\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56223204-1553-4CC6-BAEA-E2935058E936}|SoftverLogistikaFront\\SoftverLogistikaFront.csproj|f:\\softverlogistika\\softverlogistika\\softverlogistikafront\\services\\posiljkaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56223204-1553-4CC6-BAEA-E2935058E936}|SoftverLogistikaFront\\SoftverLogistikaFront.csproj|solutionrelative:softverlogistikafront\\services\\posiljkaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{27F64AA8-3010-47F6-9FC4-66F8C6F7FE9B}|SoftverLogistikaBack\\SoftverLogistikaBack.csproj|f:\\softverlogistika\\softverlogistika\\softverlogistikaback\\validators\\posiljkavalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{27F64AA8-3010-47F6-9FC4-66F8C6F7FE9B}|SoftverLogistikaBack\\SoftverLogistikaBack.csproj|solutionrelative:softverlogistikaback\\validators\\posiljkavalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -71,18 +83,6 @@
       "RelativeMoniker": "D:0:0:{56223204-1553-4CC6-BAEA-E2935058E936}|SoftverLogistikaFront\\SoftverLogistikaFront.csproj|solutionrelative:softverlogistikafront\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{27F64AA8-3010-47F6-9FC4-66F8C6F7FE9B}|SoftverLogistikaBack\\SoftverLogistikaBack.csproj|f:\\softverlogistika\\softverlogistika\\softverlogistikaback\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{27F64AA8-3010-47F6-9FC4-66F8C6F7FE9B}|SoftverLogistikaBack\\SoftverLogistikaBack.csproj|solutionrelative:softverlogistikaback\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56223204-1553-4CC6-BAEA-E2935058E936}|SoftverLogistikaFront\\SoftverLogistikaFront.csproj|f:\\softverlogistika\\softverlogistika\\softverlogistikafront\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56223204-1553-4CC6-BAEA-E2935058E936}|SoftverLogistikaFront\\SoftverLogistikaFront.csproj|solutionrelative:softverlogistikafront\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56223204-1553-4CC6-BAEA-E2935058E936}|SoftverLogistikaFront\\SoftverLogistikaFront.csproj|f:\\softverlogistika\\softverlogistika\\softverlogistikafront\\services\\posiljkaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56223204-1553-4CC6-BAEA-E2935058E936}|SoftverLogistikaFront\\SoftverLogistikaFront.csproj|solutionrelative:softverlogistikafront\\services\\posiljkaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{56223204-1553-4CC6-BAEA-E2935058E936}|SoftverLogistikaFront\\SoftverLogistikaFront.csproj|f:\\softverlogistika\\softverlogistika\\softverlogistikafront\\softverlogistikafront.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{56223204-1553-4CC6-BAEA-E2935058E936}|SoftverLogistikaFront\\SoftverLogistikaFront.csproj|solutionrelative:softverlogistikafront\\softverlogistikafront.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
@@ -133,11 +133,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "PosiljkaForma.razor",
               "DocumentMoniker": "F:\\SoftverLogistika\\SoftverLogistika\\SoftverLogistikaFront\\Components\\PosiljkaForma.razor",
               "RelativeDocumentMoniker": "SoftverLogistikaFront\\Components\\PosiljkaForma.razor",
@@ -146,12 +146,11 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-18T00:18:50.224Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "IzmenaPosiljke.razor",
               "DocumentMoniker": "F:\\SoftverLogistika\\SoftverLogistika\\SoftverLogistikaFront\\Pages\\IzmenaPosiljke.razor",
               "RelativeDocumentMoniker": "SoftverLogistikaFront\\Pages\\IzmenaPosiljke.razor",
@@ -160,12 +159,11 @@
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAGAAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-19T23:04:24.861Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "NavMenu.razor",
               "DocumentMoniker": "F:\\SoftverLogistika\\SoftverLogistika\\SoftverLogistikaFront\\Layout\\NavMenu.razor",
               "RelativeDocumentMoniker": "SoftverLogistikaFront\\Layout\\NavMenu.razor",
@@ -174,12 +172,11 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-18T00:28:36.279Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "MainLayout.razor",
               "DocumentMoniker": "F:\\SoftverLogistika\\SoftverLogistika\\SoftverLogistikaFront\\Layout\\MainLayout.razor",
               "RelativeDocumentMoniker": "SoftverLogistikaFront\\Layout\\MainLayout.razor",
@@ -188,25 +185,74 @@
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-18T00:17:43.576Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "NovaPosiljka.razor",
-              "DocumentMoniker": "F:\\SoftverLogistika\\SoftverLogistika\\SoftverLogistikaFront\\Pages\\NovaPosiljka.razor",
-              "RelativeDocumentMoniker": "SoftverLogistikaFront\\Pages\\NovaPosiljka.razor",
-              "ToolTip": "F:\\SoftverLogistika\\SoftverLogistika\\SoftverLogistikaFront\\Pages\\NovaPosiljka.razor",
-              "RelativeToolTip": "SoftverLogistikaFront\\Pages\\NovaPosiljka.razor",
-              "ViewState": "AgIAAFcAAAAAAAAAAAAswGgAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-18T22:20:02.726Z",
+              "Title": "PosiljkaEndpoints.cs",
+              "DocumentMoniker": "F:\\SoftverLogistika\\SoftverLogistika\\SoftverLogistikaBack\\Endpoints\\PosiljkaEndpoints.cs",
+              "RelativeDocumentMoniker": "SoftverLogistikaBack\\Endpoints\\PosiljkaEndpoints.cs",
+              "ToolTip": "F:\\SoftverLogistika\\SoftverLogistika\\SoftverLogistikaBack\\Endpoints\\PosiljkaEndpoints.cs",
+              "RelativeToolTip": "SoftverLogistikaBack\\Endpoints\\PosiljkaEndpoints.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAuwCoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T21:28:28.659Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Posiljka.cs",
+              "DocumentMoniker": "F:\\SoftverLogistika\\SoftverLogistika\\DeljeniPodaci\\Posiljka.cs",
+              "RelativeDocumentMoniker": "DeljeniPodaci\\Posiljka.cs",
+              "ToolTip": "F:\\SoftverLogistika\\SoftverLogistika\\DeljeniPodaci\\Posiljka.cs",
+              "RelativeToolTip": "DeljeniPodaci\\Posiljka.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAmwBwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T14:56:24.064Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\SoftverLogistika\\SoftverLogistika\\SoftverLogistikaFront\\Program.cs",
+              "RelativeDocumentMoniker": "SoftverLogistikaFront\\Program.cs",
+              "ToolTip": "F:\\SoftverLogistika\\SoftverLogistika\\SoftverLogistikaFront\\Program.cs",
+              "RelativeToolTip": "SoftverLogistikaFront\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T00:09:04.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PosiljkaService.cs",
+              "DocumentMoniker": "F:\\SoftverLogistika\\SoftverLogistika\\SoftverLogistikaFront\\Services\\PosiljkaService.cs",
+              "RelativeDocumentMoniker": "SoftverLogistikaFront\\Services\\PosiljkaService.cs",
+              "ToolTip": "F:\\SoftverLogistika\\SoftverLogistika\\SoftverLogistikaFront\\Services\\PosiljkaService.cs",
+              "RelativeToolTip": "SoftverLogistikaFront\\Services\\PosiljkaService.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T00:24:05.077Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\SoftverLogistika\\SoftverLogistika\\SoftverLogistikaBack\\Program.cs",
+              "RelativeDocumentMoniker": "SoftverLogistikaBack\\Program.cs",
+              "ToolTip": "F:\\SoftverLogistika\\SoftverLogistika\\SoftverLogistikaBack\\Program.cs",
+              "RelativeToolTip": "SoftverLogistikaBack\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAADMAAAB/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T01:04:29.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "PosiljkaValidator.cs",
               "DocumentMoniker": "F:\\SoftverLogistika\\SoftverLogistika\\SoftverLogistikaBack\\Validators\\PosiljkaValidator.cs",
               "RelativeDocumentMoniker": "SoftverLogistikaBack\\Validators\\PosiljkaValidator.cs",
@@ -219,7 +265,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "PosiljkaService.cs",
               "DocumentMoniker": "F:\\SoftverLogistika\\SoftverLogistika\\SoftverLogistikaBack\\Services\\PosiljkaService.cs",
               "RelativeDocumentMoniker": "SoftverLogistikaBack\\Services\\PosiljkaService.cs",
@@ -227,38 +273,23 @@
               "RelativeToolTip": "SoftverLogistikaBack\\Services\\PosiljkaService.cs",
               "ViewState": "AgIAACMAAAAAAAAAAAAwwAoAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T21:41:38.328Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-17T21:41:38.328Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PosiljkaEndpoints.cs",
-              "DocumentMoniker": "F:\\SoftverLogistika\\SoftverLogistika\\SoftverLogistikaBack\\Endpoints\\PosiljkaEndpoints.cs",
-              "RelativeDocumentMoniker": "SoftverLogistikaBack\\Endpoints\\PosiljkaEndpoints.cs",
-              "ToolTip": "F:\\SoftverLogistika\\SoftverLogistika\\SoftverLogistikaBack\\Endpoints\\PosiljkaEndpoints.cs",
-              "RelativeToolTip": "SoftverLogistikaBack\\Endpoints\\PosiljkaEndpoints.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAuwCoAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T21:28:28.659Z",
-              "EditorCaption": ""
+              "DocumentIndex": 7,
+              "Title": "NovaPosiljka.razor",
+              "DocumentMoniker": "F:\\SoftverLogistika\\SoftverLogistika\\SoftverLogistikaFront\\Pages\\NovaPosiljka.razor",
+              "RelativeDocumentMoniker": "SoftverLogistikaFront\\Pages\\NovaPosiljka.razor",
+              "ToolTip": "F:\\SoftverLogistika\\SoftverLogistika\\SoftverLogistikaFront\\Pages\\NovaPosiljka.razor",
+              "RelativeToolTip": "SoftverLogistikaFront\\Pages\\NovaPosiljka.razor",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAswGgAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-18T22:20:02.726Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Posiljka.cs",
-              "DocumentMoniker": "F:\\SoftverLogistika\\SoftverLogistika\\DeljeniPodaci\\Posiljka.cs",
-              "RelativeDocumentMoniker": "DeljeniPodaci\\Posiljka.cs",
-              "ToolTip": "F:\\SoftverLogistika\\SoftverLogistika\\DeljeniPodaci\\Posiljka.cs",
-              "RelativeToolTip": "DeljeniPodaci\\Posiljka.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAmwBwAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T14:56:24.064Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "App.razor",
               "DocumentMoniker": "F:\\SoftverLogistika\\SoftverLogistika\\SoftverLogistikaFront\\App.razor",
               "RelativeDocumentMoniker": "SoftverLogistikaFront\\App.razor",
@@ -266,12 +297,11 @@
               "RelativeToolTip": "SoftverLogistikaFront\\App.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-18T22:10:27.216Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-18T22:10:27.216Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "AuthService.cs",
               "DocumentMoniker": "F:\\SoftverLogistika\\SoftverLogistika\\SoftverLogistikaFront\\Services\\AuthService.cs",
               "RelativeDocumentMoniker": "SoftverLogistikaFront\\Services\\AuthService.cs",
@@ -279,12 +309,11 @@
               "RelativeToolTip": "SoftverLogistikaFront\\Services\\AuthService.cs",
               "ViewState": "AgIAABcAAAAAAAAAAAAwwBQAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-22T21:51:36.606Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-22T21:51:36.606Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "DetaljiPosiljke.razor",
               "DocumentMoniker": "F:\\SoftverLogistika\\SoftverLogistika\\SoftverLogistikaFront\\Pages\\DetaljiPosiljke.razor",
               "RelativeDocumentMoniker": "SoftverLogistikaFront\\Pages\\DetaljiPosiljke.razor",
@@ -292,12 +321,11 @@
               "RelativeToolTip": "SoftverLogistikaFront\\Pages\\DetaljiPosiljke.razor",
               "ViewState": "AgIAAAEAAAAAAAAAAAAAAAoAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-23T18:07:13.336Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-23T18:07:13.336Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "Home.razor",
               "DocumentMoniker": "F:\\SoftverLogistika\\SoftverLogistika\\SoftverLogistikaFront\\Pages\\Home.razor",
               "RelativeDocumentMoniker": "SoftverLogistikaFront\\Pages\\Home.razor",
@@ -305,12 +333,11 @@
               "RelativeToolTip": "SoftverLogistikaFront\\Pages\\Home.razor",
               "ViewState": "AgIAACYAAAAAAAAAAAAswJkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-22T20:05:59.697Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-22T20:05:59.697Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "PosiljkaTable.razor",
               "DocumentMoniker": "F:\\SoftverLogistika\\SoftverLogistika\\SoftverLogistikaFront\\Components\\PosiljkaTable.razor",
               "RelativeDocumentMoniker": "SoftverLogistikaFront\\Components\\PosiljkaTable.razor",
@@ -318,12 +345,11 @@
               "RelativeToolTip": "SoftverLogistikaFront\\Components\\PosiljkaTable.razor",
               "ViewState": "AgIAACkAAAAAAAAAAAAswD8AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-22T20:41:42.574Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-22T20:41:42.574Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "bootstrap.min.css",
               "DocumentMoniker": "F:\\SoftverLogistika\\SoftverLogistika\\SoftverLogistikaFront\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
               "RelativeDocumentMoniker": "SoftverLogistikaFront\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
@@ -331,25 +357,11 @@
               "RelativeToolTip": "SoftverLogistikaFront\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-12-24T10:27:39.225Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-24T10:27:39.225Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Program.cs",
-              "DocumentMoniker": "F:\\SoftverLogistika\\SoftverLogistika\\SoftverLogistikaBack\\Program.cs",
-              "RelativeDocumentMoniker": "SoftverLogistikaBack\\Program.cs",
-              "ToolTip": "F:\\SoftverLogistika\\SoftverLogistika\\SoftverLogistikaBack\\Program.cs",
-              "RelativeToolTip": "SoftverLogistikaBack\\Program.cs",
-              "ViewState": "AgIAAFgAAAAAAAAAAAAAAGMAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T01:04:29.81Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "index.html",
               "DocumentMoniker": "F:\\SoftverLogistika\\SoftverLogistika\\SoftverLogistikaFront\\wwwroot\\index.html",
               "RelativeDocumentMoniker": "SoftverLogistikaFront\\wwwroot\\index.html",
@@ -357,12 +369,11 @@
               "RelativeToolTip": "SoftverLogistikaFront\\wwwroot\\index.html",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAABUAAABTAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-12-18T22:12:00.546Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-18T22:12:00.546Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "app.css",
               "DocumentMoniker": "F:\\SoftverLogistika\\SoftverLogistika\\SoftverLogistikaFront\\wwwroot\\css\\app.css",
               "RelativeDocumentMoniker": "SoftverLogistikaFront\\wwwroot\\css\\app.css",
@@ -370,33 +381,7 @@
               "RelativeToolTip": "SoftverLogistikaFront\\wwwroot\\css\\app.css",
               "ViewState": "AgIAAPAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-12-22T22:06:26.183Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Program.cs",
-              "DocumentMoniker": "F:\\SoftverLogistika\\SoftverLogistika\\SoftverLogistikaFront\\Program.cs",
-              "RelativeDocumentMoniker": "SoftverLogistikaFront\\Program.cs",
-              "ToolTip": "F:\\SoftverLogistika\\SoftverLogistika\\SoftverLogistikaFront\\Program.cs",
-              "RelativeToolTip": "SoftverLogistikaFront\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T00:09:04.865Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "PosiljkaService.cs",
-              "DocumentMoniker": "F:\\SoftverLogistika\\SoftverLogistika\\SoftverLogistikaFront\\Services\\PosiljkaService.cs",
-              "RelativeDocumentMoniker": "SoftverLogistikaFront\\Services\\PosiljkaService.cs",
-              "ToolTip": "F:\\SoftverLogistika\\SoftverLogistika\\SoftverLogistikaFront\\Services\\PosiljkaService.cs",
-              "RelativeToolTip": "SoftverLogistikaFront\\Services\\PosiljkaService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T00:24:05.077Z"
+              "WhenOpened": "2024-12-22T22:06:26.183Z"
             },
             {
               "$type": "Document",

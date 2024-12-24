@@ -1044,6 +1044,6 @@ F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaFront\obj\Debug\net8.0\ref\
 F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaFront\obj\Debug\net8.0\compressed\fzs4qy50zd-vm4n8kze6k.gz
 F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaFront\obj\Debug\net8.0\compressed\jq33ugfyta-w0vxwsg057.gz
 F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaFront\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
-F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaFront\obj\Debug\net8.0\compressed\pc6epgkbww-lxb3zp1x0c.gz
-F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaFront\obj\Debug\net8.0\compressed\c389x25p1h-nnqev0py7h.gz
-F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaFront\obj\Debug\net8.0\compressed\keni8mg4yt-n8033er9va.gz
+F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaFront\obj\Debug\net8.0\compressed\pc6epgkbww-rbpxan2o0e.gz
+F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaFront\obj\Debug\net8.0\compressed\c389x25p1h-ilkmsth0gx.gz
+F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaFront\obj\Debug\net8.0\compressed\keni8mg4yt-f8u7yfcbgq.gz
