@@ -79,7 +79,7 @@ app.Use(async (context, next) =>
     {
         // Logovanje grešaka
         Log.Error(ex, "Došlo je do greške pri obradi zahteva za {Path}", context.Request.Path);
-        throw; // Ponovno bacanje izuzetka
+        throw; 
     }
 });
 

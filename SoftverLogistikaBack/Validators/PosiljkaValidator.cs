@@ -38,6 +38,9 @@ namespace SoftverLogistikaBack.Validators
                 .When(p => p.DatumIsporuke.HasValue && (p.Status == StatusPosiljke.NaPutu || p.Status == StatusPosiljke.USkladistu))
                 .WithMessage("Datum isporuke za pošiljke koje su na putu ili u skladištu mora biti u budućnosti.");
 
+            RuleFor(p => p.Status)
+    .IsInEnum().WithMessage("Status mora biti jedna od definisanih vrednosti.");
+
 
 
         }

@@ -1027,8 +1027,6 @@ F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaFront\obj\Debug\net8.0\comp
 F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaFront\obj\Debug\net8.0\compressed\udy4crvq48-tptq2av103.gz
 F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaFront\obj\Debug\net8.0\compressed\xpsfj766y4-lfu7j35m59.gz
 F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaFront\obj\Debug\net8.0\compressed\yc9uel7itw-oyz0vx2fzb.gz
-F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaFront\obj\Debug\net8.0\compressed\fzs4qy50zd-iioxefz0xv.gz
-F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaFront\obj\Debug\net8.0\compressed\jq33ugfyta-6kq0vvtlbu.gz
 F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaFront\obj\Debug\net8.0\staticwebassets.build.json
 F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaFront\obj\Debug\net8.0\staticwebassets.development.json
 F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaFront\obj\Debug\net8.0\staticwebassets.build.endpoints.json
@@ -1043,6 +1041,9 @@ F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaFront\obj\Debug\net8.0\Soft
 F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaFront\obj\Debug\net8.0\refint\SoftverLogistikaFront.dll
 F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaFront\obj\Debug\net8.0\SoftverLogistikaFront.pdb
 F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaFront\obj\Debug\net8.0\ref\SoftverLogistikaFront.dll
-F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaFront\obj\Debug\net8.0\compressed\pc6epgkbww-brvrb9oxfo.gz
-F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaFront\obj\Debug\net8.0\compressed\c389x25p1h-hy623fvir3.gz
-F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaFront\obj\Debug\net8.0\compressed\keni8mg4yt-553cx0ca0q.gz
+F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaFront\obj\Debug\net8.0\compressed\fzs4qy50zd-vm4n8kze6k.gz
+F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaFront\obj\Debug\net8.0\compressed\jq33ugfyta-w0vxwsg057.gz
+F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaFront\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaFront\obj\Debug\net8.0\compressed\pc6epgkbww-lxb3zp1x0c.gz
+F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaFront\obj\Debug\net8.0\compressed\c389x25p1h-nnqev0py7h.gz
+F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaFront\obj\Debug\net8.0\compressed\keni8mg4yt-n8033er9va.gz

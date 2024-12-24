@@ -66,3 +66,4 @@ F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaBack\obj\Debug\net8.0\refin
 F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaBack\obj\Debug\net8.0\SoftverLogistikaBack.pdb
 F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaBack\obj\Debug\net8.0\SoftverLogistikaBack.genruntimeconfig.cache
 F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaBack\obj\Debug\net8.0\ref\SoftverLogistikaBack.dll
+F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaBack\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

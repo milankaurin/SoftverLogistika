@@ -22,7 +22,11 @@
 
 
 @code {
-    private Posiljka newPosiljka = new Posiljka();
+    private Posiljka newPosiljka = new Posiljka()
+        {
+            DatumKreiranja = DateTime.Now,
+            Status = StatusPosiljke.NaPutu
+        };
     private string? successMessage;
 
     private async Task HandleSave(Posiljka posiljka)
@@ -30,17 +34,17 @@
         StringBuilder errorMessageBuilder = new StringBuilder();
 
         // Validacija naziva
-        if (newPosiljka.Naziv.Length < 3)
+        if (string.IsNullOrEmpty(posiljka.Naziv) || posiljka.Naziv.Length < 3)
         {
             errorMessageBuilder.AppendLine("Naziv mora imati najmanje 3 karaktera.");
         }
 
-        if (newPosiljka.Posiljalac.Length < 3)
+        if (string.IsNullOrEmpty(posiljka.Posiljalac) || posiljka.Posiljalac.Length < 3)
         {
             errorMessageBuilder.AppendLine("Naziv pošiljaoca mora imati najmanje 3 karaktera.");
         }
 
-        if (newPosiljka.Primalac.Length < 3)
+        if (string.IsNullOrEmpty(posiljka.Primalac) || posiljka.Primalac.Length < 3)
         {
             errorMessageBuilder.AppendLine("Naziv primaoca mora imati najmanje 3 karaktera.");
         }
@@ -78,25 +82,27 @@
         }
 
 
-        var success = await PosiljkaService.CreateAsync(posiljka);
-
-        if (success)
+        try
         {
-            successMessage = "Pošiljka uspešno kreirana! Preusmeravamo vas na glavnu stranu...";
+            bool success = await PosiljkaService.CreateAsync(posiljka);
 
-            // Osveži komponentu da bi se prikazala poruka
-            StateHasChanged();
-
-            // Sačekaj 2 sekunde pre preusmeravanja
-            await Task.Delay(2500);
-                
-            // Preusmeravanje na početnu stranicu
-            NavigationManager.NavigateTo("/");
+            if (success)
+            {
+                successMessage = "Pošiljka uspešno kreirana! Preusmeravamo vas na glavnu stranu...";
+                StateHasChanged();
+                await Task.Delay(2500);
+                NavigationManager.NavigateTo("/");
+            }
+            else
+            {
+                successMessage = "Došlo je do greške na serverskoj strani prilikom kreiranja pošiljke.";
+                StateHasChanged();
+            }
         }
-        else
+        catch (Exception ex)
         {
-            successMessage = "Došlo je do greške prilikom kreiranja pošiljke.";
-            StateHasChanged(); // Osveži prikaz za grešku
+            successMessage = $"Došlo je do greške: {ex.Message}";
+            StateHasChanged();
         }
     }
 

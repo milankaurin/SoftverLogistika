@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SoftverLogistikaFront")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f9629fc69e1870f2790e73583bfd158ab3417d7c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4b67ffba39f1e3ce45e06b7ccfdf284767691693")]
 [assembly: System.Reflection.AssemblyProductAttribute("SoftverLogistikaFront")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SoftverLogistikaFront")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
