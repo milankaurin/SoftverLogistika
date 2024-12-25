@@ -60,11 +60,11 @@ dotnet run --project ./SoftverLogistikaFront/SoftverLogistikaFront.csproj"
 
 Nakon što pokrenete aplikaciju, možete pristupiti frontend delu aplikacije u svom pretraživaču unošenjem odgovarajuće adrese, u zavisnosti od opcije koju ste odabrali prilikom pokretanja:
 
-- **Ako ste frontend pokrenuli na `http://localhost:5173`:**
-  Otvorite pretraživač i posetite [http://localhost:5173](http://localhost:5173).
-
-- **Ako ste frontend pokrenuli na `https://localhost:7036`:**
+- **Ako ste frontend pokrenuli na prvoj, HTTPS opciji `https://localhost:7036`:**
   Otvorite pretraživač i posetite [https://localhost:7036](https://localhost:7036).
+
+- **Ako ste frontend pokrenuli na drugoj, HTTP opciji `http://localhost:5173`:**
+  Otvorite pretraživač i posetite [http://localhost:5173](http://localhost:5173).
 
 ### 7. Swagger dokumentacija
 
