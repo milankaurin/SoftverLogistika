@@ -45,8 +45,9 @@ Za pokretanje backend-a koristite sledeću komandu:
  ```bash
 dotnet run --project ./SoftverLogistikaBack/SoftverLogistikaBack.csproj --urls "https://localhost:7261"
 ```
+Ako želite odmah da pregledate Swagger u pretraživaču nalepite adresu : [https://localhost:7261/swagger](https://localhost:7261/swagger)
 ### 6. Pokretanje frontend projekta
-Za pokretanje frontend aplikacije, koristite sledeću komandu:
+Za pokretanje frontend aplikacije, otvorite NOV terminal (i ne isključujte terminal gde je backend) i koristite sledeću komandu:
 - **HTTPS opcija:**
  ```bash
 dotnet run --project ./SoftverLogistikaFront/SoftverLogistikaFront.csproj --urls "https://localhost:7036"
