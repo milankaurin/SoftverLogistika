@@ -22,28 +22,30 @@ SoftverLogistika je sistem za praćenje pošiljki u logistici razvijen kao reše
 
 Da biste pokrenuli aplikaciju, pratite sledeće korake:
 
-### 1. Instalacija potrebnih paketa
+### 1. Klonirajte projekat ili ga preuzmite kao zip arhivu i potom otpakujte
+
+### 2. Instalacija potrebnih paketa
 U folderu gde se nalazi `.sln` fajl projekta, otvorite terminal i izvršite sledeću komandu da biste instalirali sve potrebne NuGet pakete: 
 ```bash
 dotnet restore
 ```
-### 2. Čišćenje projekta
+### 3. Čišćenje projekta
 Pre gradnje projekta, izvršite čišćenje kako biste očistili projekat:
 ```bash
 dotnet clean
 ```
-### 3. Bildovanje (gradnja) projekta
+### 4. Bildovanje (gradnja) projekta
 Izvršite sledeću komandu da biste bildovali projekat:
 ```bash
 dotnet build
 ```
-### 4. Pokretanje backend projekta
+### 5. Pokretanje backend projekta
 Za pokretanje backend-a koristite sledeću komandu:
 - **HTTPS opcija:**  -- obavezna jer je front end namešten da komunicira sa ovom adresom
  ```bash
 dotnet run --project ./SoftverLogistikaBack/SoftverLogistikaBack.csproj --urls "https://localhost:7261"
 ```
-### 5. Pokretanje frontend projekta
+### 6. Pokretanje frontend projekta
 Za pokretanje frontend aplikacije, koristite sledeću komandu:
 - **HTTPS opcija:**
  ```bash
