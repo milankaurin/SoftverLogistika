@@ -203,7 +203,7 @@ Kao i kod ažuriranja, ukoliko smo ulogovani imamo dugme **Obriši** koje briše
 ### REŠENO:  Slabost u sistemu autorizacije
 
 Opis problema: Trenutna implementacija koristi jednu globalnu promenljivu za čuvanje statusa autorizacije. Ovaj pristup uzrokuje probleme kada se koristi više instanci front-enda, jer prijava jednog korisnika utiče na sesiju drugog korisnika.
-Mogućnost za unapređenje: Prelazak na korišćenje JWT (JSON Web Token) ili Guid. EDIT: REŠENO korišćenjem Liste jedinstvenog tipa GUID. Radi na nivou SessionStorage
+Mogućnost za unapređenje: Prelazak na korišćenje JWT (JSON Web Token) ili Guid. EDIT: Implementirana je autorizacija korišćenjem generisanja GUID tokena na backendu prilikom prijave korisnika. Token se čuva u sessionStorage na frontendu i u listi aktivnih tokena na backendu. Pri osvežavanju stranice, ukoliko se token nalazi u sessionStorage, token se šalje ka backendu, a u slučaju nevažećeg tokena, token se briše iz sessionStorage. Ovaj pristup omogućava osnovnu kontrolu pristupa i upravljanje sesijama korisnika. Takođe, sada je moguće imati više instanci korisnika i akcija jednog neće uticati na drugog. Zaštita je obezbeđena zahtevom **validate-token**. Nije dozvoljeno da u sessionStorage bude bilo šta, već mora biti validan token.
 
 ### Ograničena povratna informacija prilikom validacije na backendu
 
