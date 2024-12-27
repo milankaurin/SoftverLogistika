@@ -17,30 +17,6 @@
         }
       }
     },
-    "/login": {
-      "post": {
-        "tags": [
-          "SoftverLogistikaBack"
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/login-status": {
-      "get": {
-        "tags": [
-          "SoftverLogistikaBack"
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
     "/api/posiljke": {
       "get": {
         "tags": [
@@ -134,6 +110,53 @@
           {
             "name": "id",
             "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/login": {
+      "post": {
+        "tags": [
+          "SoftverLogistikaBack"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/logout": {
+      "post": {
+        "tags": [
+          "SoftverLogistikaBack"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/validate-token": {
+      "post": {
+        "tags": [
+          "SoftverLogistikaBack"
+        ],
+        "parameters": [
+          {
+            "name": "token",
+            "in": "query",
             "required": true,
             "schema": {
               "type": "string",

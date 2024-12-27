@@ -5,6 +5,7 @@
 @using DeljeniPodaci;
 @inject NavigationManager NavigationManager
 @inject PosiljkaService PosiljkaService
+@inject AuthService AuthService
 
 <PageTitle>Početna stranica</PageTitle>
 
@@ -23,7 +24,6 @@
             <!-- Polje za pretragu naziva -->
             <div class="col-md-6">
                 <label for="search" class="form-label" style="color: white;">Pretraga po nazivu</label>
-                @* <input id="search" type="text" class="form-control" @bind="tekstPretraga" @bind:event="oninput" /> *@
                 <input id="search" type="text" class="form-control" @bind="TekstPretraga" @bind:event="oninput" />
             </div>
 
@@ -46,7 +46,6 @@
         </div>
     </div>
 
-
     <!-- Lista pošiljki -->
     <div>
         <h3 class="mb-3" style="color: white;">Lista pošiljki</h3>
@@ -59,7 +58,7 @@
         }
         else
         {
-            <!-- Pozivanje komponente -->
+            <!-- Pozivanje komponente PosiljkaTable -->
             <PosiljkaTable Posiljke="filteredPosiljke" OnEdit="EditPosiljka" OnDelete="Delete" />
         }
     </div>
@@ -77,6 +76,11 @@
 
     protected override async Task OnInitializedAsync()
     {
+        // Proveri status prijave
+        await AuthService.CheckLoginStatusAsync();
+        AuthService.OnChange += StateHasChanged;
+
+        // Učitaj sve pošiljke
         posiljke = await PosiljkaService.GetAllAsync();
         filteredPosiljke = posiljke;
     }
@@ -133,24 +137,23 @@
         }
     }
 
-
-    void EditPosiljka(Guid id)
+    private void EditPosiljka(Guid id)
     {
         NavigationManager.NavigateTo($"/izmenaposiljkeid={id}");
     }
 
-    async Task Delete(Guid id)
+    private async Task Delete(Guid id)
     {
         var success = await PosiljkaService.DeleteAsync(id);
         if (success)
         {
             posiljke = await PosiljkaService.GetAllAsync();
             filteredPosiljke = posiljke.Where(p =>
-            (string.IsNullOrEmpty(tekstPretraga) || p.Naziv.Contains(tekstPretraga, StringComparison.OrdinalIgnoreCase)) &&
-            ((filterNaPutu && p.Status == StatusPosiljke.NaPutu) ||
-             (filterUSkladistu && p.Status == StatusPosiljke.USkladistu) ||
-             (filterIsporuceno && p.Status == StatusPosiljke.Isporuceno))
-        ).ToList();
+                (string.IsNullOrEmpty(tekstPretraga) || p.Naziv.Contains(tekstPretraga, StringComparison.OrdinalIgnoreCase)) &&
+                ((filterNaPutu && p.Status == StatusPosiljke.NaPutu) ||
+                 (filterUSkladistu && p.Status == StatusPosiljke.USkladistu) ||
+                 (filterIsporuceno && p.Status == StatusPosiljke.Isporuceno))
+            ).ToList();
         }
     }
 }

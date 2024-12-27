@@ -1041,9 +1041,9 @@ F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaFront\obj\Debug\net8.0\Soft
 F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaFront\obj\Debug\net8.0\refint\SoftverLogistikaFront.dll
 F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaFront\obj\Debug\net8.0\SoftverLogistikaFront.pdb
 F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaFront\obj\Debug\net8.0\ref\SoftverLogistikaFront.dll
-F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaFront\obj\Debug\net8.0\compressed\fzs4qy50zd-vm4n8kze6k.gz
-F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaFront\obj\Debug\net8.0\compressed\jq33ugfyta-w0vxwsg057.gz
+F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaFront\obj\Debug\net8.0\compressed\fzs4qy50zd-a0v56fp028.gz
+F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaFront\obj\Debug\net8.0\compressed\jq33ugfyta-tec5yg3tm2.gz
+F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaFront\obj\Debug\net8.0\compressed\pc6epgkbww-4j2muz7p8y.gz
+F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaFront\obj\Debug\net8.0\compressed\c389x25p1h-bta6p52in7.gz
+F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaFront\obj\Debug\net8.0\compressed\keni8mg4yt-qaf6pkah1i.gz
 F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaFront\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
-F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaFront\obj\Debug\net8.0\compressed\pc6epgkbww-rbpxan2o0e.gz
-F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaFront\obj\Debug\net8.0\compressed\c389x25p1h-ilkmsth0gx.gz
-F:\SoftverLogistika\SoftverLogistika\SoftverLogistikaFront\obj\Debug\net8.0\compressed\keni8mg4yt-f8u7yfcbgq.gz

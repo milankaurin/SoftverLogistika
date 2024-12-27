@@ -1,7 +1,7 @@
 ﻿@using DeljeniPodaci;
-@using SoftverLogistikaFront.Services
-@inject AuthService AuthService
-@inject NavigationManager NavigationManager
+@using SoftverLogistikaFront.Services;
+@inject AuthService AuthService;
+@inject NavigationManager NavigationManager;
 
 <table class="table table-hover table-bordered shadow-sm">
     <thead class="table-dark1">
@@ -18,21 +18,21 @@
         @foreach (var posiljka in Posiljke)
         {
             <tr>
-                <td>@(posiljka.Id.ToString().Substring(0, 6) /*prikazujemo samo prvih 6 karaktera Id propertija radi lepšeg prikaza*/)</td>
+                <td>@(posiljka.Id.ToString().Substring(0, 6))</td>
                 <td>@posiljka.Naziv</td>
                 <td>@Posiljka.VratiStatusKaoTekst((int)(posiljka.Status))</td>
                 <td>@posiljka.DatumKreiranja.ToShortDateString()</td>
                 <td>@(posiljka.DatumIsporuke.HasValue ? posiljka.DatumIsporuke.Value.ToShortDateString() : "-")</td>
                 <td>
-                    @if (AuthService.IsLoggedIn)
+                    @if (AuthService.IsLoggedIn) // korisnik je ulogovan
                     {
                         <button class="btn btn-sm btn-primary me-2" @onclick="() => EditPosiljka(posiljka.Id)">Izmeni</button>
-                        <button class="btn btn-sm btn-danger" @onclick="() => DeletePosiljka(posiljka.Id)">Obriši</button>
+                        <button class="btn btn-sm btn-danger me-2" @onclick="() => DeletePosiljka(posiljka.Id)">Obriši</button>
                         <button class="btn btn-sm btn-info" @onclick="() => PrikaziDetalje(posiljka.Id)">Detalji</button>
                     }
-                    else
+                    else //korisnik nije ulogovan
                     {
-                        <span class="text-muted">Ulogujte se ukoliko želite da upravljate postojećim pošiljkama.</span>
+                        <span class="text-muted">Ulogujte se da bi videli akcije.</span>
                     }
                 </td>
             </tr>
@@ -47,24 +47,23 @@
 
     private async Task EditPosiljka(Guid id)
     {
-        // Poziv OnEdit EventCallback-a sa ID-em pošiljke
         await OnEdit.InvokeAsync(id);
-    }
-
-    protected override async Task OnInitializedAsync()
-    {
-        await AuthService.CheckLoginStatus(); // Provera statusa prijave pri učitavanju stranice
-        AuthService.OnChange += StateHasChanged; // Automatsko osvežavanje pri promeni statusa prijave
     }
 
     private async Task DeletePosiljka(Guid id)
     {
-        // Poziv OnDelete EventCallback-a sa ID-em pošiljke
         await OnDelete.InvokeAsync(id);
     }
 
     private void PrikaziDetalje(Guid id)
     {
         NavigationManager.NavigateTo($"/detaljiposiljkeid={id}");
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        // Proverava status prijave prilikom inicijalizacije
+        await AuthService.CheckLoginStatusAsync();
+        AuthService.OnChange += StateHasChanged;
     }
 }

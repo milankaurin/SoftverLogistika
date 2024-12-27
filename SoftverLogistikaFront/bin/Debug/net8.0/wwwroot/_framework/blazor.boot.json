@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "SoftverLogistikaFront",
   "resources": {
-    "hash": "sha256-J1C8yH+uV1c+8UIuptgrZN/C2TGAMh8eFMoUpbpIwno=",
+    "hash": "sha256-K0VkKvz7lIzxehO2Bh96PJmJuQfHnreQy9cLaaPk9UQ=",
     "jsModuleNative": {
       "dotnet.native.js": "sha256-VdKq87/z5NIxZKmuM+fv38XF+RcEb/bg3jVBwQSfwP4="
     },
@@ -209,12 +209,12 @@
       "mscorlib.wasm": "sha256-04e4k5XU8HWGB/dq/2+j84xzzGPflTs0IYWI0OxogVc=",
       "netstandard.wasm": "sha256-gnGZURPnoSmjXuYNCOJi5tt8qn2LRImWgue1Ru3/TDQ=",
       "System.Private.CoreLib.wasm": "sha256-6w3jYr0arcp8jnt4aeqh+AmqrLA6q7jl9rQYAwLzE0M=",
-      "DeljeniPodaci.wasm": "sha256-N//+m+omDSsfodADvDrs9A8IyndfFkTnwsAS2gDyTv0=",
-      "SoftverLogistikaFront.wasm": "sha256-dySJl1hKp1EIN1HkZURDpytQWZI9JSr4v6gwkzsPtek="
+      "DeljeniPodaci.wasm": "sha256-xuHXsV12AxHTCpDr3rJrD71kddQAUCnPPMczaGK0Asg=",
+      "SoftverLogistikaFront.wasm": "sha256-sE89ZZdWDojbtGm46fbZrGoFPXWP7jTKI8jGWZVgvKM="
     },
     "pdb": {
-      "DeljeniPodaci.pdb": "sha256-UCuo5MWmF2VzLfjW+mU4PkBQWBggL3nItPAmmOQRkmc=",
-      "SoftverLogistikaFront.pdb": "sha256-Oq45Nhb6qY/62JOQ04+SehmKpKqHcrtkniLCWgMcSvw="
+      "DeljeniPodaci.pdb": "sha256-6x+i0Tw9mgi0R5YBcLIsg6DHAKdP7IhDVcc5NPB5U+w=",
+      "SoftverLogistikaFront.pdb": "sha256-wfbT8821k8+RSfnYNdCOFgGJKxTsuZTQkgrO8Ohr/p4="
     }
   },
   "cacheBootResources": true,
