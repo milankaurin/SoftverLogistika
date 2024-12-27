@@ -93,13 +93,13 @@ Backend deo projekta koristi **ASP.NET Core Web API** za obradu zahteva i upravl
   - Sadrži fajl `launchSettings.json`, koji definiše konfiguracije za pokretanje aplikacije (lokalni URL-ovi, portovi itd.).
 
 - **`Endpoints`**
-  - Sadrži `PosiljkaEndpoints.cs`, gde su definisani svi API endpointi za rad sa pošiljkama.
+  - Sadrži `PosiljkaEndpoints.cs`, gde su definisani svi API endpointi za rad sa pošiljkama. Takođe sadrži `AuthEndpoints` za autorizaciju.
 
 - **`logs`**
   - Služi za skladištenje logova aplikacije u tekstualnim fajlovima. Ovi fajlovi prate aktivnosti aplikacije i pomažu u dijagnostici.
 
 - **`Services`**
-  - Sadrži `PosiljkaService.cs`, gde je implementirana poslovna logika za rad sa pošiljkama, uključujući interakciju između endpointa i baze podataka.
+  - Sadrži `PosiljkaService.cs`, gde je implementirana poslovna logika za rad sa pošiljkama, uključujući interakciju između endpointa i baze podataka. Takođe sadrži i `AuthService.cs`.
 
 - **`Validators`**
   - Sadrži `PosiljkaValidator.cs`, koji koristi biblioteku **FluentValidation** za validaciju podataka (npr. obavezna polja, validacija datuma i statusa pošiljke).
@@ -134,7 +134,7 @@ Backend deo projekta koristi **ASP.NET Core Web API** za obradu zahteva i upravl
   - **`NovaPosiljka.razor`**: Stranica za dodavanje nove pošiljke.
 
 - **`Services`**
-  - **`AuthService.cs`**: Servis za simulaciju autorizacije i provere statusa prijave.
+  - **`AuthService.cs`**: Servis za autorizaciju i provere statusa prijave.
   - **`PosiljkaService.cs`**: Servis za komunikaciju sa backend API-jem radi obrade pošiljki (kreiranje, ažuriranje, brisanje, dohvatanje).
 
 - **Ostali fajlovi**
