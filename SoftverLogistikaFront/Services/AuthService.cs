@@ -25,31 +25,52 @@ namespace SoftverLogistikaFront.Services
 
         public async Task CheckLoginStatusAsync()
         {
+            // Logovanje tokena pre proveravanja u sessionStorage
+            Console.WriteLine("Pokrenuta provera statusa prijave...");
             var token = await _jsRuntime.InvokeAsync<string>("sessionStorage.getItem", AuthTokenKey);
+            Console.WriteLine($"Token preuzet iz sessionStorage: {token}");
 
             if (!string.IsNullOrEmpty(token))
             {
-                // Proveri validnost tokena na backendu
-                var response = await _httpClient.PostAsJsonAsync("/validate-token", new { Token = token });
+                Console.WriteLine("Token postoji, šaljemo na proveru validnosti na backend...");
 
-                if (response.IsSuccessStatusCode)
+                try
                 {
-                    IsLoggedIn = true;
+                    // Proveri validnost tokena na backendu
+                    var response = await _httpClient.PostAsJsonAsync("/validate-token", new { Token = token });
+                    Console.WriteLine($"Odgovor sa backend-a: {response.StatusCode}");
+
+                    if (response.IsSuccessStatusCode)
+                    {
+                        Console.WriteLine("Token je validan. Korisnik je prijavljen.");
+                        IsLoggedIn = true;
+                    }
+                    else
+                    {
+                        Console.WriteLine("Token nije validan. Brišemo token iz sessionStorage...");
+                        // Ako je token nevažeći, obriši ga iz sessionStorage
+                        await _jsRuntime.InvokeVoidAsync("sessionStorage.removeItem", AuthTokenKey);
+                        IsLoggedIn = false;
+                    }
                 }
-                else
+                catch (Exception ex)
                 {
-                    // Ako je token nevažeći, obriši ga iz sessionStorage
-                    await _jsRuntime.InvokeVoidAsync("sessionStorage.removeItem", AuthTokenKey);
+                    // Loguj grešku ukoliko postoji problem prilikom komunikacije sa backend-om
+                    Console.WriteLine($"Greška prilikom validacije tokena na backendu: {ex.Message}");
                     IsLoggedIn = false;
                 }
             }
             else
             {
+                Console.WriteLine("Token nije pronađen u sessionStorage. Korisnik nije prijavljen.");
                 IsLoggedIn = false;
             }
 
+            // Obaveštavanje o promeni stanja
             NotifyStateChanged();
+            Console.WriteLine($"Provera statusa prijave završena. IsLoggedIn: {IsLoggedIn}");
         }
+
 
 
         // Prijava korisnika - čuvanje tokena u `sessionStorage`
@@ -75,9 +96,9 @@ namespace SoftverLogistikaFront.Services
             return false;
         }
 
-        /// <summary>
+        
         /// Odjava korisnika - brisanje tokena iz `sessionStorage` i slanje zahteva serveru
-        /// </summary>
+       
         public async Task LogoutAsync()
         {
             var token = await _jsRuntime.InvokeAsync<string>("sessionStorage.getItem", AuthTokenKey);

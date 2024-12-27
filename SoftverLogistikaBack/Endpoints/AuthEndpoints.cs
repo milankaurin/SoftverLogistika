@@ -24,14 +24,38 @@ namespace SoftverLogistikaBack.Endpoints
                 return Results.BadRequest("Neispravan token.");
             });
 
-            app.MapPost("/validate-token", (AuthService authService, Guid token) =>
-            {
-                return authService.ValidateToken(token)
-                    ? Results.Ok("Token je validan.")
-                    : Results.BadRequest("Token nije validan.");
-            });
 
+
+            app.MapPost("/validate-token", async (AuthService authService, HttpContext context) =>
+            {
+                var body = await context.Request.ReadFromJsonAsync<ValidateTokenRequest>();
+
+                if (body == null || !Guid.TryParse(body.Token, out var token))
+                {
+                    Console.WriteLine("Neispravan zahtev: token nije pronađen.");
+                    return Results.BadRequest("Neispravan token.");
+                }
+
+                Console.WriteLine($"Primljen token za validaciju: {token}");
+
+                if (authService.ValidateToken(token))
+                {
+                    Console.WriteLine("Token je validan.");
+                    return Results.Ok("Token je validan.");
+                }
+
+                Console.WriteLine("Token nije validan.");
+                return Results.BadRequest("Neispravan token.");
+            });
+        }
+        private class ValidateTokenRequest
+        {
+            public string Token { get; set; } = string.Empty;
         }
 
     }
+
 }
+
+
+
