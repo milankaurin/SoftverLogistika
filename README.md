@@ -202,8 +202,7 @@ Kao i kod ažuriranja, ukoliko smo ulogovani imamo dugme **Obriši** koje briše
 
 ### REŠENO:  Slabost u sistemu autorizacije
 
-Opis problema: Trenutna implementacija koristi jednu globalnu promenljivu za čuvanje statusa autorizacije. Ovaj pristup uzrokuje probleme kada se koristi više instanci front-enda, jer prijava jednog korisnika utiče na sesiju drugog korisnika.
-Mogućnost za unapređenje: Prelazak na korišćenje JWT (JSON Web Token) ili Guid. EDIT: Implementirana je autorizacija korišćenjem generisanja GUID tokena na backendu prilikom prijave korisnika. Token se čuva u sessionStorage na frontendu i u listi aktivnih tokena na backendu. Pri osvežavanju stranice, ukoliko se token nalazi u sessionStorage, token se šalje ka backendu, a u slučaju nevažećeg tokena, token se briše iz sessionStorage. Ovaj pristup omogućava osnovnu kontrolu pristupa i upravljanje sesijama korisnika. Takođe, sada je moguće imati više instanci korisnika i akcija jednog neće uticati na drugog. Zaštita je obezbeđena zahtevom **validate-token**. Nije dozvoljeno da u sessionStorage bude bilo šta, već mora biti validan token.
+**EDIT:** Implementirana je autorizacija korišćenjem generisanja GUID tokena na backendu prilikom prijave korisnika. Token se čuva u sessionStorage na frontendu i u listi aktivnih tokena na backendu. Pri osvežavanju stranice, ukoliko se token nalazi u sessionStorage, token se šalje ka backendu, a u slučaju nevažećeg tokena, token se briše iz sessionStorage. Ovaj pristup omogućava osnovnu kontrolu pristupa i upravljanje sesijama korisnika. Takođe, sada je moguće imati više instanci korisnika i akcija jednog neće uticati na drugog. Zaštita je obezbeđena zahtevom **validate-token**. Nije dozvoljeno da u sessionStorage bude bilo šta, već mora biti validan token. **Opis problema**: Trenutna implementacija koristi jednu globalnu promenljivu za čuvanje statusa autorizacije. Ovaj pristup uzrokuje probleme kada se koristi više instanci front-enda, jer prijava jednog korisnika utiče na sesiju drugog korisnika.
 
 ### Ograničena povratna informacija prilikom validacije na backendu
 
@@ -212,7 +211,7 @@ Mogućnost za unapređenje: Poboljšanje validacije na backendu i implementacija
 
 ### REŠENO: Problem pri pokretanju preko Visual Studio okruženja  
 
-Opis problema: Kada se projekat pokreće kroz Visual Studio, može doći do situacije u kojoj se frontend učita pre nego što backend postane dostupan. U ovom slučaju, na dnu stranice se pojavljuje poruka o grešci jer aplikacija ne može da povuče podatke sa servera. Problem se rešava osvežavanjem stranice nakon što backend postane dostupan. Kada se projekat otvara putem konzole kako je navedeno u uputstvo, ovaj problem nije očekivan.  Edit: Problem je rešen dodavanjem endpointa. Sada će front-end pokušavati da se poveže sa serverom sve dok server ne postane aktivan. U konzoli imamo informacije o tome da li je konekcija uspostavljena, ukoliko nije, za jednu sekundu će pokušati ponovo
+Opis problema: Kada se projekat pokreće kroz Visual Studio, može doći do situacije u kojoj se frontend učita pre nego što backend postane dostupan. U ovom slučaju, na dnu stranice se pojavljuje poruka o grešci jer aplikacija ne može da povuče podatke sa servera. Problem se rešava osvežavanjem stranice nakon što backend postane dostupan. Kada se projekat otvara putem konzole kako je navedeno u uputstvo, ovaj problem nije očekivan.  **Edit:** Problem je rešen dodavanjem endpointa. Sada će front-end pokušavati da se poveže sa serverom sve dok server ne postane aktivan. U konzoli imamo informacije o tome da li je konekcija uspostavljena, ukoliko nije, za jednu sekundu će pokušati ponovo
 
  
 
